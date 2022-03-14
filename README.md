@@ -22,6 +22,8 @@ Main changes:
 You can find mod in Releases. Put "atmosphere" folder to root of sdcard. Play game.</br>
 It is recommended to OC GPU to at least 460 MHz for best experience.
 
+![SCR1](https://i.imgur.com/v4o1Epc.jpg)
+
 Known issues:
 - When 60 FPS is activated, cutscene slow motion timing is broken, so slow motion takes several times as long to get back to original speed. This happens only few times across whole game, only one cutscene in 5th chapter is glitched because of that, but there were no softlocks. It is recommended to activate Turbo Mode when you have slow motion for more than 3 seconds.
 
