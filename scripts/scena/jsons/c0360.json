@@ -1,0 +1,2169 @@
+{
+	"HEADER": {
+		"TYPE": "ABCDEF00",
+		"ID": "c0360"
+	},
+	"FUNCTIONS": {
+		"0000": [
+			{
+				"LABEL": "0xc4",
+				"TYPE": "RETURN"
+			}
+		],
+		"PreInit": [
+			{
+				"LABEL": "0xc8",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2596
+						]
+					}
+				],
+				"TO_LABEL": "0xdf"
+			},
+			{
+				"LABEL": "0xd1",
+				"TYPE": "0x8",
+				"TABLE": [
+					{
+						"CONTROL": 5
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0xda",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xf1"
+			},
+			{
+				"LABEL": "0xdf",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2594
+						]
+					}
+				],
+				"TO_LABEL": "0xf1"
+			},
+			{
+				"LABEL": "0xe8",
+				"TYPE": "0x8",
+				"TABLE": [
+					{
+						"CONTROL": 5
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0xf1",
+				"TYPE": "RETURN"
+			}
+		],
+		"Init": [
+			{
+				"LABEL": "0xf4",
+				"TYPE": "0xE",
+				"UNK": "08000000"
+			},
+			{
+				"LABEL": "0xf9",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					11
+				],
+				"STRINGS": [
+					"Init_Replay"
+				]
+			},
+			{
+				"LABEL": "0x107",
+				"TYPE": "RETURN"
+			}
+		],
+		"Init_Replay": [
+			{
+				"LABEL": "0x108",
+				"TYPE": "0x13",
+				"UNK0": [
+					1000
+				],
+				"STRINGS1": [
+					"C_NPC277",
+					"Tamara",
+					""
+				],
+				"UNK1": "0000000000D7A3B8C000000000CDCC8CC0000034430000803FCDCCCC3FCDCCCC3D",
+				"STRINGS2": [
+					"",
+					"TK_Tamara"
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x157",
+				"TYPE": "0x13",
+				"UNK0": [
+					1001
+				],
+				"STRINGS1": [
+					"C_NPC209",
+					"Fam",
+					""
+				],
+				"UNK1": "0000020000E17A943F0AD7233C48E1FA3E6666EE410000803FCDCCCC3FCDCCCC3D",
+				"STRINGS2": [
+					"",
+					"TK_Fam"
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x1a0",
+				"TYPE": "0x13",
+				"UNK0": [
+					1002
+				],
+				"STRINGS1": [
+					"C_NPC059",
+					"Ron",
+					""
+				],
+				"UNK1": "00010000008FC2F53C000000006666064000804F430000803FCDCCCC3FCDCCCC3D",
+				"STRINGS2": [
+					"",
+					"TK_Ron"
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x1e9",
+				"TYPE": "0x13",
+				"UNK0": [
+					1003
+				],
+				"STRINGS1": [
+					"C_NPC232_C00",
+					"Mathiot",
+					""
+				],
+				"UNK1": "0001000000E17A943F0AD7233C8FC235BF0000E5420000803FCDCCCC3FCDCCCC3D",
+				"STRINGS2": [
+					"",
+					"TK_Matio"
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x23c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2608
+						]
+					}
+				],
+				"TO_LABEL": "0x291"
+			},
+			{
+				"LABEL": "0x245",
+				"TYPE": "0x2B",
+				"UNK": "E80301000000"
+			},
+			{
+				"LABEL": "0x24c",
+				"TYPE": "0x2C",
+				"UNK": "EB0301000000"
+			},
+			{
+				"LABEL": "0x253",
+				"TYPE": "0x2E",
+				"UNK": "E9033333134000000000B81EA5BF66269743"
+			},
+			{
+				"LABEL": "0x266",
+				"TYPE": "0x3C",
+				"NAME_ID": 1001,
+				"CONTROLS": [
+					1003,
+					0
+				]
+			},
+			{
+				"LABEL": "0x26d",
+				"TYPE": "0x3C",
+				"NAME_ID": 1003,
+				"CONTROLS": [
+					1001,
+					0
+				]
+			},
+			{
+				"LABEL": "0x274",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x285"
+			},
+			{
+				"LABEL": "0x27e",
+				"TYPE": "0x2B",
+				"UNK": "E90340040000"
+			},
+			{
+				"LABEL": "0x285",
+				"TYPE": "0x2B",
+				"UNK": "EB0340040000"
+			},
+			{
+				"LABEL": "0x28c",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x34b"
+			},
+			{
+				"LABEL": "0x291",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2605
+						]
+					}
+				],
+				"TO_LABEL": "0x2b1"
+			},
+			{
+				"LABEL": "0x29a",
+				"TYPE": "0x14",
+				"UNK": "E903020B",
+				"STRINGS": [
+					"NPC_move_Fam"
+				]
+			},
+			{
+				"LABEL": "0x2ac",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x34b"
+			},
+			{
+				"LABEL": "0x2b1",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2596
+						]
+					}
+				],
+				"TO_LABEL": "0x2d1"
+			},
+			{
+				"LABEL": "0x2ba",
+				"TYPE": "0x14",
+				"UNK": "E903020B",
+				"STRINGS": [
+					"NPC_move_Fam"
+				]
+			},
+			{
+				"LABEL": "0x2cc",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x34b"
+			},
+			{
+				"LABEL": "0x2d1",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2594
+						]
+					}
+				],
+				"TO_LABEL": "0x339"
+			},
+			{
+				"LABEL": "0x2da",
+				"TYPE": "0x2C",
+				"UNK": "EA0301000000"
+			},
+			{
+				"LABEL": "0x2e1",
+				"TYPE": "0x2E",
+				"UNK": "E803CDCC0CBF000000001F858B3F9A99E141"
+			},
+			{
+				"LABEL": "0x2f4",
+				"TYPE": "0x2B",
+				"UNK": "E80340040000"
+			},
+			{
+				"LABEL": "0x2fb",
+				"TYPE": "0x2E",
+				"UNK": "E903EC51A0400000000048E13A4000003443"
+			},
+			{
+				"LABEL": "0x30e",
+				"TYPE": "0x2F",
+				"UNK": "E90300",
+				"STRINGS": [
+					"Ani_EV0_Load"
+				]
+			},
+			{
+				"LABEL": "0x31f",
+				"TYPE": "0x2F",
+				"UNK": "E90300",
+				"STRINGS": [
+					"AniEv1092"
+				]
+			},
+			{
+				"LABEL": "0x32d",
+				"TYPE": "0x2B",
+				"UNK": "E90340000000"
+			},
+			{
+				"LABEL": "0x334",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x34b"
+			},
+			{
+				"LABEL": "0x339",
+				"TYPE": "0x14",
+				"UNK": "E903020B",
+				"STRINGS": [
+					"NPC_move_Fam"
+				]
+			},
+			{
+				"LABEL": "0x34b",
+				"TYPE": "RETURN"
+			}
+		],
+		"Reinit": [
+			{
+				"LABEL": "0x34c",
+				"TYPE": "RETURN"
+			}
+		],
+		"NPC_move_Fam": [
+			{
+				"LABEL": "0x350",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					}
+				],
+				"TO_LABEL": "0x37e"
+			},
+			{
+				"LABEL": "0x35b",
+				"TYPE": "0x38",
+				"UNK": "FEFFE17A943F0AD7233C48E1FA3E000020400000C03F"
+			},
+			{
+				"LABEL": "0x372",
+				"TYPE": "0x37",
+				"NAME_ID": -2,
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x376",
+				"TYPE": "0x10",
+				"UNK": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x379",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x350"
+			},
+			{
+				"LABEL": "0x37e",
+				"TYPE": "RETURN"
+			}
+		],
+		"TK_Tamara": [
+			{
+				"LABEL": "0x380",
+				"TYPE": "0x16",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x382",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2608
+						]
+					}
+				],
+				"TO_LABEL": "0x390"
+			},
+			{
+				"LABEL": "0x38b",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x808"
+			},
+			{
+				"LABEL": "0x390",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2605
+						]
+					}
+				],
+				"TO_LABEL": "0x49b"
+			},
+			{
+				"LABEL": "0x399",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x3a4",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3a7",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Oh, no! I thought we had ages until the",
+						"NEW_LINE",
+						"Summer Festival, but it starts tomorrow!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3fc",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3fd",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x402",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x405",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I haven't bought any gifts for the ",
+						"NEW_LINE",
+						"neighbors, I don't have any food ready...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x457",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x458",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x45d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x460",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Is it even possible for me to get ready",
+						"NEW_LINE",
+						"in time?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x495",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x496",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x808"
+			},
+			{
+				"LABEL": "0x49b",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2596
+						]
+					}
+				],
+				"TO_LABEL": "0x62d"
+			},
+			{
+				"LABEL": "0x4a4",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x579"
+			},
+			{
+				"LABEL": "0x4ae",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x4b9",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x4bc",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"My son, Ron, is performing in a concert",
+						"NEW_LINE",
+						"during the Summer Festival.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x504",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x505",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x50a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x50d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I didn't know he had it in him!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x531",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x532",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x537",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x53a",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Maybe it helped that he had",
+						"NEW_LINE",
+						"Fiona as a teacher...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x570",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x571",
+				"TYPE": "0xC",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x574",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x628"
+			},
+			{
+				"LABEL": "0x579",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x584",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x587",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"My son's taking part in a concert",
+						"NEW_LINE",
+						"during the Summer Festival.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x5c9",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x5ca",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x5cf",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x5d2",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"It's probably all thanks to Fiona.",
+						"NEW_LINE",
+						"She taught him when he was younger,",
+						"NEW_LINE",
+						"you know.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x627",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x628",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x808"
+			},
+			{
+				"LABEL": "0x62d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2594
+						]
+					}
+				],
+				"TO_LABEL": "0x724"
+			},
+			{
+				"LABEL": "0x636",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x641",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x644",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"What time do you think it is, Ron?!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x66c",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x66d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x672",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x675",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"What in the world have you been doing?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x6a0",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x6a1",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x6ac",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x6af",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"I told you already, didn't I...?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x6d4",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x6d5",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x6da",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x6dd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"I've been practicing for the concert",
+						"NEW_LINE",
+						"at the Summer Festival!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x71e",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x71f",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x808"
+			},
+			{
+				"LABEL": "0x724",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x72f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x732",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"My son's been getting home",
+						"NEW_LINE",
+						"awfully late these days.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x76a",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x76b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x770",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x773",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I keep telling him he has",
+						"NEW_LINE",
+						"to be home by dinner, too...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x7ae",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x7af",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x7b4",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x7b7",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"You don't think the bad kids at school",
+						"NEW_LINE",
+						"have made him a delinquent, do you?!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x807",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x808",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"Party_Face_Reset"
+				]
+			},
+			{
+				"LABEL": "0x81b",
+				"TYPE": "0x17",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x81d",
+				"TYPE": "RETURN"
+			}
+		],
+		"TK_Fam": [
+			{
+				"LABEL": "0x820",
+				"TYPE": "0x16",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x822",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2608
+						]
+					}
+				],
+				"TO_LABEL": "0x8cb"
+			},
+			{
+				"LABEL": "0x82b",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x84c"
+			},
+			{
+				"LABEL": "0x835",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					11
+				],
+				"STRINGS": [
+					"TK_Fam_Matio"
+				]
+			},
+			{
+				"LABEL": "0x844",
+				"TYPE": "0xC",
+				"UNK": [
+					3
+				]
+			},
+			{
+				"LABEL": "0x847",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x8c6"
+			},
+			{
+				"LABEL": "0x84c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x857",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x85a",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I gotta go see this concert",
+						"NEW_LINE",
+						"Ron's in today.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x88a",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x88b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x890",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x893",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I can't wait to hear him play",
+						"NEW_LINE",
+						"the violin. ♪",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x8c5",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x8c6",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xc1d"
+			},
+			{
+				"LABEL": "0x8cb",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2605
+						]
+					}
+				],
+				"TO_LABEL": "0x993"
+			},
+			{
+				"LABEL": "0x8d4",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x8df",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x8e2",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"That concert Ron's in is over at",
+						"NEW_LINE",
+						"the big opera house, isn't it?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x926",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x927",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x92c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x92f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I wanna play the piano there someday!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x959",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x95a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x95f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x962",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Maybe I'll ask Fiona for more lessons.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x98d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x98e",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xc1d"
+			},
+			{
+				"LABEL": "0x993",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2596
+						]
+					}
+				],
+				"TO_LABEL": "0xabe"
+			},
+			{
+				"LABEL": "0x99c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0xa6a"
+			},
+			{
+				"LABEL": "0x9a6",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x9b1",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x9b4",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I feel bad for Ron since Mom always",
+						"NEW_LINE",
+						"forgets stuff so quick.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x9f4",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x9f5",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x9fa",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x9fd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"He tells her that he'll be back",
+						"NEW_LINE",
+						"late because of practice every",
+						"NEW_LINE",
+						"day, but she forgets every time.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xa61",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xa62",
+				"TYPE": "0xC",
+				"UNK": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xa65",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xab9"
+			},
+			{
+				"LABEL": "0xa6a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xa75",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xa78",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"The worst part is, Mom forgets",
+						"NEW_LINE",
+						"that she forgets stuff, too!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xab8",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xab9",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xc1d"
+			},
+			{
+				"LABEL": "0xabe",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2594
+						]
+					}
+				],
+				"TO_LABEL": "0xb25"
+			},
+			{
+				"LABEL": "0xac7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xad2",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xad5",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Phew! Ron's finally home.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xaf3",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xaf4",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xaf9",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xafc",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Now we can finally eat dinner.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xb1f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xb20",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xc1d"
+			},
+			{
+				"LABEL": "0xb25",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0xbab"
+			},
+			{
+				"LABEL": "0xb2f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xb3a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xb3d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Hey, Elliot!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xb4e",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xb4f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xb54",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xb57",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I've gotten good at the piano now!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xb7e",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xb7f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xb84",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xb87",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Heehee. Fiona said so!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xba2",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xba3",
+				"TYPE": "0xC",
+				"UNK": [
+					1
+				]
+			},
+			{
+				"LABEL": "0xba6",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xc1d"
+			},
+			{
+				"LABEL": "0xbab",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xbb6",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xbb9",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"So so so, do do do, la la la! ♪",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xbdf",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xbe0",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xbe5",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xbe8",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I gotta practice before Fiona",
+						"NEW_LINE",
+						"comes over again!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xc1c",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xc1d",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"Party_Face_Reset"
+				]
+			},
+			{
+				"LABEL": "0xc30",
+				"TYPE": "0x17",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0xc32",
+				"TYPE": "RETURN"
+			}
+		],
+		"TK_Ron": [
+			{
+				"LABEL": "0xc34",
+				"TYPE": "0x16",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0xc36",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0xc86"
+			},
+			{
+				"LABEL": "0xc40",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xc4b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xc4e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Oh, hey! You're Elliot's classmate,",
+						"NEW_LINE",
+						"aren't you?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xc82",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xc83",
+				"TYPE": "0xC",
+				"UNK": [
+					2
+				]
+			},
+			{
+				"LABEL": "0xc86",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xc91",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xc94",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"...My mom's pretty forgetful, you see.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xcbf",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xcc0",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xcc5",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xcc8",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"She doesn't have a clue about music,",
+						"NEW_LINE",
+						"either, so she doesn't get just how",
+						"NEW_LINE",
+						"important practicing is.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xd2e",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xd2f",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"Party_Face_Reset"
+				]
+			},
+			{
+				"LABEL": "0xd42",
+				"TYPE": "0x17",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0xd44",
+				"TYPE": "RETURN"
+			}
+		],
+		"TK_Matio": [
+			{
+				"LABEL": "0xd48",
+				"TYPE": "0x16",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0xd4a",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0xd6b"
+			},
+			{
+				"LABEL": "0xd54",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					11
+				],
+				"STRINGS": [
+					"TK_Fam_Matio"
+				]
+			},
+			{
+				"LABEL": "0xd63",
+				"TYPE": "0xC",
+				"UNK": [
+					3
+				]
+			},
+			{
+				"LABEL": "0xd66",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xe14"
+			},
+			{
+				"LABEL": "0xd6b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xd76",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xd79",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Hmm... I don't remember hearing",
+						"NEW_LINE",
+						"anything about that...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xdb4",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xdb5",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xdba",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xdbd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"So where's this concert being held,",
+						"NEW_LINE",
+						"anyway? Do we really have to leave",
+						"NEW_LINE",
+						"right now?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xe13",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xe14",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"Party_Face_Reset"
+				]
+			},
+			{
+				"LABEL": "0xe27",
+				"TYPE": "0x17",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0xe29",
+				"TYPE": "RETURN"
+			}
+		],
+		"TK_Fam_Matio": [
+			{
+				"LABEL": "0xe2c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xe37",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xe3a",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"Ron's gonna be in the concert",
+						"NEW_LINE",
+						"today, so we gotta go see it!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xe7a",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xe7b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1003,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xe86",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xe89",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1003,
+				"DIALOG": {
+					"STRINGS": [
+						"I haven't heard anything about that.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xeb2",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xeb3",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1003,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xeb8",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xebb",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1003,
+				"DIALOG": {
+					"STRINGS": [
+						"Today's my day off, so let me just",
+						"NEW_LINE",
+						"sit down and relax...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xef8",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xef9",
+				"TYPE": "0x3A",
+				"UNK": "E903049A99193E0000"
+			},
+			{
+				"LABEL": "0xf03",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0xf06",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xf11",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xf14",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"I told you about it yesterday!",
+						"NEW_LINE",
+						"You're just as bad as Mom!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xf52",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xf53",
+				"TYPE": "0x2C",
+				"UNK": "E90340040000"
+			},
+			{
+				"LABEL": "0xf5a",
+				"TYPE": "RETURN"
+			}
+		]
+	}
+}

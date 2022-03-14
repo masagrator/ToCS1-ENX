@@ -1,0 +1,6958 @@
+{
+	"HEADER": {
+		"TYPE": "ABCDEF00",
+		"ID": "tk_ferris"
+	},
+	"FUNCTIONS": {
+		"TK_Ferris": [
+			{
+				"LABEL": "0x3c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1027
+						]
+					}
+				],
+				"TO_LABEL": "0x51"
+			},
+			{
+				"LABEL": "0x45",
+				"TYPE": "0x86",
+				"CONTROL": 0,
+				"UNK": "5D000100"
+			},
+			{
+				"LABEL": "0x4b",
+				"TYPE": "0x86",
+				"CONTROL": 0,
+				"UNK": "5D008000"
+			},
+			{
+				"LABEL": "0x51",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x53",
+							"TYPE": "0x68",
+							"UNK0": [
+								87
+							],
+							"CONTROL": 0,
+							"UNK1": "04"
+						}
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x59",
+							"TYPE": "0x68",
+							"UNK0": [
+								87
+							],
+							"CONTROL": 0,
+							"UNK1": "20"
+						}
+					},
+					{
+						"CONTROL": 8
+					},
+					{
+						"CONTROL": 9
+					},
+					{
+						"CONTROL": 30,
+						"UNK": [
+							4306
+						]
+					},
+					{
+						"CONTROL": 8
+					},
+					{
+						"CONTROL": 9
+					}
+				],
+				"TO_LABEL": "0x7e"
+			},
+			{
+				"LABEL": "0x6a",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					0
+				],
+				"STRINGS": [
+					"EV_QS0702_02"
+				]
+			},
+			{
+				"LABEL": "0x79",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x376d"
+			},
+			{
+				"LABEL": "0x7e",
+				"TYPE": "0x16",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x80",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							4120
+						]
+					}
+				],
+				"TO_LABEL": "0x273"
+			},
+			{
+				"LABEL": "0x89",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x1cf"
+			},
+			{
+				"LABEL": "0x93",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x9e",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xa1",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"F-Following your orders may be the",
+						"NEW_LINE",
+						"best option in this situation.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xe7",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xe8",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xed",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xf0",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"H-However! Our classes are still in",
+						"NEW_LINE",
+						"the midst of an unfinished competition.",
+						"NEW_LINE",
+						"You all must make it back safely!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x162",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x163",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x165",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0100"
+						}
+					}
+				],
+				"TO_LABEL": "0x1c7"
+			},
+			{
+				"LABEL": "0x16e",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E2#M4"
+				]
+			},
+			{
+				"LABEL": "0x179",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x17c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TRight! Thanks, Ferris!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x19c",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x19d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1a8",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1ab",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Y-You must promise me!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1c6",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1c7",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x1ca",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x26e"
+			},
+			{
+				"LABEL": "0x1cf",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1da",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1dd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I shall inform anyone within the",
+						"NEW_LINE",
+						"main building to remain within",
+						"NEW_LINE",
+						"their classrooms.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x233",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x234",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x239",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x23c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Be sure that all of you",
+						"NEW_LINE",
+						"make it back safely!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x26d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x26e",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x273",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							4107
+						]
+					}
+				],
+				"TO_LABEL": "0x51e"
+			},
+			{
+				"LABEL": "0x27c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x47f"
+			},
+			{
+				"LABEL": "0x286",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x291",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x294",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Alisa, take heed!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2aa",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2ab",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2b0",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2b3",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Absolutely none of this is",
+						"NEW_LINE",
+						"your fault, understand?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2ea",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2eb",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2f0",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2f3",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"You are independent of the issues",
+						"NEW_LINE",
+						"surrounding your family, and trying",
+						"NEW_LINE",
+						"to shoulder that burden is pointless.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x363",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x364",
+				"TYPE": "0x3C",
+				"NAME_ID": 1,
+				"CONTROLS": [
+					65534,
+					1
+				]
+			},
+			{
+				"LABEL": "0x36b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E[1]#M4"
+				]
+			},
+			{
+				"LABEL": "0x378",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x37b",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#K...Thank you, Ferris. I feel relieved",
+						"NEW_LINE",
+						"just to hear you say that.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3c2",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3c3",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x3ce",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3d1",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"W-Well, I only say so for my own sake.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3fc",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3fd",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x402",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x405",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"How is one supposed to focus when",
+						"NEW_LINE",
+						"her rival is so visibly uneasy?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x44b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x44c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"0[autoE0]",
+					"0[autoM0]",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x469",
+				"TYPE": "0x3C",
+				"NAME_ID": 1,
+				"CONTROLS": [
+					65533,
+					500
+				]
+			},
+			{
+				"LABEL": "0x470",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x473",
+				"TYPE": "0x2C",
+				"UNK": "FEFF00040000"
+			},
+			{
+				"LABEL": "0x47a",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x519"
+			},
+			{
+				"LABEL": "0x47f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x48a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x48d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"It's plain to see how uneasy",
+						"NEW_LINE",
+						"Alisa has been of late.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x4c6",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x4c7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x4d2",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x4d5",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Seeing her in such a state makes",
+						"NEW_LINE",
+						"it difficult for me to focus.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x518",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x519",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x51e",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							4103
+						]
+					}
+				],
+				"TO_LABEL": "0x651"
+			},
+			{
+				"LABEL": "0x527",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x54d"
+			},
+			{
+				"LABEL": "0x531",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					0
+				],
+				"STRINGS": [
+					"TK_Ferris_Vincent_08"
+				]
+			},
+			{
+				"LABEL": "0x548",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x64c"
+			},
+			{
+				"LABEL": "0x54d",
+				"TYPE": "0x3A",
+				"UNK": "FEFF0F9A99193E0000"
+			},
+			{
+				"LABEL": "0x557",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x55a",
+				"TYPE": "0x3A",
+				"UNK": "FEFFFF000000000000"
+			},
+			{
+				"LABEL": "0x564",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x56f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x572",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Y-Y-You! L-Listen and listen well!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x599",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x59a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x59f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x5a2",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"C-C-Class VII does n-not stand a gh-ghost",
+						"NEW_LINE",
+						"of a chance against us today!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x5ee",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x5ef",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[D]#M[9]"
+				]
+			},
+			{
+				"LABEL": "0x5fe",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x601",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0T(She's just a bag of nerves...)",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x62a",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x62b",
+				"TYPE": "0x58",
+				"UNK": "FDFF01"
+			},
+			{
+				"LABEL": "0x62f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"0[autoE0]",
+					"0[autoM0]",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x64c",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x651",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							4102
+						]
+					}
+				],
+				"TO_LABEL": "0x6cb"
+			},
+			{
+				"LABEL": "0x65a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x665",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x668",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Will the festival be canceled over this?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x695",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x696",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x69b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x69e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"If so...what of our performances?!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x6c5",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x6c6",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x6cb",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							4101
+						]
+					}
+				],
+				"TO_LABEL": "0x81f"
+			},
+			{
+				"LABEL": "0x6d4",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x6f8"
+			},
+			{
+				"LABEL": "0x6de",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					0
+				],
+				"STRINGS": [
+					"TK_Alisa_Ferris_08"
+				]
+			},
+			{
+				"LABEL": "0x6f3",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x81a"
+			},
+			{
+				"LABEL": "0x6f8",
+				"TYPE": "0x3C",
+				"NAME_ID": 93,
+				"CONTROLS": [
+					61456,
+					1
+				]
+			},
+			{
+				"LABEL": "0x6ff",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x702",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x70d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x710",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Oh, my. It truly is rather busy here...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x73c",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x73d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x742",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x745",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I hope our turn comes before our break",
+						"NEW_LINE",
+						"is over...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x77b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x77c",
+				"TYPE": "0x3A",
+				"UNK": "0100009A99193E0000"
+			},
+			{
+				"LABEL": "0x786",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x789",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E[C]#M0"
+				]
+			},
+			{
+				"LABEL": "0x796",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x799",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#KWhat was that about a break?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x7bc",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x7bd",
+				"TYPE": "0x3C",
+				"NAME_ID": 93,
+				"CONTROLS": [
+					1,
+					1
+				]
+			},
+			{
+				"LABEL": "0x7c4",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x7c7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x7d2",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x7d5",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"O-Oh, nothing! Pay me no mind!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x7f8",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x7f9",
+				"TYPE": "0x58",
+				"UNK": "FDFF01"
+			},
+			{
+				"LABEL": "0x7fd",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"0[autoE0]",
+					"0[autoM0]",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x81a",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x81f",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							4100
+						]
+					}
+				],
+				"TO_LABEL": "0x82d"
+			},
+			{
+				"LABEL": "0x828",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x82d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							4099
+						]
+					}
+				],
+				"TO_LABEL": "0xa45"
+			},
+			{
+				"LABEL": "0x836",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x96f"
+			},
+			{
+				"LABEL": "0x840",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x84b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x84e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Oh, it's Alisa... Alisa, would you",
+						"NEW_LINE",
+						"like to--",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x87f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x880",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x885",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x888",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"No! I must refrain. Our classes",
+						"NEW_LINE",
+						"are competing with each other.",
+						"NEW_LINE",
+						"This is no time for friendliness!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x8ed",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x8ee",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x8f3",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x8f6",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Although, with the business I must",
+						"NEW_LINE",
+						"attend to, I would not be able to",
+						"NEW_LINE",
+						"invite her along, regardless...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x95f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x960",
+				"TYPE": "0x2C",
+				"UNK": "5D0040040000"
+			},
+			{
+				"LABEL": "0x967",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x96a",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xa40"
+			},
+			{
+				"LABEL": "0x96f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x97a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x97d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"C-Can you not see my troubled,",
+						"NEW_LINE",
+						"contemplative expression? Away",
+						"NEW_LINE",
+						"with you!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x9c9",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x9ca",
+				"TYPE": "0x3C",
+				"NAME_ID": 93,
+				"CONTROLS": [
+					65533,
+					1
+				]
+			},
+			{
+				"LABEL": "0x9d1",
+				"TYPE": "0x33",
+				"UNK": "5D00666672430000204100"
+			},
+			{
+				"LABEL": "0x9dd",
+				"TYPE": "0x35",
+				"UNK": [
+					93
+				]
+			},
+			{
+				"LABEL": "0x9e0",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x9eb",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x9ee",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"*sigh* It seems as though inviting her",
+						"NEW_LINE",
+						"along wouldn't work out, after all...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xa3f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xa40",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0xa45",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							4096
+						]
+					}
+				],
+				"TO_LABEL": "0xefb"
+			},
+			{
+				"LABEL": "0xa4e",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6726
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0xdcf"
+			},
+			{
+				"LABEL": "0xa58",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							4196
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0xc26"
+			},
+			{
+				"LABEL": "0xa62",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xa6d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xa70",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Oh. Good day, Rean.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xa88",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xa89",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xa8e",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xa91",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"We're currently preparing ",
+						"NEW_LINE",
+						"for our final rehearsal.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xac9",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xaca",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xacf",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xad2",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Listen well and relay this to the rest",
+						"NEW_LINE",
+						"of Class VII: we have every intention of",
+						"NEW_LINE",
+						"completely and utterly demolishing you.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xb4e",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xb4f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E2#M9"
+				]
+			},
+			{
+				"LABEL": "0xb5a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xb5d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TGlad to hear it. The better the competition,",
+						"NEW_LINE",
+						"the better the festival!",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E[D]#M[9](But I have to admit, it's pretty funny to be",
+						"NEW_LINE",
+						"challenged by someone dressed like that.)",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xc0f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xc10",
+				"TYPE": "0xC",
+				"UNK": [
+					4196
+				]
+			},
+			{
+				"LABEL": "0xc13",
+				"TYPE": "0x2B",
+				"UNK": "5D0040040000"
+			},
+			{
+				"LABEL": "0xc1a",
+				"TYPE": "0x3C",
+				"NAME_ID": 93,
+				"CONTROLS": [
+					65533,
+					500
+				]
+			},
+			{
+				"LABEL": "0xc21",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xda9"
+			},
+			{
+				"LABEL": "0xc26",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xc31",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xc34",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Fear not, for I can tell! The truth resides",
+						"NEW_LINE",
+						"within the beautiful glint of every teardro--",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xc92",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xc93",
+				"TYPE": "0x3A",
+				"UNK": "5D000D9A99193E0000"
+			},
+			{
+				"LABEL": "0xc9d",
+				"TYPE": "0x10",
+				"UNK": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xca0",
+				"TYPE": "0x3C",
+				"NAME_ID": 93,
+				"CONTROLS": [
+					61456,
+					500
+				]
+			},
+			{
+				"LABEL": "0xca7",
+				"TYPE": "0x34",
+				"NAME_ID": 93,
+				"UNK": "10F00000804100"
+			},
+			{
+				"LABEL": "0xcb1",
+				"TYPE": "0x35",
+				"UNK": [
+					93
+				]
+			},
+			{
+				"LABEL": "0xcb4",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xcbf",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xcc2",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Excuse me! Might I request that you",
+						"NEW_LINE",
+						"refrain from eavesdropping on us?!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xd0d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xd0e",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[1]#M0"
+				]
+			},
+			{
+				"LABEL": "0xd1b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xd1e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TS-Sorry!",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E0#M[0](I expected it to be good, but that",
+						"NEW_LINE",
+						"was something else. How are we",
+						"NEW_LINE",
+						"supposed to top that?)",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xd93",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xd94",
+				"TYPE": "0x3C",
+				"NAME_ID": 93,
+				"CONTROLS": [
+					65533,
+					500
+				]
+			},
+			{
+				"LABEL": "0xd9b",
+				"TYPE": "0x2F",
+				"UNK": "5D0000",
+				"STRINGS": [
+					"AniEv0018"
+				]
+			},
+			{
+				"LABEL": "0xda9",
+				"TYPE": "0x58",
+				"UNK": "FDFF01"
+			},
+			{
+				"LABEL": "0xdad",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"0[autoE0]",
+					"0[autoM0]",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0xdca",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xef6"
+			},
+			{
+				"LABEL": "0xdcf",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 93,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xdda",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xddd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 93,
+				"DIALOG": {
+					"STRINGS": [
+						"Had you not butted in, we would have",
+						"NEW_LINE",
+						"missed our opportunity to spread the",
+						"NEW_LINE",
+						"word about our spectacular operetta.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xe50",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xe51",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 93,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xe56",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xe59",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 93,
+				"DIALOG": {
+					"STRINGS": [
+						"So...umm...y-you have my thanks,",
+						"NEW_LINE",
+						"I suppose.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xe89",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xe8a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 93,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xe8f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xe92",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 93,
+				"DIALOG": {
+					"STRINGS": [
+						"But this doesn't change the fact",
+						"NEW_LINE",
+						"that our performance is going",
+						"NEW_LINE",
+						"to completely obliterate yours!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xef5",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xef6",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0xefb",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3591
+						]
+					}
+				],
+				"TO_LABEL": "0x11bc"
+			},
+			{
+				"LABEL": "0xf04",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3735
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x10d3"
+			},
+			{
+				"LABEL": "0xf0e",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xf19",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xf1c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Hmm...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xf27",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xf28",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E[C]#M0"
+				]
+			},
+			{
+				"LABEL": "0xf35",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xf38",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TWhat's wrong, Ferris? Aren't you ",
+						"NEW_LINE",
+						"going to practice this morning?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xf83",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xf84",
+				"TYPE": "0x34",
+				"NAME_ID": 65534,
+				"UNK": "10F00000204100"
+			},
+			{
+				"LABEL": "0xf8e",
+				"TYPE": "0x35",
+				"UNK": [
+					-2
+				]
+			},
+			{
+				"LABEL": "0xf91",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xf9c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xf9f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I had planned to, but apparently the",
+						"NEW_LINE",
+						"field is off limits at the moment.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xfeb",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xfec",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xff1",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xff4",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I must have overlooked an",
+						"NEW_LINE",
+						"announcement or something...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x102f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1030",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E8#M0"
+				]
+			},
+			{
+				"LABEL": "0x103b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x103e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TOff limits? Really?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x105b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x105c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1067",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x106a",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TIt could have something ",
+						"NEW_LINE",
+						"to do with the reason",
+						"NEW_LINE",
+						"they called us out there.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x10bc",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x10bd",
+				"TYPE": "0xC",
+				"UNK": [
+					3735
+				]
+			},
+			{
+				"LABEL": "0x10c0",
+				"TYPE": "0x2C",
+				"UNK": "FEFF40040000"
+			},
+			{
+				"LABEL": "0x10c7",
+				"TYPE": "0x3C",
+				"NAME_ID": -2,
+				"CONTROLS": [
+					65533,
+					0
+				]
+			},
+			{
+				"LABEL": "0x10ce",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x11b7"
+			},
+			{
+				"LABEL": "0x10d3",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x10de",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x10e1",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I woke up early and eager for today's",
+						"NEW_LINE",
+						"practice, but now I feel as though my",
+						"NEW_LINE",
+						"motivation has been squandered.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1151",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1152",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1157",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x115a",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"As class is about to begin,",
+						"NEW_LINE",
+						"perhaps it would be good to ",
+						"NEW_LINE",
+						"rest in the classroom for now.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x11b6",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x11b7",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x11bc",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3590
+						]
+					}
+				],
+				"TO_LABEL": "0x129a"
+			},
+			{
+				"LABEL": "0x11c5",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x11ee"
+			},
+			{
+				"LABEL": "0x11cf",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					0
+				],
+				"STRINGS": [
+					"TK_Ferris_Vincent_06_03"
+				]
+			},
+			{
+				"LABEL": "0x11e9",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1295"
+			},
+			{
+				"LABEL": "0x11ee",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x11f9",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x11fc",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Why must he blow everything",
+						"NEW_LINE",
+						"out of proportion?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x122f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1230",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1235",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1238",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Just because Sariffa is currently",
+						"NEW_LINE",
+						"occupied doesn't give him carte",
+						"NEW_LINE",
+						"blanche to bother me!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1294",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1295",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x129a",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3585
+						]
+					}
+				],
+				"TO_LABEL": "0x138d"
+			},
+			{
+				"LABEL": "0x12a3",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x12c7"
+			},
+			{
+				"LABEL": "0x12ad",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					0
+				],
+				"STRINGS": [
+					"TK_Alisa_Ferris_06"
+				]
+			},
+			{
+				"LABEL": "0x12c2",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1388"
+			},
+			{
+				"LABEL": "0x12c7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x12d2",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x12d5",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I am excited to see what Class VII",
+						"NEW_LINE",
+						"does for the festival. ",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1314",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1315",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x131a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x131d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"With a bit of luck, perhaps you can",
+						"NEW_LINE",
+						"come up with something that nips at",
+						"NEW_LINE",
+						"the heels of our performance.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1387",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1388",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x138d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3584
+						]
+					}
+				],
+				"TO_LABEL": "0x1448"
+			},
+			{
+				"LABEL": "0x1396",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x13bf"
+			},
+			{
+				"LABEL": "0x13a0",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					0
+				],
+				"STRINGS": [
+					"TK_Ferris_Vincent_06_01"
+				]
+			},
+			{
+				"LABEL": "0x13ba",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1443"
+			},
+			{
+				"LABEL": "0x13bf",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x13ca",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x13cd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"His acting last year was",
+						"NEW_LINE",
+						"truly a sorry sight.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x13ff",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1400",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1405",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1408",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"One can only hope that our",
+						"NEW_LINE",
+						"operetta is worlds better.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1442",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1443",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x1448",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3082
+						]
+					}
+				],
+				"TO_LABEL": "0x1659"
+			},
+			{
+				"LABEL": "0x1451",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x157b"
+			},
+			{
+				"LABEL": "0x145b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1466",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1469",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"You leave on a field study",
+						"NEW_LINE",
+						"today, do you not?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x149b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x149c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x14a1",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x14a4",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Never fear, as I shall be sure to shoot",
+						"NEW_LINE",
+						"ahead of Alisa during her absence.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x14f3",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x14f4",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x14f9",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x14fc",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"As such, you must all return safely. It ",
+						"NEW_LINE",
+						"would be a tragedy if you were unable",
+						"NEW_LINE",
+						"to witness my astounding progress.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1572",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1573",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x1576",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1654"
+			},
+			{
+				"LABEL": "0x157b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1586",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1589",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Naturally, I will emerge the victor",
+						"NEW_LINE",
+						"the next time Alisa and I compete.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x15d4",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x15d5",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x15da",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x15dd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"As such, you must all return safely. It ",
+						"NEW_LINE",
+						"would be a tragedy if you were unable",
+						"NEW_LINE",
+						"to witness my astounding progress.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1653",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1654",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x1659",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3081
+						]
+					}
+				],
+				"TO_LABEL": "0x1747"
+			},
+			{
+				"LABEL": "0x1662",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3227
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x1686"
+			},
+			{
+				"LABEL": "0x166c",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					0
+				],
+				"STRINGS": [
+					"TK_Alisa_Ferris_05"
+				]
+			},
+			{
+				"LABEL": "0x1681",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1742"
+			},
+			{
+				"LABEL": "0x1686",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1691",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1694",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I believe that 'rivals' is the most",
+						"NEW_LINE",
+						"accurate way to describe the",
+						"NEW_LINE",
+						"relationship between Alisa and myself.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1700",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1701",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1706",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1709",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Each of us wishes to help",
+						"NEW_LINE",
+						"the other better herself.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1741",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1742",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x1747",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3075
+						]
+					}
+				],
+				"TO_LABEL": "0x18c2"
+			},
+			{
+				"LABEL": "0x1750",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							771
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x17e5"
+			},
+			{
+				"LABEL": "0x175a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1765",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1768",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I challenge you once more, Alisa!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x178e",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x178f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1794",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1797",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"This time, I can say with absolute",
+						"NEW_LINE",
+						"certainly that I shall not lose!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x17df",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x17e0",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x18bd"
+			},
+			{
+				"LABEL": "0x17e5",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x17f0",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x17f3",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Umm... I sincerely apologize for all of",
+						"NEW_LINE",
+						"the trouble I have caused you, Rean.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1844",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1845",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x184a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x184d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"But allow me to tell you this!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1870",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1871",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1876",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1879",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I... I could not be any happier",
+						"NEW_LINE",
+						"to have become Alisa's friend.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x18bc",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x18bd",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x18c2",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3074
+						]
+					}
+				],
+				"TO_LABEL": "0x1bce"
+			},
+			{
+				"LABEL": "0x18cb",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3271
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x1a10"
+			},
+			{
+				"LABEL": "0x18d5",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x18e0",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x18e3",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Emily certainly does not...*huff*",
+						"NEW_LINE",
+						"...hold back when it...*puff*...comes",
+						"NEW_LINE",
+						"to training...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x193e",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x193f",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1941",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0100"
+						}
+					}
+				],
+				"TO_LABEL": "0x19b7"
+			},
+			{
+				"LABEL": "0x194a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1955",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1958",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Things will end very differently",
+						"NEW_LINE",
+						"next time, Alisa!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x198f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1990",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E[D]#M9"
+				]
+			},
+			{
+				"LABEL": "0x199d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x19a0",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TS-Sure.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x19b1",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x19b2",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1a0b"
+			},
+			{
+				"LABEL": "0x19b7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x19c2",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x19c5",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"But if I can surpass Alisa...",
+						"NEW_LINE",
+						"then I shall do whatever it takes!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1a0a",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1a0b",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1ba8"
+			},
+			{
+				"LABEL": "0x1a10",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1a1b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1a1e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"That was one of Class VII's",
+						"NEW_LINE",
+						"new students, was it not?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1a58",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1a59",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1a5b",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0100"
+						}
+					}
+				],
+				"TO_LABEL": "0x1b31"
+			},
+			{
+				"LABEL": "0x1a64",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1a6f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1a72",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Alisa! How dare you attempt",
+						"NEW_LINE",
+						"to interrupt my practice?!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1aad",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1aae",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E[9]#M0"
+				]
+			},
+			{
+				"LABEL": "0x1abb",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1abe",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TI wasn't doing anything close to that!",
+						"NEW_LINE",
+						"Seriously, why do you always have",
+						"NEW_LINE",
+						"to jump to conclusions...?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1b2b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1b2c",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1ba8"
+			},
+			{
+				"LABEL": "0x1b31",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1b3c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1b3f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I had heard that a new girl had",
+						"NEW_LINE",
+						"joined Class VII, but I certainly",
+						"NEW_LINE",
+						"wasn't expecting a girl like HER.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1ba7",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1ba8",
+				"TYPE": "0x58",
+				"UNK": "FDFF01"
+			},
+			{
+				"LABEL": "0x1bac",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"0[autoE0]",
+					"0[autoM0]",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x1bc9",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x1bce",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3072
+						]
+					}
+				],
+				"TO_LABEL": "0x1da3"
+			},
+			{
+				"LABEL": "0x1bd7",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x1d05"
+			},
+			{
+				"LABEL": "0x1be1",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1bec",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1bef",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Heehee. I will be challenging",
+						"NEW_LINE",
+						"Alisa tomorrow.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1c21",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1c22",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1c27",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1c2a",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Yes, she may have outsprinted me, and",
+						"NEW_LINE",
+						"indeed, she scored better on the midterms.",
+						"NEW_LINE",
+						"But all of that is in the past!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1c9f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1ca0",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1ca5",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1ca8",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"The time is nigh to show her what the",
+						"NEW_LINE",
+						"great Ferris Florald is truly capable of!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1cfc",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1cfd",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x1d00",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1d9e"
+			},
+			{
+				"LABEL": "0x1d05",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1d10",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1d13",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I will be victorious tomorrow,",
+						"NEW_LINE",
+						"no matter what!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1d46",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1d47",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1d4c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1d4f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"The time is nigh to show her what",
+						"NEW_LINE",
+						"I, Ferris Florald, am truly capable of!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1d9d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1d9e",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x1da3",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2575
+						]
+					}
+				],
+				"TO_LABEL": "0x2028"
+			},
+			{
+				"LABEL": "0x1dac",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x1f16"
+			},
+			{
+				"LABEL": "0x1db6",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1dc1",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1dc4",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Rumor has it that Alisa is going to",
+						"NEW_LINE",
+						"Heimdallr's Summer Festival.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1e09",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1e0a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1e0f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1e12",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Hmph. Well, I hope she enjoys",
+						"NEW_LINE",
+						"it while she can...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1e48",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1e49",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1e4e",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1e51",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"She will certainly be in for a ",
+						"NEW_LINE",
+						"shock when she returns to find ",
+						"NEW_LINE",
+						"that I have surpassed her!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1eb0",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1eb1",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[D]#M9"
+				]
+			},
+			{
+				"LABEL": "0x1ebe",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1ec1",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0T(Yeeeah...the Summer Festival isn't",
+						"NEW_LINE",
+						"why we're going to Heimdallr.)",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1f0d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1f0e",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x1f11",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x2002"
+			},
+			{
+				"LABEL": "0x1f16",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1f21",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1f24",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Enjoy yourself while you can, Alisa!",
+						"NEW_LINE",
+						"When you return, my rise to power",
+						"NEW_LINE",
+						"will turn your entire world upside down!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1f98",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1f99",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1f9e",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1fa1",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Hahaha! Prepare yourself!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1fbf",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1fc0",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[9]#M[8]"
+				]
+			},
+			{
+				"LABEL": "0x1fcf",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1fd2",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0T(...Why aren't you telling HER this?)",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2001",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2002",
+				"TYPE": "0x58",
+				"UNK": "FDFF01"
+			},
+			{
+				"LABEL": "0x2006",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"0[autoE0]",
+					"0[autoM0]",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x2023",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x2028",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2571
+						]
+					}
+				],
+				"TO_LABEL": "0x2126"
+			},
+			{
+				"LABEL": "0x2031",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x203c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x203f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I was running to purge my mind of all",
+						"NEW_LINE",
+						"thoughts of Alisa, when all of a sudden,",
+						"NEW_LINE",
+						"she started running alongside me...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x20b6",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x20b7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x20bc",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x20bf",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"She asked me about a student",
+						"NEW_LINE",
+						"from St. Astraia Girls' School...",
+						"NEW_LINE",
+						"Whatever could have happened?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2120",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2121",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x2126",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2570
+						]
+					}
+				],
+				"TO_LABEL": "0x229f"
+			},
+			{
+				"LABEL": "0x212f",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x220e"
+			},
+			{
+				"LABEL": "0x2139",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x2144",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2147",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I-Is it possible that I truly wish",
+						"NEW_LINE",
+						"to become friends with Alisa?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x218c",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x218d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2192",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2195",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Ahhh! Why must my brother",
+						"NEW_LINE",
+						"say such things?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x21c4",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x21c5",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x21ca",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x21cd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I cannot get these twisted",
+						"NEW_LINE",
+						"thoughts out of my head!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2205",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2206",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x2209",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x229a"
+			},
+			{
+				"LABEL": "0x220e",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x2219",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x221c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Do I truly wish to befriend Alisa?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2243",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2244",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2249",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x224c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I-I must return to my running. Perhaps",
+						"NEW_LINE",
+						"I can outrun these evil thoughts!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2299",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x229a",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x229f",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2563
+						]
+					}
+				],
+				"TO_LABEL": "0x2362"
+			},
+			{
+				"LABEL": "0x22a8",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x22ce"
+			},
+			{
+				"LABEL": "0x22b2",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					0
+				],
+				"STRINGS": [
+					"TK_Ferris_Vincent_04"
+				]
+			},
+			{
+				"LABEL": "0x22c9",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x235d"
+			},
+			{
+				"LABEL": "0x22ce",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x22d9",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x22dc",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Are you right in the head, my brother?",
+						"NEW_LINE",
+						"What would ever make you think that?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x232c",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x232d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2332",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2335",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Complete and utter foolishness...!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x235c",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x235d",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x2362",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2560
+						]
+					}
+				],
+				"TO_LABEL": "0x2412"
+			},
+			{
+				"LABEL": "0x236b",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x238f"
+			},
+			{
+				"LABEL": "0x2375",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					0
+				],
+				"STRINGS": [
+					"TK_Alisa_Ferris_04"
+				]
+			},
+			{
+				"LABEL": "0x238a",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x240d"
+			},
+			{
+				"LABEL": "0x238f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x239a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x239d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I cannot possibly lose after so",
+						"NEW_LINE",
+						"much practice!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x23d0",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x23d1",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x23d6",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x23d9",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I'll show you this time, Alisa!",
+						"NEW_LINE",
+						"Just you wait!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x240c",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x240d",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x2412",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2055
+						]
+					}
+				],
+				"TO_LABEL": "0x277e"
+			},
+			{
+				"LABEL": "0x241b",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2200
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x2644"
+			},
+			{
+				"LABEL": "0x2425",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E[C]#M0"
+				]
+			},
+			{
+				"LABEL": "0x2432",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2435",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TF-Ferris? I never expected to see you",
+						"NEW_LINE",
+						"here this early in the morning.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2484",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2485",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x2490",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2493",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"...You've bested me in both sprinting",
+						"NEW_LINE",
+						"and our midterm exams.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x24d4",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x24d5",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x24da",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x24dd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I am a FLORALD. We are renowned",
+						"NEW_LINE",
+						"for our myriad academic and athletic",
+						"NEW_LINE",
+						"achievements. I will not let this stand!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x254f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2550",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2555",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2558",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Every moment you are away on",
+						"NEW_LINE",
+						"your field study, I will be restoring ",
+						"NEW_LINE",
+						"things to their natural order.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x25bf",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x25c0",
+				"TYPE": "0x3A",
+				"UNK": "10F006000000000000"
+			},
+			{
+				"LABEL": "0x25ca",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x25cd",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E[5]#M9"
+				]
+			},
+			{
+				"LABEL": "0x25da",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x25dd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TO-Oh... Well, good luck, then.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2605",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2606",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[1]#M[0]"
+				]
+			},
+			{
+				"LABEL": "0x2615",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2618",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0T(Alisa's got it rough...)",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x263b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x263c",
+				"TYPE": "0xC",
+				"UNK": [
+					2200
+				]
+			},
+			{
+				"LABEL": "0x263f",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x2758"
+			},
+			{
+				"LABEL": "0x2644",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x264f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2652",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I've heard tell that you've been coming to ",
+						"NEW_LINE",
+						"morning practice for quite some time now.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x26ac",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x26ad",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x26b2",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x26b5",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"But as of today, all of your attempts",
+						"NEW_LINE",
+						"to outdo me will be for naught!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x26ff",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2700",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E[D]#M[9]"
+				]
+			},
+			{
+				"LABEL": "0x270f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2712",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0T(I wasn't TRYING to outdo you,",
+						"NEW_LINE",
+						"it just kind of...happened.)",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2757",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2758",
+				"TYPE": "0x58",
+				"UNK": "FDFF01"
+			},
+			{
+				"LABEL": "0x275c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"0[autoE0]",
+					"0[autoM0]",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x2779",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x277e",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2054
+						]
+					}
+				],
+				"TO_LABEL": "0x296f"
+			},
+			{
+				"LABEL": "0x2787",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x28d5"
+			},
+			{
+				"LABEL": "0x2791",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x279c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x279f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Our midterm results should",
+						"NEW_LINE",
+						"be revealed soon.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x27d0",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x27d1",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x27d6",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x27d9",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I eagerly await the look on Alisa's",
+						"NEW_LINE",
+						"face when she sees me reap the",
+						"NEW_LINE",
+						"rewards of my rigorous stu--",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x283d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x283e",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2843",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2846",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"*cough* You heard nothing.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2865",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2866",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x286b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x286e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I most certainly did not exert ",
+						"NEW_LINE",
+						"myself studying for the sole",
+						"NEW_LINE",
+						"purpose of outscoring Alisa!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x28cc",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x28cd",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x28d0",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x296a"
+			},
+			{
+				"LABEL": "0x28d5",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x28e0",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x28e3",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I look forward to seeing",
+						"NEW_LINE",
+						"our midterm results.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2915",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2916",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x291b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x291e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I will absolutely not be bested by Alisa",
+						"NEW_LINE",
+						"nor anyone else in Class VII!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2969",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x296a",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x296f",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2049
+						]
+					}
+				],
+				"TO_LABEL": "0x2b1c"
+			},
+			{
+				"LABEL": "0x2978",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x2a70"
+			},
+			{
+				"LABEL": "0x2982",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x298d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2990",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I refuse to accept any blame for this!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x29bb",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x29bc",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x29c1",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x29c4",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"It's all Alisa's fault for bringing",
+						"NEW_LINE",
+						"a maid into her dorm! She can't do",
+						"NEW_LINE",
+						"that--she's a commoner, after all!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2a32",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2a33",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2a38",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2a3b",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I didn't step a single toe out of line!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2a67",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2a68",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x2a6b",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x2b17"
+			},
+			{
+				"LABEL": "0x2a70",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x2a7b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2a7e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Perhaps... Perhaps I was just the",
+						"NEW_LINE",
+						"slightest bit too harsh on her.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2ac4",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2ac5",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2aca",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2acd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"...Wh-What am I saying? All of my",
+						"NEW_LINE",
+						"actions were completely justified!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2b16",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2b17",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x2b1c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							2048
+						]
+					}
+				],
+				"TO_LABEL": "0x2eac"
+			},
+			{
+				"LABEL": "0x2b25",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x2d78"
+			},
+			{
+				"LABEL": "0x2b2f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x2b3a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2b3d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Studying? For exams? Hah! Surely you jest.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2b6c",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2b6d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2b72",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2b75",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Excellent grades come naturally",
+						"NEW_LINE",
+						"to me. There is no need for",
+						"NEW_LINE",
+						"something as common as studying.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2bd6",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2bd7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2bdc",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2bdf",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"That's just the nature of nobility,",
+						"NEW_LINE",
+						"after all. We have gifts that mere",
+						"NEW_LINE",
+						"commoners cannot fathom.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2c43",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2c44",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[C]#M0"
+				]
+			},
+			{
+				"LABEL": "0x2c51",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2c54",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0TBut...you've got pencil marks all",
+						"NEW_LINE",
+						"over your hands.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2c90",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2c91",
+				"TYPE": "0x3A",
+				"UNK": "FEFF0F9A99193E0000"
+			},
+			{
+				"LABEL": "0x2c9b",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x2c9e",
+				"TYPE": "0x3A",
+				"UNK": "FEFFFF000000000000"
+			},
+			{
+				"LABEL": "0x2ca8",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x2cb3",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2cb6",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Y-Your imagination is playing tricks",
+						"NEW_LINE",
+						"on you!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2ce7",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2ce8",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2ced",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2cf0",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"If you let it lead you any further,",
+						"NEW_LINE",
+						"you might imply that I've been studying ",
+						"NEW_LINE",
+						"in secret just to show Alisa up!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2d62",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2d63",
+				"TYPE": "0x3A",
+				"UNK": "000006000000000000"
+			},
+			{
+				"LABEL": "0x2d6d",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x2d70",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x2d73",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x2ea7"
+			},
+			{
+				"LABEL": "0x2d78",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x2d83",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2d86",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Hah! I have no need to study.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2da8",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2da9",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2dae",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2db1",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Th-These marks on my hands are",
+						"NEW_LINE",
+						"absolutely not the result of a",
+						"NEW_LINE",
+						"rigorous study regimen!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2e0b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2e0c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[D]#M[9]"
+				]
+			},
+			{
+				"LABEL": "0x2e1b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2e1e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0T(Wow. I guess she's really the kind",
+						"NEW_LINE",
+						"of person who puts 110 percent into",
+						"NEW_LINE",
+						"everything she does.)",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2e85",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2e86",
+				"TYPE": "0x58",
+				"UNK": "FDFF01"
+			},
+			{
+				"LABEL": "0x2e8a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"0[autoE0]",
+					"0[autoM0]",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x2ea7",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x2eac",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1551
+						]
+					}
+				],
+				"TO_LABEL": "0x2eba"
+			},
+			{
+				"LABEL": "0x2eb5",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x2eba",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1548
+						]
+					}
+				],
+				"TO_LABEL": "0x311b"
+			},
+			{
+				"LABEL": "0x2ec3",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x307d"
+			},
+			{
+				"LABEL": "0x2ecd",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x2ed8",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2edb",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I was feeling rather confident in",
+						"NEW_LINE",
+						"my sprint time, but Alisa beat me",
+						"NEW_LINE",
+						"quite handily...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2f34",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2f35",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2f3a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2f3d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"No. That cannot be right. She has far",
+						"NEW_LINE",
+						"less experience than I do... How COULD",
+						"NEW_LINE",
+						"she have won?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2f9c",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2f9d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x2fa2",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2fa5",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"She cheated somehow! She must have!",
+						"NEW_LINE",
+						"Cheated like the commoner she is!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2fef",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2ff0",
+				"TYPE": "0x3A",
+				"UNK": "000006000000000000"
+			},
+			{
+				"LABEL": "0x2ffa",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x2ffd",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[1]#M0"
+				]
+			},
+			{
+				"LABEL": "0x300a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x300d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K#0T(I don't think it's possible to cheat",
+						"NEW_LINE",
+						"in a simple sprint...)",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3053",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3054",
+				"TYPE": "0x58",
+				"UNK": "FDFF01"
+			},
+			{
+				"LABEL": "0x3058",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"0[autoE0]",
+					"0[autoM0]",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x3075",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x3078",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3116"
+			},
+			{
+				"LABEL": "0x307d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x3088",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x308b",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Alisa has far less experience than I do.",
+						"NEW_LINE",
+						"How COULD she have won?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x30d0",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x30d1",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x30d6",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x30d9",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Things will be quite different",
+						"NEW_LINE",
+						"next time, I assure you!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3115",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3116",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x311b",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1539
+						]
+					}
+				],
+				"TO_LABEL": "0x31cb"
+			},
+			{
+				"LABEL": "0x3124",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x312f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3132",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I will absolutely not lose to Alisa!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x315b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x315c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x3161",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3164",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"She might be a quick learner,",
+						"NEW_LINE",
+						"but that's nothing compared to",
+						"NEW_LINE",
+						"years upon years of experience.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x31c5",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x31c6",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x31cb",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1536
+						]
+					}
+				],
+				"TO_LABEL": "0x3286"
+			},
+			{
+				"LABEL": "0x31d4",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x31fa"
+			},
+			{
+				"LABEL": "0x31de",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					0
+				],
+				"STRINGS": [
+					"TK_Ferris_Vincent_02"
+				]
+			},
+			{
+				"LABEL": "0x31f5",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3281"
+			},
+			{
+				"LABEL": "0x31fa",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x3205",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3208",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Are you even listening to me,",
+						"NEW_LINE",
+						"Vincent?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3233",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3234",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x3239",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x323c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"How many times must I tell you",
+						"NEW_LINE",
+						"that I simply cannot stand her?!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3280",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3281",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x3286",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1035
+						]
+					}
+				],
+				"TO_LABEL": "0x3294"
+			},
+			{
+				"LABEL": "0x328f",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x3294",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1034
+						]
+					}
+				],
+				"TO_LABEL": "0x347a"
+			},
+			{
+				"LABEL": "0x329d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x33e2"
+			},
+			{
+				"LABEL": "0x32a7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x32b2",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x32b5",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Practice came to an end largely",
+						"NEW_LINE",
+						"without issue today.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x32ee",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x32ef",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x32f4",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x32f7",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"However, it seems as though cleanup",
+						"NEW_LINE",
+						"duty is left to us first years.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x333f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3340",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x3345",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3348",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Or, perhaps I should rephrase,",
+						"NEW_LINE",
+						"left to Alisa.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x337a",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x337b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x3380",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3383",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"It would be foolish to expect",
+						"NEW_LINE",
+						"a lady of my standing to",
+						"NEW_LINE",
+						"perform such menial tasks.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x33d9",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x33da",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x33dd",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3475"
+			},
+			{
+				"LABEL": "0x33e2",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x33ed",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x33f0",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"There's a luxurious salon",
+						"NEW_LINE",
+						"reserved exclusively for us",
+						"NEW_LINE",
+						"nobles on the third floor.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3445",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3446",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x344b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x344e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Alisa can clean up while I relax.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3474",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3475",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x347a",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1027
+						]
+					}
+				],
+				"TO_LABEL": "0x35d9"
+			},
+			{
+				"LABEL": "0x3483",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x353f"
+			},
+			{
+				"LABEL": "0x348d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x3498",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x349b",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Being bested by a commoner is,",
+						"NEW_LINE",
+						"quite simply, NOT an option.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x34db",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x34dc",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x34e1",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x34e4",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"As a daughter of the Florald family,",
+						"NEW_LINE",
+						"it is my duty to put Alisa in her place.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3536",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3537",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x353a",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x35d4"
+			},
+			{
+				"LABEL": "0x353f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x354a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x354d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I am no stranger to lacrosse,",
+						"NEW_LINE",
+						"having played it back home.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x358b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x358c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x3591",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3594",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Thus, there is absolutely no way",
+						"NEW_LINE",
+						"that Alisa could best me.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x35d3",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x35d4",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x35d9",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							1024
+						]
+					}
+				],
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x35e2",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6695
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x36b7"
+			},
+			{
+				"LABEL": "0x35ec",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x35f7",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x35fa",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"So, that's the Alisa girl I've heard",
+						"NEW_LINE",
+						"so much about.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3632",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3633",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x3638",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x363b",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"She has a different air about her",
+						"NEW_LINE",
+						"than the other first years.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x367d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x367e",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x3683",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x3686",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"She's awfully cocky for a commoner.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x36ae",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x36af",
+				"TYPE": "0xC",
+				"UNK": [
+					6695
+				]
+			},
+			{
+				"LABEL": "0x36b2",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3758"
+			},
+			{
+				"LABEL": "0x36b7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x36c2",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x36c5",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"She intends to join the Lacrosse",
+						"NEW_LINE",
+						"Club, does she? ...Heehee. What a",
+						"NEW_LINE",
+						"lovely turn of events.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3723",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3724",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 65534,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x3729",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x372c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I can use this to teach her her place.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x3757",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x3758",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"Party_Face_Reset"
+				]
+			},
+			{
+				"LABEL": "0x376b",
+				"TYPE": "0x17",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x376d",
+				"TYPE": "RETURN"
+			}
+		]
+	}
+}

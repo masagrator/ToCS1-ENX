@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+    - name: Install dependencies
+      run: |
+        pip install numpy
+    - name: Compile jsons
+      run: |
+        python scena_assembler.py
+        python talk_assembler.py
+        python text_assembler.py
+        python ui_assembler.py
+  compile:
+    runs-on: ubuntu-latest
+    container: devkitpro/devkita64
+    steps:
+    - uses: actions/checkout@v2
+    - name: make
+      run: |
+        cd Plugin
+        make -j$(nproc)
+        cd ../

@@ -1,0 +1,6015 @@
+{
+	"HEADER": {
+		"TYPE": "ABCDEF00",
+		"ID": "m2553"
+	},
+	"FUNCTIONS": {
+		"0000": [
+			{
+				"LABEL": "0x114",
+				"TYPE": "RETURN"
+			}
+		],
+		"0001": [
+			{
+				"TYPE": "CREATE_MONSTERS",
+				"MAP": "bm2540",
+				"UNK0": "7A000900910193010000000001000000",
+				"TABLE": [
+					{
+						"UNK0": [
+							0
+						],
+						"STRINGS1": [
+							"mon108",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"UNK1": "64000000000000000000000000000000"
+					}
+				],
+				"UNK1": "FFFFFFFF000000000000000000000000000000000000000000000000"
+			},
+			{
+				"LABEL": "0x1e8",
+				"TYPE": "RETURN"
+			}
+		],
+		"Init": [
+			{
+				"LABEL": "0x1ec",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							580
+						]
+					}
+				],
+				"TO_LABEL": "0x23d"
+			},
+			{
+				"LABEL": "0x1f5",
+				"TYPE": "0x27",
+				"CONTROL": 10,
+				"UNK": "FDFFCE",
+				"STRINGS": [
+					"event/evet2006.eff"
+				]
+			},
+			{
+				"LABEL": "0x20d",
+				"TYPE": "0x27",
+				"CONTROL": 12,
+				"UNK0": "FDFFCE00FDFF0000",
+				"STRINGS": [
+					""
+				],
+				"UNK1": "00008040000000000000E0C00000000000000000000000000000803F0000803F0000803F6A"
+			},
+			{
+				"LABEL": "0x23d",
+				"TYPE": "0x49",
+				"CONTROL": 25,
+				"STRINGS": [
+					"healobject00",
+					"LP_healobject"
+				]
+			},
+			{
+				"LABEL": "0x25a",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					11
+				],
+				"STRINGS": [
+					"Init_Replay"
+				]
+			},
+			{
+				"LABEL": "0x268",
+				"TYPE": "RETURN"
+			}
+		],
+		"Init_Replay": [
+			{
+				"LABEL": "0x26c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							582
+						]
+					}
+				],
+				"TO_LABEL": "0x291"
+			},
+			{
+				"LABEL": "0x275",
+				"TYPE": "0xD",
+				"UNK": [
+					582
+				]
+			},
+			{
+				"LABEL": "0x278",
+				"TYPE": "0x14",
+				"UNK": "FDFF000B",
+				"STRINGS": [
+					"EV_WarpOut"
+				]
+			},
+			{
+				"LABEL": "0x288",
+				"TYPE": "0xC",
+				"UNK": [
+					627
+				]
+			},
+			{
+				"LABEL": "0x28b",
+				"TYPE": "0xC",
+				"UNK": [
+					628
+				]
+			},
+			{
+				"LABEL": "0x28e",
+				"TYPE": "0xC",
+				"UNK": [
+					629
+				]
+			},
+			{
+				"LABEL": "0x291",
+				"TYPE": "0x13",
+				"UNK0": [
+					1000
+				],
+				"STRINGS1": [
+					"C_MON108",
+					"Boss",
+					""
+				],
+				"UNK1": "0001000000000000000000000000000000000034430000803FCDCCCC3FCDCCCC3D",
+				"STRINGS2": [
+					"npcom",
+					""
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x2da",
+				"TYPE": "0x3D",
+				"UNK0": [
+					1
+				],
+				"STRINGS": [
+					"EV_C05E12S00"
+				],
+				"UNK1": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x2eb",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							256
+						]
+					}
+				],
+				"TO_LABEL": "0x33f"
+			},
+			{
+				"LABEL": "0x2f4",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							5
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x33f"
+			},
+			{
+				"LABEL": "0x302",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3079
+						]
+					},
+					{
+						"CONTROL": 30,
+						"UNK": [
+							3080
+						]
+					},
+					{
+						"CONTROL": 8
+					},
+					{
+						"CONTROL": 9
+					}
+				],
+				"TO_LABEL": "0x321"
+			},
+			{
+				"LABEL": "0x310",
+				"TYPE": "0x3D",
+				"UNK0": [
+					0
+				],
+				"STRINGS": [
+					"EV_C05E12S00"
+				],
+				"UNK1": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x321",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							288
+						]
+					}
+				],
+				"TO_LABEL": "0x33f"
+			},
+			{
+				"LABEL": "0x32a",
+				"TYPE": "0xD",
+				"UNK": [
+					288
+				]
+			},
+			{
+				"LABEL": "0x32d",
+				"TYPE": "0x14",
+				"UNK": "FDFF000B",
+				"STRINGS": [
+					"EV_C05E12S01"
+				]
+			},
+			{
+				"LABEL": "0x33f",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x341",
+							"TYPE": "0x6D",
+							"UNK": [
+								0
+							],
+							"STRINGS": [
+								"to_m2552"
+							]
+						}
+					},
+					{
+						"CONTROL": 30,
+						"UNK": [
+							629
+						]
+					},
+					{
+						"CONTROL": 8
+					},
+					{
+						"CONTROL": 9
+					}
+				],
+				"TO_LABEL": "0x36a"
+			},
+			{
+				"LABEL": "0x356",
+				"TYPE": "0x14",
+				"UNK": "FDFF000B",
+				"STRINGS": [
+					"EV_AVoice_D_ED"
+				]
+			},
+			{
+				"LABEL": "0x36a",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							580
+						]
+					}
+				],
+				"TO_LABEL": "0x399"
+			},
+			{
+				"LABEL": "0x373",
+				"TYPE": "0x45",
+				"STRINGS": [
+					"warpobj00",
+					"open"
+				]
+			},
+			{
+				"LABEL": "0x383",
+				"TYPE": "0x5A",
+				"UNK0": [
+					0
+				],
+				"STRINGS": [
+					"LP_warpobj00"
+				],
+				"UNK1": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x394",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x3ba"
+			},
+			{
+				"LABEL": "0x399",
+				"TYPE": "0x45",
+				"STRINGS": [
+					"warpobj00",
+					"wait"
+				]
+			},
+			{
+				"LABEL": "0x3a9",
+				"TYPE": "0x5A",
+				"UNK0": [
+					1
+				],
+				"STRINGS": [
+					"LP_warpobj00"
+				],
+				"UNK1": [
+					1
+				]
+			},
+			{
+				"LABEL": "0x3ba",
+				"TYPE": "RETURN"
+			}
+		],
+		"Reinit": [
+			{
+				"LABEL": "0x3bc",
+				"TYPE": "RETURN"
+			}
+		],
+		"EV_AVoice_D_ED": [
+			{
+				"LABEL": "0x3c0",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"EV_AVoice_DangionGoal"
+				]
+			},
+			{
+				"LABEL": "0x3d8",
+				"TYPE": "0xC",
+				"UNK": [
+					629
+				]
+			},
+			{
+				"LABEL": "0x3db",
+				"TYPE": "RETURN"
+			}
+		],
+		"LP_healobject": [
+			{
+				"LABEL": "0x3dc",
+				"TYPE": "0x16",
+				"UNK": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x3de",
+				"TYPE": "0x12",
+				"UNK": [
+					1
+				],
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							21
+						]
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0x3e7",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"EV_healobject"
+				]
+			},
+			{
+				"LABEL": "0x3f7",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"Party_Face_Reset"
+				]
+			},
+			{
+				"LABEL": "0x40a",
+				"TYPE": "0x17",
+				"UNK": [
+					20
+				]
+			},
+			{
+				"LABEL": "0x40c",
+				"TYPE": "RETURN"
+			}
+		],
+		"LP_warpobj00": [
+			{
+				"LABEL": "0x410",
+				"TYPE": "0x16",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x412",
+				"TYPE": "0x39",
+				"CONTROL": 0,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x41a",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x41e",
+				"TYPE": "0x27",
+				"CONTROL": 10,
+				"UNK": "FDFFCB",
+				"STRINGS": [
+					"event/evet2002.eff"
+				]
+			},
+			{
+				"LABEL": "0x436",
+				"TYPE": "0x27",
+				"CONTROL": 10,
+				"UNK": "FDFFCC",
+				"STRINGS": [
+					"event/evet2003.eff"
+				]
+			},
+			{
+				"LABEL": "0x44e",
+				"TYPE": "0x3F",
+				"CONTROL": 3
+			},
+			{
+				"LABEL": "0x450",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "037B147E40CDCC4C3F0000E0C00000"
+			},
+			{
+				"LABEL": "0x461",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "037B141641AE279A4300000000000001"
+			},
+			{
+				"LABEL": "0x473",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "03666696400000"
+			},
+			{
+				"LABEL": "0x47c",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03000018420000"
+			},
+			{
+				"LABEL": "0x485",
+				"TYPE": "0x39",
+				"CONTROL": 100,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x48d",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x491",
+				"TYPE": "0x12",
+				"UNK": [
+					0
+				],
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0x49a",
+				"TYPE": "0x6A",
+				"CONTROLS": [
+					0,
+					0
+				],
+				"UNK": "000000000042"
+			},
+			{
+				"LABEL": "0x4a3",
+				"TYPE": "0x6A",
+				"CONTROLS": [
+					1,
+					0
+				],
+				"STRINGS": [
+					"Warp to [Floor 5 - Entrance]"
+				],
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x4c5",
+				"TYPE": "0x6A",
+				"CONTROLS": [
+					1,
+					0
+				],
+				"STRINGS": [
+					"Cancel"
+				],
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x4d1",
+				"TYPE": "0x6A",
+				"CONTROLS": [
+					2,
+					0
+				],
+				"UNK": "01FFFFFFFF"
+			},
+			{
+				"LABEL": "0x4d9",
+				"TYPE": "0x6A",
+				"CONTROLS": [
+					4,
+					0
+				],
+				"UNK": "00"
+			},
+			{
+				"LABEL": "0x4dd",
+				"TYPE": "0x6A",
+				"CONTROLS": [
+					3,
+					0
+				]
+			},
+			{
+				"LABEL": "0x4e0",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x597"
+			},
+			{
+				"LABEL": "0x4ee",
+				"TYPE": "0x27",
+				"CONTROL": 12,
+				"UNK0": "FDFFCB00FDFF0300",
+				"STRINGS": [
+					""
+				],
+				"UNK1": "00008040000000000000E0C00000000000000000000000000000803F0000803F0000803FFF"
+			},
+			{
+				"LABEL": "0x51e",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x521",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "036666D6408813"
+			},
+			{
+				"LABEL": "0x52a",
+				"TYPE": "0x10",
+				"UNK": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0x52d",
+				"TYPE": "0x27",
+				"CONTROL": 12,
+				"UNK0": "FDFFCC0010F00300",
+				"STRINGS": [
+					""
+				],
+				"UNK1": "0000000000000000000000000000000000000000000000000000803F0000803F0000803FFF"
+			},
+			{
+				"LABEL": "0x55d",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x560",
+				"TYPE": "0x2B",
+				"UNK": "10F001000000"
+			},
+			{
+				"LABEL": "0x567",
+				"TYPE": "0x10",
+				"UNK": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x56a",
+				"TYPE": "0x39",
+				"CONTROL": 0,
+				"UNK": "D0070000803F"
+			},
+			{
+				"LABEL": "0x572",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x576",
+				"TYPE": "0x2C",
+				"UNK": "10F001000000"
+			},
+			{
+				"LABEL": "0x57d",
+				"TYPE": "0x27",
+				"CONTROL": 11,
+				"UNK": "FDFFCB"
+			},
+			{
+				"LABEL": "0x582",
+				"TYPE": "0x27",
+				"CONTROL": 11,
+				"UNK": "FDFFCC"
+			},
+			{
+				"LABEL": "0x587",
+				"TYPE": "0xC",
+				"UNK": [
+					582
+				]
+			},
+			{
+				"LABEL": "0x58a",
+				"TYPE": "JUMP_TO_ID",
+				"STRINGS": [
+					"m2551",
+					""
+				]
+			},
+			{
+				"LABEL": "0x592",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x59e"
+			},
+			{
+				"LABEL": "0x597",
+				"TYPE": "0x2D",
+				"CONTROL": 8,
+				"UNK0": "010000"
+			},
+			{
+				"LABEL": "0x59c",
+				"TYPE": "0x17",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x59e",
+				"TYPE": "RETURN"
+			}
+		],
+		"EV_WarpOut": [
+			{
+				"LABEL": "0x5a0",
+				"TYPE": "0x16",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x5a2",
+				"TYPE": "0x39",
+				"CONTROL": 0,
+				"UNK": "00000000803F"
+			},
+			{
+				"LABEL": "0x5aa",
+				"TYPE": "0x3F",
+				"CONTROL": 7
+			},
+			{
+				"LABEL": "0x5ac",
+				"TYPE": "0x27",
+				"CONTROL": 10,
+				"UNK": "FDFFCC",
+				"STRINGS": [
+					"event/evet2004.eff"
+				]
+			},
+			{
+				"LABEL": "0x5c4",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "030AD79B406666C63FD7A3B8C00000"
+			},
+			{
+				"LABEL": "0x5d5",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "030000A040C3558C4300000000000001"
+			},
+			{
+				"LABEL": "0x5e7",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "039A99B9400000"
+			},
+			{
+				"LABEL": "0x5f0",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03000018420000"
+			},
+			{
+				"LABEL": "0x5f9",
+				"TYPE": "0x2E",
+				"UNK": "10F0C3F59840CDCC4C3E0000B8C033336243"
+			},
+			{
+				"LABEL": "0x60c",
+				"TYPE": "0x2B",
+				"UNK": "10F001000000"
+			},
+			{
+				"LABEL": "0x613",
+				"TYPE": "0x2D",
+				"CONTROL": 8,
+				"UNK0": "010000"
+			},
+			{
+				"LABEL": "0x618",
+				"TYPE": "0x39",
+				"CONTROL": 100,
+				"UNK": "D0070000803F"
+			},
+			{
+				"LABEL": "0x620",
+				"TYPE": "0x10",
+				"UNK": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x623",
+				"TYPE": "0x27",
+				"CONTROL": 12,
+				"UNK0": "FDFFCC0010F00300",
+				"STRINGS": [
+					""
+				],
+				"UNK1": "0000000000000000000000000000000000000000000000000000803F0000803F0000803FFF"
+			},
+			{
+				"LABEL": "0x653",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x656",
+				"TYPE": "0x2C",
+				"UNK": "10F001000000"
+			},
+			{
+				"LABEL": "0x65d",
+				"TYPE": "0x10",
+				"UNK": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x660",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x664",
+				"TYPE": "0x27",
+				"CONTROL": 11,
+				"UNK": "FDFFCC"
+			},
+			{
+				"LABEL": "0x669",
+				"TYPE": "0x17",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x66b",
+				"TYPE": "RETURN"
+			}
+		],
+		"SETPOS_C05E12S00": [
+			{
+				"LABEL": "0x66c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 35,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x67b",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x731"
+			},
+			{
+				"LABEL": "0x686",
+				"TYPE": "GOTO6",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							1
+						]
+					}
+				],
+				"TO_LABELS": [
+					{
+						"UNK": [
+							0
+						],
+						"TO_LABEL": "0x6ad"
+					},
+					{
+						"UNK": [
+							1
+						],
+						"TO_LABEL": "0x6c5"
+					},
+					{
+						"UNK": [
+							2
+						],
+						"TO_LABEL": "0x6dd"
+					},
+					{
+						"UNK": [
+							3
+						],
+						"TO_LABEL": "0x6f5"
+					},
+					{
+						"UNK": [
+							4
+						],
+						"TO_LABEL": "0x70d"
+					}
+				],
+				"TO_LABEL": "0x725"
+			},
+			{
+				"LABEL": "0x6ad",
+				"TYPE": "0x2E",
+				"UNK": "FEFFCDCC2642000000400000C03F0000B442"
+			},
+			{
+				"LABEL": "0x6c0",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x725"
+			},
+			{
+				"LABEL": "0x6c5",
+				"TYPE": "0x2E",
+				"UNK": "FEFFCDCC2242000000406666663F0000B442"
+			},
+			{
+				"LABEL": "0x6d8",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x725"
+			},
+			{
+				"LABEL": "0x6dd",
+				"TYPE": "0x2E",
+				"UNK": "FEFFCDCC2642000000400000C0BF0000B442"
+			},
+			{
+				"LABEL": "0x6f0",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x725"
+			},
+			{
+				"LABEL": "0x6f5",
+				"TYPE": "0x2E",
+				"UNK": "FEFFCDCC224200000040666666BF0000B442"
+			},
+			{
+				"LABEL": "0x708",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x725"
+			},
+			{
+				"LABEL": "0x70d",
+				"TYPE": "0x2E",
+				"UNK": "FEFFCDCC1E4200000040000000000000B442"
+			},
+			{
+				"LABEL": "0x720",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x725"
+			},
+			{
+				"LABEL": "0x725",
+				"TYPE": "0x12",
+				"UNK": [
+					1
+				],
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0x731",
+				"TYPE": "0x12",
+				"UNK": [
+					0
+				],
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0x73d",
+				"TYPE": "RETURN"
+			}
+		],
+		"EV_C05E12S00": [
+			{
+				"LABEL": "0x740",
+				"TYPE": "0x16",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x742",
+				"TYPE": "0x39",
+				"CONTROL": 0,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x74a",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x74e",
+				"TYPE": "0x39",
+				"CONTROL": 5,
+				"UNK": "2C01"
+			},
+			{
+				"LABEL": "0x752",
+				"TYPE": "0x66",
+				"UNK": "000000002C01"
+			},
+			{
+				"LABEL": "0x759",
+				"TYPE": "0x3F",
+				"CONTROL": 7
+			},
+			{
+				"LABEL": "0x75b",
+				"TYPE": "0x27",
+				"CONTROL": 10,
+				"UNK": "FDFFCB",
+				"STRINGS": [
+					"event/evet2010.eff"
+				]
+			},
+			{
+				"LABEL": "0x773",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"EV_Start_Party"
+				]
+			},
+			{
+				"LABEL": "0x784",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x787",
+				"TYPE": "0x2E",
+				"UNK": "00009A99294200000040000000000000B442"
+			},
+			{
+				"LABEL": "0x79a",
+				"TYPE": "0x12",
+				"UNK": [
+					0
+				],
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0x7a3",
+				"TYPE": "0x12",
+				"UNK": [
+					1
+				],
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0x7ac",
+				"TYPE": "0x14",
+				"UNK": "00F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S00"
+				]
+			},
+			{
+				"LABEL": "0x7c2",
+				"TYPE": "0x42",
+				"UNK": "00F003"
+			},
+			{
+				"LABEL": "0x7c6",
+				"TYPE": "0x14",
+				"UNK": "01F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S00"
+				]
+			},
+			{
+				"LABEL": "0x7dc",
+				"TYPE": "0x42",
+				"UNK": "01F003"
+			},
+			{
+				"LABEL": "0x7e0",
+				"TYPE": "0x14",
+				"UNK": "02F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S00"
+				]
+			},
+			{
+				"LABEL": "0x7f6",
+				"TYPE": "0x42",
+				"UNK": "02F003"
+			},
+			{
+				"LABEL": "0x7fa",
+				"TYPE": "0x14",
+				"UNK": "03F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S00"
+				]
+			},
+			{
+				"LABEL": "0x810",
+				"TYPE": "0x42",
+				"UNK": "03F003"
+			},
+			{
+				"LABEL": "0x814",
+				"TYPE": "0x14",
+				"UNK": "04F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S00"
+				]
+			},
+			{
+				"LABEL": "0x82a",
+				"TYPE": "0x42",
+				"UNK": "04F003"
+			},
+			{
+				"LABEL": "0x82e",
+				"TYPE": "0x14",
+				"UNK": "05F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S00"
+				]
+			},
+			{
+				"LABEL": "0x844",
+				"TYPE": "0x42",
+				"UNK": "05F003"
+			},
+			{
+				"LABEL": "0x848",
+				"TYPE": "0x2C",
+				"UNK": "E80301000000"
+			},
+			{
+				"LABEL": "0x84f",
+				"TYPE": "0x2E",
+				"UNK": "E8039A994D42000000400000008000008743"
+			},
+			{
+				"LABEL": "0x862",
+				"TYPE": "0x2B",
+				"UNK": "E80320000000"
+			},
+			{
+				"LABEL": "0x869",
+				"TYPE": "0x2B",
+				"UNK": "E80380000000"
+			},
+			{
+				"LABEL": "0x870",
+				"TYPE": "0x41",
+				"UNK": "E8030000803F0000803F0000803F00000000000003"
+			},
+			{
+				"LABEL": "0x886",
+				"TYPE": "0x22",
+				"UNK0": [
+					1000
+				],
+				"STRINGS": [
+					"BTL_WAIT"
+				],
+				"UNK1": "0100000000CDCC4C3E000080BF000080BF000080BF"
+			},
+			{
+				"LABEL": "0x8a7",
+				"TYPE": "0x73",
+				"CONTROL": 0
+			},
+			{
+				"LABEL": "0x8a9",
+				"TYPE": "0x73",
+				"CONTROL": 2,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x8ad",
+				"TYPE": "0x73",
+				"CONTROL": 5,
+				"UNK": "0000F041"
+			},
+			{
+				"LABEL": "0x8b3",
+				"TYPE": "0x73",
+				"CONTROL": 6,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x8b7",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "033D0A354200006040A4709DBF0000"
+			},
+			{
+				"LABEL": "0x8c8",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "030000A04000006B4300000000000001"
+			},
+			{
+				"LABEL": "0x8da",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "039A99B9400000"
+			},
+			{
+				"LABEL": "0x8e3",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03000018420000"
+			},
+			{
+				"LABEL": "0x8ec",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03D7A333420000604048E13ABFB80B"
+			},
+			{
+				"LABEL": "0x8fd",
+				"TYPE": "0x36",
+				"UNK0": [
+					-4096
+				],
+				"CONTROL": -512,
+				"UNK1": "0000000000000000000040400000C03F010000"
+			},
+			{
+				"LABEL": "0x915",
+				"TYPE": "0x10",
+				"UNK": [
+					80
+				]
+			},
+			{
+				"LABEL": "0x918",
+				"TYPE": "0x36",
+				"UNK0": [
+					-4095
+				],
+				"CONTROL": -512,
+				"UNK1": "0000000000000000000040400000C03F010000"
+			},
+			{
+				"LABEL": "0x930",
+				"TYPE": "0x10",
+				"UNK": [
+					80
+				]
+			},
+			{
+				"LABEL": "0x933",
+				"TYPE": "0x36",
+				"UNK0": [
+					-4094
+				],
+				"CONTROL": -512,
+				"UNK1": "0000000000000000000040400000C03F010000"
+			},
+			{
+				"LABEL": "0x94b",
+				"TYPE": "0x10",
+				"UNK": [
+					80
+				]
+			},
+			{
+				"LABEL": "0x94e",
+				"TYPE": "0x36",
+				"UNK0": [
+					-4093
+				],
+				"CONTROL": -512,
+				"UNK1": "0000000000000000000040400000C03F010000"
+			},
+			{
+				"LABEL": "0x966",
+				"TYPE": "0x10",
+				"UNK": [
+					80
+				]
+			},
+			{
+				"LABEL": "0x969",
+				"TYPE": "0x36",
+				"UNK0": [
+					-4092
+				],
+				"CONTROL": -512,
+				"UNK1": "0000000000000000000040400000C03F010000"
+			},
+			{
+				"LABEL": "0x981",
+				"TYPE": "0x10",
+				"UNK": [
+					80
+				]
+			},
+			{
+				"LABEL": "0x984",
+				"TYPE": "0x36",
+				"UNK0": [
+					-4091
+				],
+				"CONTROL": -512,
+				"UNK1": "0000000000000000000040400000C03F010000"
+			},
+			{
+				"LABEL": "0x99c",
+				"TYPE": "0x39",
+				"CONTROL": 100,
+				"UNK": "E8030000803F"
+			},
+			{
+				"LABEL": "0x9a4",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x9a8",
+				"TYPE": "0x37",
+				"NAME_ID": -4091,
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x9ac",
+				"TYPE": "0x31",
+				"CONTROL": 0,
+				"UNK": "F6070000803F000000000000000000000000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x9d3",
+				"TYPE": "0x31",
+				"CONTROL": 0,
+				"UNK": "CF270000803F000000000000000000000000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x9fa",
+				"TYPE": "0x27",
+				"CONTROL": 12,
+				"UNK0": "FDFFCB00E8030301",
+				"STRINGS": [
+					"NODE_HESO"
+				],
+				"UNK1": "000000000000C03F000000000000000000000000000000003333B33E3333B33E3333B33E67"
+			},
+			{
+				"LABEL": "0xa33",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xa36",
+				"TYPE": "0x3A",
+				"UNK": "00F0019A99193E0000"
+			},
+			{
+				"LABEL": "0xa40",
+				"TYPE": "0x10",
+				"UNK": [
+					50
+				]
+			},
+			{
+				"LABEL": "0xa43",
+				"TYPE": "0x3A",
+				"UNK": "01F0019A99193E0000"
+			},
+			{
+				"LABEL": "0xa4d",
+				"TYPE": "0x3A",
+				"UNK": "02F0019A99193E0000"
+			},
+			{
+				"LABEL": "0xa57",
+				"TYPE": "0x10",
+				"UNK": [
+					50
+				]
+			},
+			{
+				"LABEL": "0xa5a",
+				"TYPE": "0x3A",
+				"UNK": "03F0019A99193E0000"
+			},
+			{
+				"LABEL": "0xa64",
+				"TYPE": "0x3A",
+				"UNK": "04F0019A99193E0000"
+			},
+			{
+				"LABEL": "0xa6e",
+				"TYPE": "0x10",
+				"UNK": [
+					50
+				]
+			},
+			{
+				"LABEL": "0xa71",
+				"TYPE": "0x3A",
+				"UNK": "05F0019A99193E0000"
+			},
+			{
+				"LABEL": "0xa7b",
+				"TYPE": "0x10",
+				"UNK": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xa7e",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03713D4C42D7A37040B81E05BED007"
+			},
+			{
+				"LABEL": "0xa8f",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03B8DEAD43A4707E4300000000D00701"
+			},
+			{
+				"LABEL": "0xaa1",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "030000D040D007"
+			},
+			{
+				"LABEL": "0xaaa",
+				"TYPE": "0x10",
+				"UNK": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0xaad",
+				"TYPE": "0x2D",
+				"CONTROL": 7,
+				"UNK0": "FF00"
+			},
+			{
+				"LABEL": "0xab1",
+				"TYPE": "0x31",
+				"CONTROL": 0,
+				"UNK": "FF070000803F000000000000000000000000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xad8",
+				"TYPE": "0x31",
+				"CONTROL": 0,
+				"UNK": "31080000803F000000000000000000000000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xaff",
+				"TYPE": "0x31",
+				"CONTROL": 1,
+				"UNK": "CF270000"
+			},
+			{
+				"LABEL": "0xb05",
+				"TYPE": "0x2C",
+				"UNK": "E80380000000"
+			},
+			{
+				"LABEL": "0xb0c",
+				"TYPE": "0x41",
+				"UNK": "E8030000803F0000803F0000803F00000000000003"
+			},
+			{
+				"LABEL": "0xb22",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xb25",
+				"TYPE": "0x41",
+				"UNK": "E8030000803F0000803F0000803F0000803FF40103"
+			},
+			{
+				"LABEL": "0xb3b",
+				"TYPE": "0x10",
+				"UNK": [
+					450
+				]
+			},
+			{
+				"LABEL": "0xb3e",
+				"TYPE": "0x27",
+				"CONTROL": 14,
+				"UNK": "FDFF67"
+			},
+			{
+				"LABEL": "0xb43",
+				"TYPE": "0x10",
+				"UNK": [
+					2000
+				]
+			},
+			{
+				"LABEL": "0xb46",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "F4010000803F"
+			},
+			{
+				"LABEL": "0xb4e",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0xb52",
+				"TYPE": "0x73",
+				"CONTROL": 0
+			},
+			{
+				"LABEL": "0xb54",
+				"TYPE": "0x73",
+				"CONTROL": 2,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0xb58",
+				"TYPE": "0x73",
+				"CONTROL": 5,
+				"UNK": "0000A041"
+			},
+			{
+				"LABEL": "0xb5e",
+				"TYPE": "0x73",
+				"CONTROL": 6,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0xb62",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03B81E3542000060406666E6BE0000"
+			},
+			{
+				"LABEL": "0xb73",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "039A99593F8FC26D430000A040000001"
+			},
+			{
+				"LABEL": "0xb85",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "039A9999400000"
+			},
+			{
+				"LABEL": "0xb8e",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03000018420000"
+			},
+			{
+				"LABEL": "0xb97",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "039A99593F717D92430000A040A00F01"
+			},
+			{
+				"LABEL": "0xba9",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0xbac",
+				"TYPE": "0x2F",
+				"UNK": "00F002",
+				"STRINGS": [
+					"AniEv3010"
+				]
+			},
+			{
+				"LABEL": "0xbba",
+				"TYPE": "0x10",
+				"UNK": [
+					80
+				]
+			},
+			{
+				"LABEL": "0xbbd",
+				"TYPE": "0x2F",
+				"UNK": "01F002",
+				"STRINGS": [
+					"AniEv3010"
+				]
+			},
+			{
+				"LABEL": "0xbcb",
+				"TYPE": "0x10",
+				"UNK": [
+					80
+				]
+			},
+			{
+				"LABEL": "0xbce",
+				"TYPE": "0x2F",
+				"UNK": "02F002",
+				"STRINGS": [
+					"AniEv3010"
+				]
+			},
+			{
+				"LABEL": "0xbdc",
+				"TYPE": "0x10",
+				"UNK": [
+					80
+				]
+			},
+			{
+				"LABEL": "0xbdf",
+				"TYPE": "0x2F",
+				"UNK": "03F002",
+				"STRINGS": [
+					"AniEv3010"
+				]
+			},
+			{
+				"LABEL": "0xbed",
+				"TYPE": "0x10",
+				"UNK": [
+					80
+				]
+			},
+			{
+				"LABEL": "0xbf0",
+				"TYPE": "0x2F",
+				"UNK": "04F002",
+				"STRINGS": [
+					"AniEv3010"
+				]
+			},
+			{
+				"LABEL": "0xbfe",
+				"TYPE": "0x10",
+				"UNK": [
+					80
+				]
+			},
+			{
+				"LABEL": "0xc01",
+				"TYPE": "0x2F",
+				"UNK": "05F002",
+				"STRINGS": [
+					"AniEv3010"
+				]
+			},
+			{
+				"LABEL": "0xc0f",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0xc13",
+				"TYPE": "0x2D",
+				"CONTROL": 7,
+				"UNK0": "FF00"
+			},
+			{
+				"LABEL": "0xc17",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xc1a",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0xc22",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0xc26",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03EC514742CDCC84408FC2F53D0000"
+			},
+			{
+				"LABEL": "0xc37",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03D7A3CC4114EE814300000000000001"
+			},
+			{
+				"LABEL": "0xc49",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "03000040400000"
+			},
+			{
+				"LABEL": "0xc52",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03000018420000"
+			},
+			{
+				"LABEL": "0xc5b",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "036666A640E803"
+			},
+			{
+				"LABEL": "0xc64",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0xc68",
+				"TYPE": "0x53",
+				"UNK": "00020001000000003F"
+			},
+			{
+				"LABEL": "0xc72",
+				"TYPE": "0x22",
+				"UNK0": [
+					1000
+				],
+				"STRINGS": [
+					"BTL_CRAFT00"
+				],
+				"UNK1": "0000000000CDCC4C3E000080BF000080BF000080BF"
+			},
+			{
+				"LABEL": "0xc96",
+				"TYPE": "0x10",
+				"UNK": [
+					750
+				]
+			},
+			{
+				"LABEL": "0xc99",
+				"TYPE": "0x31",
+				"CONTROL": 0,
+				"UNK": "7D100000803F000000000000000080BF0000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xcc0",
+				"TYPE": "0x31",
+				"CONTROL": 0,
+				"UNK": "A5106666663F000000000000000040C00000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xce7",
+				"TYPE": "0x10",
+				"UNK": [
+					750
+				]
+			},
+			{
+				"LABEL": "0xcea",
+				"TYPE": "0x31",
+				"CONTROL": 0,
+				"UNK": "A510CDCC4C3F000000000000000040C00000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xd11",
+				"TYPE": "0x10",
+				"UNK": [
+					1200
+				]
+			},
+			{
+				"LABEL": "0xd14",
+				"TYPE": "0xC",
+				"UNK": [
+					288
+				]
+			},
+			{
+				"LABEL": "0xd17",
+				"TYPE": "0x21",
+				"CONTROL": 0,
+				"UNK": "010000000000"
+			},
+			{
+				"LABEL": "0xd1f",
+				"TYPE": "RETURN"
+			}
+		],
+		"AniBtlCraft00": [
+			{
+				"LABEL": "0xd20",
+				"TYPE": "0x27",
+				"CONTROL": 10,
+				"UNK": "FEFF88",
+				"STRINGS": [
+					"battle/mon10800.eff"
+				]
+			},
+			{
+				"LABEL": "0xd39",
+				"TYPE": "0x22",
+				"UNK0": [
+					-2
+				],
+				"STRINGS": [
+					"BTL_CRAFT00"
+				],
+				"UNK1": "0000000000CDCC4C3E000080BF000080BF000080BF"
+			},
+			{
+				"LABEL": "0xd5d",
+				"TYPE": "0x10",
+				"UNK": [
+					750
+				]
+			},
+			{
+				"LABEL": "0xd60",
+				"TYPE": "0x27",
+				"CONTROL": 12,
+				"UNK0": "FEFF8800FEFF0301",
+				"STRINGS": [
+					"NODE_EFF"
+				],
+				"UNK1": "000000000000000000000000000000000000B442000000000000803F0000803F0000A03FFF"
+			},
+			{
+				"LABEL": "0xd98",
+				"TYPE": "0x31",
+				"CONTROL": 0,
+				"UNK": "7D100000803F000000000000000080BF0000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xdbf",
+				"TYPE": "0x31",
+				"CONTROL": 0,
+				"UNK": "A5106666663F000000000000000040C00000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xde6",
+				"TYPE": "0x10",
+				"UNK": [
+					750
+				]
+			},
+			{
+				"LABEL": "0xde9",
+				"TYPE": "0x31",
+				"CONTROL": 0,
+				"UNK": "A510CDCC4C3F000000000000000040C00000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0xe10",
+				"TYPE": "0x27",
+				"CONTROL": 12,
+				"UNK0": "FEFF8800FEFF0301",
+				"STRINGS": [
+					"NODE_EFF"
+				],
+				"UNK1": "000000000000000000000000000000000000B442000000000000803F0000803F0000A03FFF"
+			},
+			{
+				"LABEL": "0xe48",
+				"TYPE": "0x23",
+				"UNK": "FEFF00000000"
+			},
+			{
+				"LABEL": "0xe4f",
+				"TYPE": "0x22",
+				"UNK0": [
+					-2
+				],
+				"STRINGS": [
+					"BTL_WAIT"
+				],
+				"UNK1": "0100000000CDCC4C3E000080BF000080BF000080BF"
+			},
+			{
+				"LABEL": "0xe70",
+				"TYPE": "0x27",
+				"CONTROL": 17,
+				"UNK": "FEFF88"
+			},
+			{
+				"LABEL": "0xe75",
+				"TYPE": "0x27",
+				"CONTROL": 11,
+				"UNK": "FEFF88"
+			},
+			{
+				"LABEL": "0xe7a",
+				"TYPE": "RETURN"
+			}
+		],
+		"SETPOS_C05E12S01": [
+			{
+				"LABEL": "0xe7c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 35,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0xe8b",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0xf41"
+			},
+			{
+				"LABEL": "0xe96",
+				"TYPE": "GOTO6",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							1
+						]
+					}
+				],
+				"TO_LABELS": [
+					{
+						"UNK": [
+							0
+						],
+						"TO_LABEL": "0xebd"
+					},
+					{
+						"UNK": [
+							1
+						],
+						"TO_LABEL": "0xed5"
+					},
+					{
+						"UNK": [
+							2
+						],
+						"TO_LABEL": "0xeed"
+					},
+					{
+						"UNK": [
+							3
+						],
+						"TO_LABEL": "0xf05"
+					},
+					{
+						"UNK": [
+							4
+						],
+						"TO_LABEL": "0xf1d"
+					}
+				],
+				"TO_LABEL": "0xf35"
+			},
+			{
+				"LABEL": "0xebd",
+				"TYPE": "0x2E",
+				"UNK": "FEFFCDCC3242000000400000C03F0000B442"
+			},
+			{
+				"LABEL": "0xed0",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xf35"
+			},
+			{
+				"LABEL": "0xed5",
+				"TYPE": "0x2E",
+				"UNK": "FEFFCDCC2E42000000406666663F0000B442"
+			},
+			{
+				"LABEL": "0xee8",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xf35"
+			},
+			{
+				"LABEL": "0xeed",
+				"TYPE": "0x2E",
+				"UNK": "FEFFCDCC3242000000400000C0BF0000B442"
+			},
+			{
+				"LABEL": "0xf00",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xf35"
+			},
+			{
+				"LABEL": "0xf05",
+				"TYPE": "0x2E",
+				"UNK": "FEFFCDCC2E4200000040666666BF0000B442"
+			},
+			{
+				"LABEL": "0xf18",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xf35"
+			},
+			{
+				"LABEL": "0xf1d",
+				"TYPE": "0x2E",
+				"UNK": "FEFFCDCC2A4200000040000000000000B442"
+			},
+			{
+				"LABEL": "0xf30",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0xf35"
+			},
+			{
+				"LABEL": "0xf35",
+				"TYPE": "0x12",
+				"UNK": [
+					1
+				],
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0xf41",
+				"TYPE": "0x12",
+				"UNK": [
+					0
+				],
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0xf4d",
+				"TYPE": "RETURN"
+			}
+		],
+		"EV_C05E12S01": [
+			{
+				"LABEL": "0xf50",
+				"TYPE": "0x16",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xf52",
+				"TYPE": "0x39",
+				"CONTROL": 0,
+				"UNK": "00000000803F"
+			},
+			{
+				"LABEL": "0xf5a",
+				"TYPE": "0x39",
+				"CONTROL": 5,
+				"UNK": "2C01"
+			},
+			{
+				"LABEL": "0xf5e",
+				"TYPE": "0x66",
+				"UNK": "000000002C01"
+			},
+			{
+				"LABEL": "0xf65",
+				"TYPE": "0x3F",
+				"CONTROL": 7
+			},
+			{
+				"LABEL": "0xf67",
+				"TYPE": "0x2B",
+				"UNK": "E80301000000"
+			},
+			{
+				"LABEL": "0xf6e",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"EV_Start_Party"
+				]
+			},
+			{
+				"LABEL": "0xf7f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xf82",
+				"TYPE": "0x2E",
+				"UNK": "00009A99354200000040000000000000B442"
+			},
+			{
+				"LABEL": "0xf95",
+				"TYPE": "0x12",
+				"UNK": [
+					0
+				],
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0xf9e",
+				"TYPE": "0x12",
+				"UNK": [
+					1
+				],
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0xfa7",
+				"TYPE": "0x14",
+				"UNK": "00F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S01"
+				]
+			},
+			{
+				"LABEL": "0xfbd",
+				"TYPE": "0x42",
+				"UNK": "00F003"
+			},
+			{
+				"LABEL": "0xfc1",
+				"TYPE": "0x14",
+				"UNK": "01F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S01"
+				]
+			},
+			{
+				"LABEL": "0xfd7",
+				"TYPE": "0x42",
+				"UNK": "01F003"
+			},
+			{
+				"LABEL": "0xfdb",
+				"TYPE": "0x14",
+				"UNK": "02F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S01"
+				]
+			},
+			{
+				"LABEL": "0xff1",
+				"TYPE": "0x42",
+				"UNK": "02F003"
+			},
+			{
+				"LABEL": "0xff5",
+				"TYPE": "0x14",
+				"UNK": "03F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S01"
+				]
+			},
+			{
+				"LABEL": "0x100b",
+				"TYPE": "0x42",
+				"UNK": "03F003"
+			},
+			{
+				"LABEL": "0x100f",
+				"TYPE": "0x14",
+				"UNK": "04F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S01"
+				]
+			},
+			{
+				"LABEL": "0x1025",
+				"TYPE": "0x42",
+				"UNK": "04F003"
+			},
+			{
+				"LABEL": "0x1029",
+				"TYPE": "0x14",
+				"UNK": "05F0030B",
+				"STRINGS": [
+					"SETPOS_C05E12S01"
+				]
+			},
+			{
+				"LABEL": "0x103f",
+				"TYPE": "0x42",
+				"UNK": "05F003"
+			},
+			{
+				"LABEL": "0x1043",
+				"TYPE": "0x2B",
+				"UNK": "00F010000000"
+			},
+			{
+				"LABEL": "0x104a",
+				"TYPE": "0x2F",
+				"UNK": "00F002",
+				"STRINGS": [
+					"ShowEquip"
+				]
+			},
+			{
+				"LABEL": "0x1058",
+				"TYPE": "0x2B",
+				"UNK": "01F010000000"
+			},
+			{
+				"LABEL": "0x105f",
+				"TYPE": "0x2F",
+				"UNK": "01F002",
+				"STRINGS": [
+					"ShowEquip"
+				]
+			},
+			{
+				"LABEL": "0x106d",
+				"TYPE": "0x2B",
+				"UNK": "02F010000000"
+			},
+			{
+				"LABEL": "0x1074",
+				"TYPE": "0x2F",
+				"UNK": "02F002",
+				"STRINGS": [
+					"ShowEquip"
+				]
+			},
+			{
+				"LABEL": "0x1082",
+				"TYPE": "0x2B",
+				"UNK": "03F010000000"
+			},
+			{
+				"LABEL": "0x1089",
+				"TYPE": "0x2F",
+				"UNK": "03F002",
+				"STRINGS": [
+					"ShowEquip"
+				]
+			},
+			{
+				"LABEL": "0x1097",
+				"TYPE": "0x2B",
+				"UNK": "04F010000000"
+			},
+			{
+				"LABEL": "0x109e",
+				"TYPE": "0x2F",
+				"UNK": "04F002",
+				"STRINGS": [
+					"ShowEquip"
+				]
+			},
+			{
+				"LABEL": "0x10ac",
+				"TYPE": "0x2B",
+				"UNK": "05F010000000"
+			},
+			{
+				"LABEL": "0x10b3",
+				"TYPE": "0x2F",
+				"UNK": "05F002",
+				"STRINGS": [
+					"ShowEquip"
+				]
+			},
+			{
+				"LABEL": "0x10c1",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x10c4",
+				"TYPE": "0x2F",
+				"UNK": "00F002",
+				"STRINGS": [
+					"AniWait"
+				]
+			},
+			{
+				"LABEL": "0x10d0",
+				"TYPE": "0x2F",
+				"UNK": "01F002",
+				"STRINGS": [
+					"AniWait"
+				]
+			},
+			{
+				"LABEL": "0x10dc",
+				"TYPE": "0x2F",
+				"UNK": "02F002",
+				"STRINGS": [
+					"AniWait"
+				]
+			},
+			{
+				"LABEL": "0x10e8",
+				"TYPE": "0x2F",
+				"UNK": "03F002",
+				"STRINGS": [
+					"AniWait"
+				]
+			},
+			{
+				"LABEL": "0x10f4",
+				"TYPE": "0x2F",
+				"UNK": "04F002",
+				"STRINGS": [
+					"AniWait"
+				]
+			},
+			{
+				"LABEL": "0x1100",
+				"TYPE": "0x2F",
+				"UNK": "05F002",
+				"STRINGS": [
+					"AniWait"
+				]
+			},
+			{
+				"LABEL": "0x110c",
+				"TYPE": "0x73",
+				"CONTROL": 0
+			},
+			{
+				"LABEL": "0x110e",
+				"TYPE": "0x73",
+				"CONTROL": 2,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x1112",
+				"TYPE": "0x73",
+				"CONTROL": 5,
+				"UNK": "0000A041"
+			},
+			{
+				"LABEL": "0x1118",
+				"TYPE": "0x73",
+				"CONTROL": 6,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x111c",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "0314AE314233335340000080BE0000"
+			},
+			{
+				"LABEL": "0x112d",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "030000C040A4B05E4300000000000001"
+			},
+			{
+				"LABEL": "0x113f",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "03000080400000"
+			},
+			{
+				"LABEL": "0x1148",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "0366660A420000"
+			},
+			{
+				"LABEL": "0x1151",
+				"TYPE": "0x39",
+				"CONTROL": 100,
+				"UNK": "E8030000803F"
+			},
+			{
+				"LABEL": "0x1159",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x115d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[1]#MA"
+				]
+			},
+			{
+				"LABEL": "0x116a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x116d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#KWhew... Glad that's over.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x118d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x118e",
+				"TYPE": "0x2F",
+				"UNK": "00F002",
+				"STRINGS": [
+					"SubAttackEndEV"
+				]
+			},
+			{
+				"LABEL": "0x11a1",
+				"TYPE": "0x2F",
+				"UNK": "01F002",
+				"STRINGS": [
+					"SubAttackEndEV"
+				]
+			},
+			{
+				"LABEL": "0x11b4",
+				"TYPE": "0x2F",
+				"UNK": "02F002",
+				"STRINGS": [
+					"SubAttackEndEV"
+				]
+			},
+			{
+				"LABEL": "0x11c7",
+				"TYPE": "0x2F",
+				"UNK": "03F002",
+				"STRINGS": [
+					"SubAttackEndEV"
+				]
+			},
+			{
+				"LABEL": "0x11da",
+				"TYPE": "0x2F",
+				"UNK": "04F002",
+				"STRINGS": [
+					"SubAttackEndEV"
+				]
+			},
+			{
+				"LABEL": "0x11ed",
+				"TYPE": "0x2F",
+				"UNK": "05F002",
+				"STRINGS": [
+					"SubAttackEndEV"
+				]
+			},
+			{
+				"LABEL": "0x1200",
+				"TYPE": "0x55",
+				"UNK": "00F002",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1205",
+				"TYPE": "0x55",
+				"UNK": "01F002",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x120a",
+				"TYPE": "0x55",
+				"UNK": "02F002",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x120f",
+				"TYPE": "0x55",
+				"UNK": "03F002",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1214",
+				"TYPE": "0x55",
+				"UNK": "04F002",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x1219",
+				"TYPE": "0x55",
+				"UNK": "05F002",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x121e",
+				"TYPE": "0x33",
+				"UNK": "0000000087430000204100"
+			},
+			{
+				"LABEL": "0x122a",
+				"TYPE": "0x35",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x122d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1239",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x1255"
+			},
+			{
+				"LABEL": "0x1244",
+				"TYPE": "0x34",
+				"NAME_ID": 61440,
+				"UNK": "00000000204100"
+			},
+			{
+				"LABEL": "0x124e",
+				"TYPE": "0x3C",
+				"NAME_ID": -4096,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1255",
+				"TYPE": "0x10",
+				"UNK": [
+					50
+				]
+			},
+			{
+				"LABEL": "0x1258",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61441
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1264",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x1280"
+			},
+			{
+				"LABEL": "0x126f",
+				"TYPE": "0x34",
+				"NAME_ID": 61441,
+				"UNK": "00000000204100"
+			},
+			{
+				"LABEL": "0x1279",
+				"TYPE": "0x3C",
+				"NAME_ID": -4095,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1280",
+				"TYPE": "0x10",
+				"UNK": [
+					50
+				]
+			},
+			{
+				"LABEL": "0x1283",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61442
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x128f",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x12ab"
+			},
+			{
+				"LABEL": "0x129a",
+				"TYPE": "0x34",
+				"NAME_ID": 61442,
+				"UNK": "00000000204100"
+			},
+			{
+				"LABEL": "0x12a4",
+				"TYPE": "0x3C",
+				"NAME_ID": -4094,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x12ab",
+				"TYPE": "0x10",
+				"UNK": [
+					50
+				]
+			},
+			{
+				"LABEL": "0x12ae",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61443
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x12ba",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x12d6"
+			},
+			{
+				"LABEL": "0x12c5",
+				"TYPE": "0x34",
+				"NAME_ID": 61443,
+				"UNK": "00000000204100"
+			},
+			{
+				"LABEL": "0x12cf",
+				"TYPE": "0x3C",
+				"NAME_ID": -4093,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x12d6",
+				"TYPE": "0x10",
+				"UNK": [
+					50
+				]
+			},
+			{
+				"LABEL": "0x12d9",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61444
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x12e5",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x1301"
+			},
+			{
+				"LABEL": "0x12f0",
+				"TYPE": "0x34",
+				"NAME_ID": 61444,
+				"UNK": "00000000204100"
+			},
+			{
+				"LABEL": "0x12fa",
+				"TYPE": "0x3C",
+				"NAME_ID": -4092,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1301",
+				"TYPE": "0x10",
+				"UNK": [
+					50
+				]
+			},
+			{
+				"LABEL": "0x1304",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61445
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1310",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x132c"
+			},
+			{
+				"LABEL": "0x131b",
+				"TYPE": "0x34",
+				"NAME_ID": 61445,
+				"UNK": "00000000204100"
+			},
+			{
+				"LABEL": "0x1325",
+				"TYPE": "0x3C",
+				"NAME_ID": -4091,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x132c",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x132f",
+				"TYPE": "0x2F",
+				"UNK": "0A0000",
+				"STRINGS": [
+					"AniEv0003"
+				]
+			},
+			{
+				"LABEL": "0x133d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 10,
+				"STRINGS": [
+					"#E[9]#MA"
+				]
+			},
+			{
+				"LABEL": "0x134a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x134d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 10,
+				"DIALOG": {
+					"STRINGS": [
+						"#KMan, I wasn't expecting something like",
+						"NEW_LINE",
+						"that to just pop up out of nowhere.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E0#M0But I didn't have any trouble linking",
+						"NEW_LINE",
+						"with my ARCUS, so I'd call this field",
+						"NEW_LINE",
+						"test a rousing success.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1409",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x140a",
+				"TYPE": "0x2F",
+				"UNK": "090000",
+				"STRINGS": [
+					"AniEv0016"
+				]
+			},
+			{
+				"LABEL": "0x1418",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 9,
+				"STRINGS": [
+					"#EI#MA"
+				]
+			},
+			{
+				"LABEL": "0x1423",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1426",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 9,
+				"DIALOG": {
+					"STRINGS": [
+						"#KMaybe it's 'cause I've got Lammy,",
+						"NEW_LINE",
+						"but it didn't seem all THAT tough.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1471",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1472",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1474",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0200"
+						}
+					}
+				],
+				"TO_LABEL": "0x14de"
+			},
+			{
+				"LABEL": "0x147d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 2,
+				"STRINGS": [
+					"#E0#M4"
+				]
+			},
+			{
+				"LABEL": "0x1488",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x148b",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 2,
+				"DIALOG": {
+					"STRINGS": [
+						"#KWell, having you two along was definitely",
+						"NEW_LINE",
+						"a big help, that's for sure.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x14d8",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x14d9",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x16b2"
+			},
+			{
+				"LABEL": "0x14de",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x14e0",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0800"
+						}
+					}
+				],
+				"TO_LABEL": "0x1540"
+			},
+			{
+				"LABEL": "0x14e9",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 8,
+				"STRINGS": [
+					"#E0#M4"
+				]
+			},
+			{
+				"LABEL": "0x14f4",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x14f7",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 8,
+				"DIALOG": {
+					"STRINGS": [
+						"#KHeh. Your assistance was invaluable.",
+						"NEW_LINE",
+						"Glad to have you along.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x153a",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x153b",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x16b2"
+			},
+			{
+				"LABEL": "0x1540",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1542",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0100"
+						}
+					}
+				],
+				"TO_LABEL": "0x15af"
+			},
+			{
+				"LABEL": "0x154b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E0#M4"
+				]
+			},
+			{
+				"LABEL": "0x1556",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1559",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#KWell, you both proved pretty reliable,",
+						"NEW_LINE",
+						"and that's what counts in the end.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x15a9",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x15aa",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x16b2"
+			},
+			{
+				"LABEL": "0x15af",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x15b1",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0500"
+						}
+					}
+				],
+				"TO_LABEL": "0x15f5"
+			},
+			{
+				"LABEL": "0x15ba",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 5,
+				"STRINGS": [
+					"#E0#M4"
+				]
+			},
+			{
+				"LABEL": "0x15c5",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x15c8",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 5,
+				"DIALOG": {
+					"STRINGS": [
+						"#KYour help was certainly welcome.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x15ef",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x15f0",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x16b2"
+			},
+			{
+				"LABEL": "0x15f5",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x15f7",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0400"
+						}
+					}
+				],
+				"TO_LABEL": "0x165d"
+			},
+			{
+				"LABEL": "0x1600",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 4,
+				"STRINGS": [
+					"#E4#M4"
+				]
+			},
+			{
+				"LABEL": "0x160b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x160e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 4,
+				"DIALOG": {
+					"STRINGS": [
+						"#KWell, I suppose the two of you did",
+						"NEW_LINE",
+						"prove to be reliable teammates.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1657",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1658",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x16b2"
+			},
+			{
+				"LABEL": "0x165d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x165f",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0600"
+						}
+					}
+				],
+				"TO_LABEL": "0x16b2"
+			},
+			{
+				"LABEL": "0x1668",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 6,
+				"STRINGS": [
+					"#E2#MA"
+				]
+			},
+			{
+				"LABEL": "0x1673",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1676",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 6,
+				"DIALOG": {
+					"STRINGS": [
+						"#KI suppose you did both make a",
+						"NEW_LINE",
+						"passable contribution.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x16b1",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x16b2",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x16b4",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0300"
+						}
+					}
+				],
+				"TO_LABEL": "0x177d"
+			},
+			{
+				"LABEL": "0x16bd",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 3,
+				"STRINGS": [
+					"#E2#MA"
+				]
+			},
+			{
+				"LABEL": "0x16c8",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x16cb",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 3,
+				"DIALOG": {
+					"STRINGS": [
+						"#KStill, it hasn't escaped my notice",
+						"NEW_LINE",
+						"that each floor's guardian seems",
+						"NEW_LINE",
+						"more powerful than the last.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"We'll need to be properly equipped",
+						"NEW_LINE",
+						"if we intend to venture farther.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1777",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1778",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1b40"
+			},
+			{
+				"LABEL": "0x177d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x177f",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0700"
+						}
+					}
+				],
+				"TO_LABEL": "0x1832"
+			},
+			{
+				"LABEL": "0x1788",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 7,
+				"STRINGS": [
+					"#E2#MA"
+				]
+			},
+			{
+				"LABEL": "0x1793",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1796",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 7,
+				"DIALOG": {
+					"STRINGS": [
+						"#KStill, it seems like every floor's",
+						"NEW_LINE",
+						"guardian is stronger than the last.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"We're gonna need to be careful if we",
+						"NEW_LINE",
+						"want to keep pushing forward here.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x182c",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x182d",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1b40"
+			},
+			{
+				"LABEL": "0x1832",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1834",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0600"
+						}
+					}
+				],
+				"TO_LABEL": "0x18fa"
+			},
+			{
+				"LABEL": "0x183d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 6,
+				"STRINGS": [
+					"#E2#MA"
+				]
+			},
+			{
+				"LABEL": "0x1848",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x184b",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 6,
+				"DIALOG": {
+					"STRINGS": [
+						"#KStill, the guardian of each successive",
+						"NEW_LINE",
+						"floor seems more powerful than the",
+						"NEW_LINE",
+						"one before.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"We'll need to exercise caution if we",
+						"NEW_LINE",
+						"intend to continue our investigations.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x18f4",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x18f5",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1b40"
+			},
+			{
+				"LABEL": "0x18fa",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x18fc",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0400"
+						}
+					}
+				],
+				"TO_LABEL": "0x19c5"
+			},
+			{
+				"LABEL": "0x1905",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 4,
+				"STRINGS": [
+					"#E2#MA"
+				]
+			},
+			{
+				"LABEL": "0x1910",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1913",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 4,
+				"DIALOG": {
+					"STRINGS": [
+						"#KStill, you've surely noticed how every",
+						"NEW_LINE",
+						"floor coughs up a stronger beast than",
+						"NEW_LINE",
+						"the last.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"We'll need to make sure we're prepared",
+						"NEW_LINE",
+						"if we want to investigate any farther.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x19bf",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x19c0",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1b40"
+			},
+			{
+				"LABEL": "0x19c5",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x19c7",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0500"
+						}
+					}
+				],
+				"TO_LABEL": "0x1a7b"
+			},
+			{
+				"LABEL": "0x19d0",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 5,
+				"STRINGS": [
+					"#E2#MA"
+				]
+			},
+			{
+				"LABEL": "0x19db",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x19de",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 5,
+				"DIALOG": {
+					"STRINGS": [
+						"#KStill, the guardian of each floor always",
+						"NEW_LINE",
+						"seems stronger than the ones before.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"We'll need to be well prepared if we plan",
+						"NEW_LINE",
+						"to keep exploring here.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1a75",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1a76",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1b40"
+			},
+			{
+				"LABEL": "0x1a7b",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1a7d",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0100"
+						}
+					}
+				],
+				"TO_LABEL": "0x1b40"
+			},
+			{
+				"LABEL": "0x1a86",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1,
+				"STRINGS": [
+					"#E2#MA"
+				]
+			},
+			{
+				"LABEL": "0x1a91",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1a94",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1,
+				"DIALOG": {
+					"STRINGS": [
+						"#KStill, every new floor we explore has",
+						"NEW_LINE",
+						"a stronger monster at the end than",
+						"NEW_LINE",
+						"the ones before.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"We'll need to be careful if if we're",
+						"NEW_LINE",
+						"going to keep poking around in here.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1b3f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1b40",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E0#MA"
+				]
+			},
+			{
+				"LABEL": "0x1b4b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1b4e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#KOh, I agree.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E[3]#MAStill...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1b73",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1b74",
+				"TYPE": "0x3A",
+				"UNK": "0000089A99193E0000"
+			},
+			{
+				"LABEL": "0x1b7e",
+				"TYPE": "0x10",
+				"UNK": [
+					1500
+				]
+			},
+			{
+				"LABEL": "0x1b81",
+				"TYPE": "0x3A",
+				"UNK": "0000FF000000000000"
+			},
+			{
+				"LABEL": "0x1b8b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E2#MA"
+				]
+			},
+			{
+				"LABEL": "0x1b96",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1b99",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#K...there's no tremor this time.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1bbf",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1bc0",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1bcc",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x1be8"
+			},
+			{
+				"LABEL": "0x1bd7",
+				"TYPE": "0x3C",
+				"NAME_ID": -4096,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1bde",
+				"TYPE": "0x3A",
+				"UNK": "00F00D9A99193E0000"
+			},
+			{
+				"LABEL": "0x1be8",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61441
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1bf4",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x1c10"
+			},
+			{
+				"LABEL": "0x1bff",
+				"TYPE": "0x3C",
+				"NAME_ID": -4095,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1c06",
+				"TYPE": "0x3A",
+				"UNK": "01F00D9A99193E0000"
+			},
+			{
+				"LABEL": "0x1c10",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61442
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1c1c",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x1c38"
+			},
+			{
+				"LABEL": "0x1c27",
+				"TYPE": "0x3C",
+				"NAME_ID": -4094,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1c2e",
+				"TYPE": "0x3A",
+				"UNK": "02F00D9A99193E0000"
+			},
+			{
+				"LABEL": "0x1c38",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61443
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1c44",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x1c60"
+			},
+			{
+				"LABEL": "0x1c4f",
+				"TYPE": "0x3C",
+				"NAME_ID": -4093,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1c56",
+				"TYPE": "0x3A",
+				"UNK": "03F00D9A99193E0000"
+			},
+			{
+				"LABEL": "0x1c60",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61444
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1c6c",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x1c88"
+			},
+			{
+				"LABEL": "0x1c77",
+				"TYPE": "0x3C",
+				"NAME_ID": -4092,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1c7e",
+				"TYPE": "0x3A",
+				"UNK": "04F00D9A99193E0000"
+			},
+			{
+				"LABEL": "0x1c88",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61445
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							61440
+						]
+					},
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1c94",
+							"TYPE": "0x3F",
+							"CONTROL": 9,
+							"UNK": "0000"
+						}
+					},
+					{
+						"CONTROL": 12
+					},
+					{
+						"CONTROL": 3
+					}
+				],
+				"TO_LABEL": "0x1cb0"
+			},
+			{
+				"LABEL": "0x1c9f",
+				"TYPE": "0x3C",
+				"NAME_ID": -4091,
+				"CONTROLS": [
+					0,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1ca6",
+				"TYPE": "0x3A",
+				"UNK": "05F00D9A99193E0000"
+			},
+			{
+				"LABEL": "0x1cb0",
+				"TYPE": "0x10",
+				"UNK": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x1cb3",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 9,
+				"STRINGS": [
+					"#E[C]#MA"
+				]
+			},
+			{
+				"LABEL": "0x1cc0",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1cc3",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 9,
+				"DIALOG": {
+					"STRINGS": [
+						"#KHuh? What tremor?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1cdb",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1cdc",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1cde",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0200"
+						}
+					}
+				],
+				"TO_LABEL": "0x1d6c"
+			},
+			{
+				"LABEL": "0x1ce7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 2,
+				"STRINGS": [
+					"#E[C]#MA"
+				]
+			},
+			{
+				"LABEL": "0x1cf4",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1cf7",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 2,
+				"DIALOG": {
+					"STRINGS": [
+						"#KYeah...now that you mention it, it was",
+						"NEW_LINE",
+						"after we heard that tremor that the",
+						"NEW_LINE",
+						"red door appeared last month.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1d66",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1d67",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1e45"
+			},
+			{
+				"LABEL": "0x1d6c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x1d6e",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0800"
+						}
+					}
+				],
+				"TO_LABEL": "0x1de2"
+			},
+			{
+				"LABEL": "0x1d77",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 8,
+				"STRINGS": [
+					"#E[C]#MA"
+				]
+			},
+			{
+				"LABEL": "0x1d84",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1d87",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 8,
+				"DIALOG": {
+					"STRINGS": [
+						"#KI seem to recall that strange red door",
+						"NEW_LINE",
+						"showing up after the tremor last month.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1ddc",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1ddd",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x1e45"
+			},
+			{
+				"LABEL": "0x1de2",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E[1]#MA"
+				]
+			},
+			{
+				"LABEL": "0x1def",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1df2",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#KYeah. There was a tremor down here",
+						"NEW_LINE",
+						"last time, then that red door showed up.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1e44",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1e45",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 10,
+				"STRINGS": [
+					"#E[C]#MA"
+				]
+			},
+			{
+				"LABEL": "0x1e52",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1e55",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 10,
+				"DIALOG": {
+					"STRINGS": [
+						"#KHuh, really?",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#EI#MADoesn't seem like anything's",
+						"NEW_LINE",
+						"happening this time, though.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1ea9",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1eaa",
+				"TYPE": "0x2F",
+				"UNK": "090000",
+				"STRINGS": [
+					"AniEv0025"
+				]
+			},
+			{
+				"LABEL": "0x1eb8",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 9,
+				"STRINGS": [
+					"#E[9]#MA"
+				]
+			},
+			{
+				"LABEL": "0x1ec5",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1ec8",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 9,
+				"DIALOG": {
+					"STRINGS": [
+						"#KWell, we're sitting here looking at",
+						"NEW_LINE",
+						"a dead end, so let's get outta here",
+						"NEW_LINE",
+						"already.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E2#MAI'm gettin' hungry!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1f3a",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1f3b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 0,
+				"STRINGS": [
+					"#E8#M9"
+				]
+			},
+			{
+				"LABEL": "0x1f46",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1f49",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 0,
+				"DIALOG": {
+					"STRINGS": [
+						"#KHaha... Yeah, it's probably evening by now.",
+						"KEY_WAIT",
+						"CLEAR_TEXT",
+						"#E2#M0Let's head out, then. Keep your eyes peeled",
+						"NEW_LINE",
+						"for anything that looks different, just in",
+						"NEW_LINE",
+						"case.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1fdf",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1fe0",
+				"TYPE": "0x39",
+				"CONTROL": 0,
+				"UNK": "E8030000803F"
+			},
+			{
+				"LABEL": "0x1fe8",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1fec",
+				"TYPE": "0x39",
+				"CONTROL": 105,
+				"UNK": "2C01"
+			},
+			{
+				"LABEL": "0x1ff0",
+				"TYPE": "0x66",
+				"UNK": "0000803F2C01"
+			},
+			{
+				"LABEL": "0x1ff7",
+				"TYPE": "0x31",
+				"CONTROL": 0,
+				"UNK": "452F0000803F000000000000000000000000FDFF00000000000000000000000000000000",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x201e",
+				"TYPE": "0x19",
+				"CONTROL": 5,
+				"UNK": "FFFFFFFFFFFFFFFF00"
+			},
+			{
+				"LABEL": "0x2029",
+				"TYPE": "TEXT18",
+				"UNK": [
+					-3
+				],
+				"DIALOG": {
+					"STRINGS": [
+						"CMD: 11",
+						"",
+						"SHOW_ALL",
+						"The exploration party's bonds have",
+						"NEW_LINE",
+						"been strengthened!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2065",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2066",
+				"TYPE": "0x1B"
+			},
+			{
+				"LABEL": "0x2067",
+				"TYPE": "0x19",
+				"CONTROL": 5,
+				"UNK": "FFFFFFFFFFFFFFFF00"
+			},
+			{
+				"LABEL": "0x2072",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x2075",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2077",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0100"
+						}
+					}
+				],
+				"TO_LABEL": "0x215b"
+			},
+			{
+				"LABEL": "0x2080",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "00000100640000000000"
+			},
+			{
+				"LABEL": "0x208c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x208e",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0200"
+						}
+					}
+				],
+				"TO_LABEL": "0x20a3"
+			},
+			{
+				"LABEL": "0x2097",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "01000200640000000000"
+			},
+			{
+				"LABEL": "0x20a3",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x20a5",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0300"
+						}
+					}
+				],
+				"TO_LABEL": "0x20ba"
+			},
+			{
+				"LABEL": "0x20ae",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "01000300640000000000"
+			},
+			{
+				"LABEL": "0x20ba",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x20bc",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0400"
+						}
+					}
+				],
+				"TO_LABEL": "0x20d1"
+			},
+			{
+				"LABEL": "0x20c5",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "01000400640000000000"
+			},
+			{
+				"LABEL": "0x20d1",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x20d3",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0500"
+						}
+					}
+				],
+				"TO_LABEL": "0x20e8"
+			},
+			{
+				"LABEL": "0x20dc",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "01000500640000000000"
+			},
+			{
+				"LABEL": "0x20e8",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x20ea",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0600"
+						}
+					}
+				],
+				"TO_LABEL": "0x20ff"
+			},
+			{
+				"LABEL": "0x20f3",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "01000600640000000000"
+			},
+			{
+				"LABEL": "0x20ff",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2101",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0700"
+						}
+					}
+				],
+				"TO_LABEL": "0x2116"
+			},
+			{
+				"LABEL": "0x210a",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "01000700640000000000"
+			},
+			{
+				"LABEL": "0x2116",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2118",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0800"
+						}
+					}
+				],
+				"TO_LABEL": "0x212d"
+			},
+			{
+				"LABEL": "0x2121",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "01000800640000000000"
+			},
+			{
+				"LABEL": "0x212d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x212f",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0900"
+						}
+					}
+				],
+				"TO_LABEL": "0x2144"
+			},
+			{
+				"LABEL": "0x2138",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "01000900640000000000"
+			},
+			{
+				"LABEL": "0x2144",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2146",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0A00"
+						}
+					}
+				],
+				"TO_LABEL": "0x215b"
+			},
+			{
+				"LABEL": "0x214f",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "01000A00640000000000"
+			},
+			{
+				"LABEL": "0x215b",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x215d",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0200"
+						}
+					}
+				],
+				"TO_LABEL": "0x222a"
+			},
+			{
+				"LABEL": "0x2166",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "00000200640000000000"
+			},
+			{
+				"LABEL": "0x2172",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2174",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0300"
+						}
+					}
+				],
+				"TO_LABEL": "0x2189"
+			},
+			{
+				"LABEL": "0x217d",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "02000300640000000000"
+			},
+			{
+				"LABEL": "0x2189",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x218b",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0400"
+						}
+					}
+				],
+				"TO_LABEL": "0x21a0"
+			},
+			{
+				"LABEL": "0x2194",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "02000400640000000000"
+			},
+			{
+				"LABEL": "0x21a0",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x21a2",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0500"
+						}
+					}
+				],
+				"TO_LABEL": "0x21b7"
+			},
+			{
+				"LABEL": "0x21ab",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "02000500640000000000"
+			},
+			{
+				"LABEL": "0x21b7",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x21b9",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0600"
+						}
+					}
+				],
+				"TO_LABEL": "0x21ce"
+			},
+			{
+				"LABEL": "0x21c2",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "02000600640000000000"
+			},
+			{
+				"LABEL": "0x21ce",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x21d0",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0700"
+						}
+					}
+				],
+				"TO_LABEL": "0x21e5"
+			},
+			{
+				"LABEL": "0x21d9",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "02000700640000000000"
+			},
+			{
+				"LABEL": "0x21e5",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x21e7",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0800"
+						}
+					}
+				],
+				"TO_LABEL": "0x21fc"
+			},
+			{
+				"LABEL": "0x21f0",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "02000800640000000000"
+			},
+			{
+				"LABEL": "0x21fc",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x21fe",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0900"
+						}
+					}
+				],
+				"TO_LABEL": "0x2213"
+			},
+			{
+				"LABEL": "0x2207",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "02000900640000000000"
+			},
+			{
+				"LABEL": "0x2213",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2215",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0A00"
+						}
+					}
+				],
+				"TO_LABEL": "0x222a"
+			},
+			{
+				"LABEL": "0x221e",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "02000A00640000000000"
+			},
+			{
+				"LABEL": "0x222a",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x222c",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0300"
+						}
+					}
+				],
+				"TO_LABEL": "0x22e2"
+			},
+			{
+				"LABEL": "0x2235",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "00000300640000000000"
+			},
+			{
+				"LABEL": "0x2241",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2243",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0400"
+						}
+					}
+				],
+				"TO_LABEL": "0x2258"
+			},
+			{
+				"LABEL": "0x224c",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "03000400640000000000"
+			},
+			{
+				"LABEL": "0x2258",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x225a",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0500"
+						}
+					}
+				],
+				"TO_LABEL": "0x226f"
+			},
+			{
+				"LABEL": "0x2263",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "03000500640000000000"
+			},
+			{
+				"LABEL": "0x226f",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2271",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0600"
+						}
+					}
+				],
+				"TO_LABEL": "0x2286"
+			},
+			{
+				"LABEL": "0x227a",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "03000600640000000000"
+			},
+			{
+				"LABEL": "0x2286",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2288",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0700"
+						}
+					}
+				],
+				"TO_LABEL": "0x229d"
+			},
+			{
+				"LABEL": "0x2291",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "03000700640000000000"
+			},
+			{
+				"LABEL": "0x229d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x229f",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0800"
+						}
+					}
+				],
+				"TO_LABEL": "0x22b4"
+			},
+			{
+				"LABEL": "0x22a8",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "03000800640000000000"
+			},
+			{
+				"LABEL": "0x22b4",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x22b6",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0900"
+						}
+					}
+				],
+				"TO_LABEL": "0x22cb"
+			},
+			{
+				"LABEL": "0x22bf",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "03000900640000000000"
+			},
+			{
+				"LABEL": "0x22cb",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x22cd",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0A00"
+						}
+					}
+				],
+				"TO_LABEL": "0x22e2"
+			},
+			{
+				"LABEL": "0x22d6",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "03000A00640000000000"
+			},
+			{
+				"LABEL": "0x22e2",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x22e4",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0400"
+						}
+					}
+				],
+				"TO_LABEL": "0x2383"
+			},
+			{
+				"LABEL": "0x22ed",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "00000400640000000000"
+			},
+			{
+				"LABEL": "0x22f9",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x22fb",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0500"
+						}
+					}
+				],
+				"TO_LABEL": "0x2310"
+			},
+			{
+				"LABEL": "0x2304",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "04000500640000000000"
+			},
+			{
+				"LABEL": "0x2310",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2312",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0600"
+						}
+					}
+				],
+				"TO_LABEL": "0x2327"
+			},
+			{
+				"LABEL": "0x231b",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "04000600640000000000"
+			},
+			{
+				"LABEL": "0x2327",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2329",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0700"
+						}
+					}
+				],
+				"TO_LABEL": "0x233e"
+			},
+			{
+				"LABEL": "0x2332",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "04000700640000000000"
+			},
+			{
+				"LABEL": "0x233e",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2340",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0800"
+						}
+					}
+				],
+				"TO_LABEL": "0x2355"
+			},
+			{
+				"LABEL": "0x2349",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "04000800640000000000"
+			},
+			{
+				"LABEL": "0x2355",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2357",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0900"
+						}
+					}
+				],
+				"TO_LABEL": "0x236c"
+			},
+			{
+				"LABEL": "0x2360",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "04000900640000000000"
+			},
+			{
+				"LABEL": "0x236c",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x236e",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0A00"
+						}
+					}
+				],
+				"TO_LABEL": "0x2383"
+			},
+			{
+				"LABEL": "0x2377",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "04000A00640000000000"
+			},
+			{
+				"LABEL": "0x2383",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2385",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0500"
+						}
+					}
+				],
+				"TO_LABEL": "0x240d"
+			},
+			{
+				"LABEL": "0x238e",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "00000500640000000000"
+			},
+			{
+				"LABEL": "0x239a",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x239c",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0600"
+						}
+					}
+				],
+				"TO_LABEL": "0x23b1"
+			},
+			{
+				"LABEL": "0x23a5",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "05000600640000000000"
+			},
+			{
+				"LABEL": "0x23b1",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x23b3",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0700"
+						}
+					}
+				],
+				"TO_LABEL": "0x23c8"
+			},
+			{
+				"LABEL": "0x23bc",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "05000700640000000000"
+			},
+			{
+				"LABEL": "0x23c8",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x23ca",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0800"
+						}
+					}
+				],
+				"TO_LABEL": "0x23df"
+			},
+			{
+				"LABEL": "0x23d3",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "05000800640000000000"
+			},
+			{
+				"LABEL": "0x23df",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x23e1",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0900"
+						}
+					}
+				],
+				"TO_LABEL": "0x23f6"
+			},
+			{
+				"LABEL": "0x23ea",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "05000900640000000000"
+			},
+			{
+				"LABEL": "0x23f6",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x23f8",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0A00"
+						}
+					}
+				],
+				"TO_LABEL": "0x240d"
+			},
+			{
+				"LABEL": "0x2401",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "05000A00640000000000"
+			},
+			{
+				"LABEL": "0x240d",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x240f",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0600"
+						}
+					}
+				],
+				"TO_LABEL": "0x2480"
+			},
+			{
+				"LABEL": "0x2418",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "00000600640000000000"
+			},
+			{
+				"LABEL": "0x2424",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2426",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0700"
+						}
+					}
+				],
+				"TO_LABEL": "0x243b"
+			},
+			{
+				"LABEL": "0x242f",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "06000700640000000000"
+			},
+			{
+				"LABEL": "0x243b",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x243d",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0800"
+						}
+					}
+				],
+				"TO_LABEL": "0x2452"
+			},
+			{
+				"LABEL": "0x2446",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "06000800640000000000"
+			},
+			{
+				"LABEL": "0x2452",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2454",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0900"
+						}
+					}
+				],
+				"TO_LABEL": "0x2469"
+			},
+			{
+				"LABEL": "0x245d",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "06000900640000000000"
+			},
+			{
+				"LABEL": "0x2469",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x246b",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0A00"
+						}
+					}
+				],
+				"TO_LABEL": "0x2480"
+			},
+			{
+				"LABEL": "0x2474",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "06000A00640000000000"
+			},
+			{
+				"LABEL": "0x2480",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2482",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0700"
+						}
+					}
+				],
+				"TO_LABEL": "0x24dc"
+			},
+			{
+				"LABEL": "0x248b",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "00000700640000000000"
+			},
+			{
+				"LABEL": "0x2497",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2499",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0800"
+						}
+					}
+				],
+				"TO_LABEL": "0x24ae"
+			},
+			{
+				"LABEL": "0x24a2",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "07000800640000000000"
+			},
+			{
+				"LABEL": "0x24ae",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x24b0",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0900"
+						}
+					}
+				],
+				"TO_LABEL": "0x24c5"
+			},
+			{
+				"LABEL": "0x24b9",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "07000900640000000000"
+			},
+			{
+				"LABEL": "0x24c5",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x24c7",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0A00"
+						}
+					}
+				],
+				"TO_LABEL": "0x24dc"
+			},
+			{
+				"LABEL": "0x24d0",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "07000A00640000000000"
+			},
+			{
+				"LABEL": "0x24dc",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x24de",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0800"
+						}
+					}
+				],
+				"TO_LABEL": "0x2521"
+			},
+			{
+				"LABEL": "0x24e7",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "00000800640000000000"
+			},
+			{
+				"LABEL": "0x24f3",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x24f5",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0900"
+						}
+					}
+				],
+				"TO_LABEL": "0x250a"
+			},
+			{
+				"LABEL": "0x24fe",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "08000900640000000000"
+			},
+			{
+				"LABEL": "0x250a",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x250c",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0A00"
+						}
+					}
+				],
+				"TO_LABEL": "0x2521"
+			},
+			{
+				"LABEL": "0x2515",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "08000A00640000000000"
+			},
+			{
+				"LABEL": "0x2521",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2523",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0900"
+						}
+					}
+				],
+				"TO_LABEL": "0x254f"
+			},
+			{
+				"LABEL": "0x252c",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "00000900640000000000"
+			},
+			{
+				"LABEL": "0x2538",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x253a",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0A00"
+						}
+					}
+				],
+				"TO_LABEL": "0x254f"
+			},
+			{
+				"LABEL": "0x2543",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "09000A00640000000000"
+			},
+			{
+				"LABEL": "0x254f",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 28,
+						"INSTRUCTION": {
+							"LABEL": "0x2551",
+							"TYPE": "0x3F",
+							"CONTROL": 5,
+							"UNK": "0A00"
+						}
+					}
+				],
+				"TO_LABEL": "0x2566"
+			},
+			{
+				"LABEL": "0x255a",
+				"TYPE": "0x5E",
+				"CONTROL": 6,
+				"UNK": "00000A00640000000000"
+			},
+			{
+				"LABEL": "0x2566",
+				"TYPE": "0x5E",
+				"CONTROL": 7,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x256a",
+				"TYPE": "0x5E",
+				"CONTROL": 9,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x256e",
+				"TYPE": "0x5E",
+				"CONTROL": 8,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2572",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x2575",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"EV_End_Party"
+				]
+			},
+			{
+				"LABEL": "0x2584",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2587",
+				"TYPE": "0x2E",
+				"UNK": "10F09A99314200000040000000000000B442"
+			},
+			{
+				"LABEL": "0x259a",
+				"TYPE": "0x3F",
+				"CONTROL": 3
+			},
+			{
+				"LABEL": "0x259c",
+				"TYPE": "0xC",
+				"UNK": [
+					3080
+				]
+			},
+			{
+				"LABEL": "0x259f",
+				"TYPE": "0xC",
+				"UNK": [
+					580
+				]
+			},
+			{
+				"LABEL": "0x25a2",
+				"TYPE": "0x67",
+				"CONTROLS": [
+					77,
+					1
+				],
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x25a8",
+				"TYPE": "0xE",
+				"UNK": "00080000"
+			},
+			{
+				"LABEL": "0x25ad",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					11
+				],
+				"STRINGS": [
+					"Init_Replay"
+				]
+			},
+			{
+				"LABEL": "0x25bb",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x25be",
+				"TYPE": "0xF",
+				"UNK": [
+					2048
+				]
+			},
+			{
+				"LABEL": "0x25c3",
+				"TYPE": "0x27",
+				"CONTROL": 10,
+				"UNK": "FDFFCE",
+				"STRINGS": [
+					"event/evet2006.eff"
+				]
+			},
+			{
+				"LABEL": "0x25db",
+				"TYPE": "0x27",
+				"CONTROL": 12,
+				"UNK0": "FDFFCE00FDFF0000",
+				"STRINGS": [
+					""
+				],
+				"UNK1": "00008040000000000000E0C00000000000000000000000000000803F0000803F0000803F6A"
+			},
+			{
+				"LABEL": "0x260b",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "030000C0400000594300000000000001"
+			},
+			{
+				"LABEL": "0x261d",
+				"TYPE": "0x2D",
+				"CONTROL": 8,
+				"UNK0": "010000"
+			},
+			{
+				"LABEL": "0x2622",
+				"TYPE": "0x39",
+				"CONTROL": 100,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x262a",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x262e",
+				"TYPE": "0x17",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2630",
+				"TYPE": "RETURN"
+			}
+		]
+	}
+}
