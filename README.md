@@ -33,7 +33,7 @@ Known issues:
 
 Special thanks to:
 - Graber for providing files and main technical support based on experience from older games
-- Inochi-PM for providing new logos
+- Inochi-PM for providing reedits of English logos
 - TwnKey for providing source code containing informations how scripts are build (not directly involved with this project) </br>
  https://github.com/TwnKey/SenScriptsDecompiler/blob/main/headers/CS1InstructionsSet.h
 - Ouroboros for info about dialogue opcodes (not directly involved with this project)
