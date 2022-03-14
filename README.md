@@ -22,6 +22,10 @@ Main changes:
 You can find mod in Releases. Put "atmosphere" folder to root of sdcard. Play game.</br>
 It is recommended to OC GPU to at least 460 MHz for best experience.
 
+Signs of properly installed mod:
+- Title menu descriptions are translated
+- Logo in right upper corner is translated
+- "Translation mod made by MasaGratoR & Graber" is rendered by plugin in right lower corner.
 ![SCR1](https://i.imgur.com/v4o1Epc.jpg)
 
 Known issues:
