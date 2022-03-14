@@ -30,4 +30,4 @@ Special thanks to:
 - Ouroboros for info about dialogue opcodes (not directly involved with this project)
 - thesupersonic16 for PKG unpacker (not directly involved with this project)</br>
  https://github.com/thesupersonic16/PKGTool
-- XSEED North American Translation Team for bringing the best translation possible to West. Full credits are available in Ending video. 
+- XSEED North American Translation Team for bringing the best translation possible to West (not directly involved with this project). Full credits are available in Ending video. 
