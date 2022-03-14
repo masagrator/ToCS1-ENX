@@ -1,0 +1,5114 @@
+{
+	"HEADER": {
+		"TYPE": "ABCDEF00",
+		"ID": "c0930"
+	},
+	"FUNCTIONS": {
+		"0000": [
+			{
+				"LABEL": "0x8c",
+				"TYPE": "RETURN"
+			}
+		],
+		"Init": [
+			{
+				"LABEL": "0x90",
+				"TYPE": "0xE",
+				"UNK": "08000000"
+			},
+			{
+				"LABEL": "0x95",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					11
+				],
+				"STRINGS": [
+					"Init_Replay"
+				]
+			},
+			{
+				"LABEL": "0xa3",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							258
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0xad"
+			},
+			{
+				"LABEL": "0xad",
+				"TYPE": "RETURN"
+			}
+		],
+		"Init_Replay": [
+			{
+				"LABEL": "0xb0",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							0
+						]
+					},
+					{
+						"CONTROL": 30,
+						"UNK": [
+							258
+						]
+					},
+					{
+						"CONTROL": 8
+					},
+					{
+						"CONTROL": 9
+					}
+				],
+				"TO_LABEL": "0xf4"
+			},
+			{
+				"LABEL": "0xc0",
+				"TYPE": "0xC",
+				"UNK": [
+					256
+				]
+			},
+			{
+				"LABEL": "0xc3",
+				"TYPE": "0x3F",
+				"CONTROL": 2
+			},
+			{
+				"LABEL": "0xc5",
+				"TYPE": "0x3F",
+				"CONTROL": 0,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0xc9",
+				"TYPE": "0x3F",
+				"CONTROL": 4,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0xcd",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							1
+						]
+					}
+				],
+				"TO_LABEL": "0xe1"
+			},
+			{
+				"LABEL": "0xd8",
+				"TYPE": "0x12",
+				"UNK": [
+					3
+				],
+				"TABLE": [
+					{
+						"CONTROL": 0,
+						"UNK": [
+							4
+						]
+					},
+					{
+						"CONTROL": 19
+					}
+				]
+			},
+			{
+				"LABEL": "0xe1",
+				"TYPE": "0x14",
+				"UNK": "FDFF000B",
+				"STRINGS": [
+					"EV_C04E02S01"
+				]
+			},
+			{
+				"LABEL": "0xf3",
+				"TYPE": "RETURN"
+			},
+			{
+				"LABEL": "0xf4",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							256
+						]
+					}
+				],
+				"TO_LABEL": "0x129"
+			},
+			{
+				"LABEL": "0xfd",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 35,
+						"UNK": [
+							3
+						]
+					},
+					{
+						"CONTROL": 0,
+						"UNK": [
+							4
+						]
+					},
+					{
+						"CONTROL": 2
+					}
+				],
+				"TO_LABEL": "0x129"
+			},
+			{
+				"LABEL": "0x10b",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							288
+						]
+					}
+				],
+				"TO_LABEL": "0x129"
+			},
+			{
+				"LABEL": "0x114",
+				"TYPE": "0xD",
+				"UNK": [
+					288
+				]
+			},
+			{
+				"LABEL": "0x117",
+				"TYPE": "0x14",
+				"UNK": "FDFF000B",
+				"STRINGS": [
+					"EV_C04E02S01"
+				]
+			},
+			{
+				"LABEL": "0x129",
+				"TYPE": "RETURN"
+			}
+		],
+		"Reinit": [
+			{
+				"LABEL": "0x12c",
+				"TYPE": "RETURN"
+			}
+		],
+		"EV_C04E02S01": [
+			{
+				"LABEL": "0x130",
+				"TYPE": "0x16",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x132",
+				"TYPE": "0x39",
+				"CONTROL": 0,
+				"UNK": "00000000803F"
+			},
+			{
+				"LABEL": "0x13a",
+				"TYPE": "0x39",
+				"CONTROL": 5,
+				"UNK": "2C01"
+			},
+			{
+				"LABEL": "0x13e",
+				"TYPE": "0x66",
+				"UNK": "000000002C01"
+			},
+			{
+				"LABEL": "0x145",
+				"TYPE": "0x3F",
+				"CONTROL": 7
+			},
+			{
+				"LABEL": "0x147",
+				"TYPE": "0x2B",
+				"UNK": "10F080000000"
+			},
+			{
+				"LABEL": "0x14e",
+				"TYPE": "0x13",
+				"UNK0": [
+					1000
+				],
+				"STRINGS1": [
+					"C_NPC043",
+					"Prince Olivert",
+					""
+				],
+				"UNK1": "0020000000000000000000000000000000000000000000803FCDCCCC3FCDCCCC3D",
+				"STRINGS2": [
+					"",
+					""
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x19c",
+				"TYPE": "0x13",
+				"UNK0": [
+					1001
+				],
+				"STRINGS1": [
+					"C_NPC013",
+					"Crown Prince Cedric",
+					""
+				],
+				"UNK1": "0020000000000000000000000000000000000000000000803FCDCCCC3FCDCCCC3D",
+				"STRINGS2": [
+					"",
+					""
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x1ef",
+				"TYPE": "0x13",
+				"UNK0": [
+					1002
+				],
+				"STRINGS1": [
+					"C_NPC012",
+					"Princess Alfin",
+					""
+				],
+				"UNK1": "00A0000000000000000000000000000000000000000000803FCDCCCC3FCDCCCC3D",
+				"STRINGS2": [
+					"",
+					""
+				],
+				"UNK2": "FFFFFFFF0000000000000000000000"
+			},
+			{
+				"LABEL": "0x23d",
+				"TYPE": "0x2F",
+				"UNK": "E80300",
+				"STRINGS": [
+					"Ani_EV0_Load"
+				]
+			},
+			{
+				"LABEL": "0x24e",
+				"TYPE": "0x2F",
+				"UNK": "E90300",
+				"STRINGS": [
+					"Ani_EV0_Load"
+				]
+			},
+			{
+				"LABEL": "0x25f",
+				"TYPE": "0x2F",
+				"UNK": "EA0300",
+				"STRINGS": [
+					"Ani_EV0_Load"
+				]
+			},
+			{
+				"LABEL": "0x270",
+				"TYPE": "0x2E",
+				"UNK": "E803AE47C940000000007B14B6C06666AB43"
+			},
+			{
+				"LABEL": "0x283",
+				"TYPE": "0x2E",
+				"UNK": "E903B81EAD40CDCC4CBD1F85B3C09A991141"
+			},
+			{
+				"LABEL": "0x296",
+				"TYPE": "0x2E",
+				"UNK": "EA03295C8341000000805C8F024000408943"
+			},
+			{
+				"LABEL": "0x2a9",
+				"TYPE": "0x2F",
+				"UNK": "E80300",
+				"STRINGS": [
+					"AniSitWait"
+				]
+			},
+			{
+				"LABEL": "0x2b8",
+				"TYPE": "0x2F",
+				"UNK": "E90300",
+				"STRINGS": [
+					"AniSitWait"
+				]
+			},
+			{
+				"LABEL": "0x2c7",
+				"TYPE": "0x3C",
+				"NAME_ID": 1000,
+				"CONTROLS": [
+					1001,
+					1
+				]
+			},
+			{
+				"LABEL": "0x2ce",
+				"TYPE": "0x3C",
+				"NAME_ID": 1001,
+				"CONTROLS": [
+					1002,
+					1
+				]
+			},
+			{
+				"LABEL": "0x2d5",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "FFFFFFFF05"
+			},
+			{
+				"LABEL": "0x2dc",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Young Man's Voice"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x2f1",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x2fc",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2ff",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24304",
+						"#0TOf course, and that's exactly why",
+						"NEW_LINE",
+						"I intend to go with him.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x346",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x347",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					""
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x34b",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "FFFFFFFF00"
+			},
+			{
+				"LABEL": "0x352",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03D7A340C03D0AD73F3D0AFFC00000"
+			},
+			{
+				"LABEL": "0x363",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03E17A9841EC51D04200000000000001"
+			},
+			{
+				"LABEL": "0x375",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "036666B6400000"
+			},
+			{
+				"LABEL": "0x37e",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "030000B4410000"
+			},
+			{
+				"LABEL": "0x387",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03C3F598C085EBB13FE17AF4C02823"
+			},
+			{
+				"LABEL": "0x398",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03AE47B1409A99C94200000000282301"
+			},
+			{
+				"LABEL": "0x3aa",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "033333B3402823"
+			},
+			{
+				"LABEL": "0x3b3",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "030000B4412823"
+			},
+			{
+				"LABEL": "0x3bc",
+				"TYPE": "0x73",
+				"CONTROL": 0
+			},
+			{
+				"LABEL": "0x3be",
+				"TYPE": "0x73",
+				"CONTROL": 2,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x3c2",
+				"TYPE": "0x73",
+				"CONTROL": 5,
+				"UNK": "00004842"
+			},
+			{
+				"LABEL": "0x3c8",
+				"TYPE": "0x73",
+				"CONTROL": 6,
+				"UNK": "0100"
+			},
+			{
+				"LABEL": "0x3cc",
+				"TYPE": "0x30",
+				"CONTROL": 0,
+				"UNK": "F9010000803F00000000000000"
+			},
+			{
+				"LABEL": "0x3db",
+				"TYPE": "0x39",
+				"CONTROL": 100,
+				"UNK": "E8030000803F"
+			},
+			{
+				"LABEL": "0x3e3",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x3e7",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x3ea",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "6400260201"
+			},
+			{
+				"LABEL": "0x3f1",
+				"TYPE": "0x30",
+				"CONTROL": 3,
+				"UNK": "9A99193FF40100"
+			},
+			{
+				"LABEL": "0x3fa",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Young Man's Voice"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x40f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x41a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x41d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24305",
+						"#0TNext month's conference may be the",
+						"NEW_LINE",
+						"West Zemuria Trade Conference in",
+						"NEW_LINE",
+						"name...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x475",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x476",
+				"TYPE": "0x58",
+				"UNK": "FDFF01"
+			},
+			{
+				"LABEL": "0x47a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x47f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x482",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24306",
+						"#0T...but it's far more than that--it's the",
+						"NEW_LINE",
+						"region's first international conference",
+						"NEW_LINE",
+						"in modern times.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x4f0",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x4f1",
+				"TYPE": "0x58",
+				"UNK": "FDFF01"
+			},
+			{
+				"LABEL": "0x4f5",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x4fa",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x4fd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24307",
+						"#0TSo the discussions won't be limited to",
+						"NEW_LINE",
+						"economic matters. Regional security and",
+						"NEW_LINE",
+						"other timely issues are sure to come up.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x581",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x582",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "FFFFFFFF00"
+			},
+			{
+				"LABEL": "0x589",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x58c",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "64008A0202"
+			},
+			{
+				"LABEL": "0x593",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Boy's Voice"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x5a2",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x5ad",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x5b0",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18300",
+						"#0TI see...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x5c5",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x5c6",
+				"TYPE": "0x58",
+				"UNK": "FDFF01"
+			},
+			{
+				"LABEL": "0x5ca",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x5cf",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x5d2",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18301",
+						"#0TSo that's why all the region's heads",
+						"NEW_LINE",
+						"of state will be in attendance?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x623",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x624",
+				"TYPE": "0x58",
+				"UNK": "E90301"
+			},
+			{
+				"LABEL": "0x628",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "FFFFFFFF00"
+			},
+			{
+				"LABEL": "0x62f",
+				"TYPE": "0x2D",
+				"CONTROL": 7,
+				"UNK0": "FF00"
+			},
+			{
+				"LABEL": "0x633",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x63b",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x63f",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x647",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x64b",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "0314AEDFC0C3F54840AE47A13F0000"
+			},
+			{
+				"LABEL": "0x65c",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03666636408F429B4300000000000001"
+			},
+			{
+				"LABEL": "0x66e",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "039A99E9400000"
+			},
+			{
+				"LABEL": "0x677",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03CDCC00420000"
+			},
+			{
+				"LABEL": "0x680",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x684",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "039A998940A861"
+			},
+			{
+				"LABEL": "0x68d",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x691",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x694",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x6a8",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x6b3",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x6b6",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24308",
+						"#2PPrecisely. President Rocksmith will",
+						"NEW_LINE",
+						"represent the Republic of Calvard,",
+						"NEW_LINE",
+						"of course...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x716",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x717",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x71c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x71f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24309",
+						"#2PPrince Albert will be representing the",
+						"NEW_LINE",
+						"Principality of Remiferia as its head of",
+						"NEW_LINE",
+						"state...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x784",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x785",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x78a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x78d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24310",
+						"#2P...Crown Princess Klaudia will be coming",
+						"NEW_LINE",
+						"to represent Liberl in place of the queen...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x7ef",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x7f0",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x7f5",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x7f8",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24311",
+						"#2P...and representing Crossbell State, we",
+						"NEW_LINE",
+						"have Mayor Crois and Speaker MacDowell.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x854",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x855",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x85a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x85d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24312",
+						"#2PAll of them are either heads of state",
+						"NEW_LINE",
+						"or their acting representatives.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x8b0",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x8b1",
+				"TYPE": "0x58",
+				"UNK": "E80301"
+			},
+			{
+				"LABEL": "0x8b5",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x8c9",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E2#M0"
+				]
+			},
+			{
+				"LABEL": "0x8d4",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x8d7",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18302",
+						"#1PMeanwhile, Erebonia is sending",
+						"NEW_LINE",
+						"Chancellor Osborne as a representative",
+						"NEW_LINE",
+						"of the Imperial government...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x947",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x948",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x94d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x950",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18303",
+						"#1P...but Father is the head of state,",
+						"NEW_LINE",
+						"isn't he?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x98a",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x98b",
+				"TYPE": "0x58",
+				"UNK": "E90301"
+			},
+			{
+				"LABEL": "0x98f",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x997",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x99b",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "0333339B407B148E3FAE4789C00000"
+			},
+			{
+				"LABEL": "0x9ac",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03CDCCBC40E17A35C200000000000001"
+			},
+			{
+				"LABEL": "0x9be",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "03000080400000"
+			},
+			{
+				"LABEL": "0x9c7",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "036666A6410000"
+			},
+			{
+				"LABEL": "0x9d0",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "0333337340204E"
+			},
+			{
+				"LABEL": "0x9d9",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x9dd",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x9e0",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x9f4",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[1]#M0"
+				]
+			},
+			{
+				"LABEL": "0xa01",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xa04",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24313",
+						"Indeed. That's why I'm planning to go",
+						"NEW_LINE",
+						"as well, even though I'm far from the",
+						"NEW_LINE",
+						"ideal candidate.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xa6a",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xa6b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xa76",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xa79",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24314",
+						"The Imperial family needs to be",
+						"NEW_LINE",
+						"represented, to make sure all sides",
+						"NEW_LINE",
+						"are on equal terms.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xada",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xadb",
+				"TYPE": "0x58",
+				"UNK": "E80301"
+			},
+			{
+				"LABEL": "0xadf",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0xaf3",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E8#M0"
+				]
+			},
+			{
+				"LABEL": "0xafe",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xb01",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18304",
+						"You shouldn't be so harsh on yourself...",
+						"NEW_LINE",
+						"but I think I understand the situation.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xb5b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xb5c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E[9]#MA"
+				]
+			},
+			{
+				"LABEL": "0xb69",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xb6c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18305",
+						"I feel so ashamed... I shouldn't have to",
+						"NEW_LINE",
+						"rely on you to educate me about simple",
+						"NEW_LINE",
+						"politics like this.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xbd9",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xbda",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0xbee",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[C]#M0"
+				]
+			},
+			{
+				"LABEL": "0xbfb",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xbfe",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24315",
+						"...Hmm?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xc0f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xc10",
+				"TYPE": "0x58",
+				"UNK": "E80301"
+			},
+			{
+				"LABEL": "0xc14",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0xc1c",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0xc20",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "030000B0400000803FB81EC5C00000"
+			},
+			{
+				"LABEL": "0xc31",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03CDCC7C400000234200000000000001"
+			},
+			{
+				"LABEL": "0xc43",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "036666A6400000"
+			},
+			{
+				"LABEL": "0xc4c",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "039A99A1410000"
+			},
+			{
+				"LABEL": "0xc55",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "030000A0401027"
+			},
+			{
+				"LABEL": "0xc5e",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0xc62",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0xc76",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E8#MA"
+				]
+			},
+			{
+				"LABEL": "0xc81",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xc84",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18306",
+						"...Recently, I feel as though all my",
+						"NEW_LINE",
+						"inadequacies have been staring me",
+						"NEW_LINE",
+						"in the face.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xce1",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xce2",
+				"TYPE": "0x3B",
+				"UNK": "E90300000000000020C100000000BC020000"
+			},
+			{
+				"LABEL": "0xcf5",
+				"TYPE": "0x10",
+				"UNK": [
+					700
+				]
+			},
+			{
+				"LABEL": "0xcf8",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E[9]#MA"
+				]
+			},
+			{
+				"LABEL": "0xd05",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xd08",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18307",
+						"I wish every day I had the intelligence",
+						"NEW_LINE",
+						"and quick-wittedness you possess...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xd5d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xd5e",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E8#MA"
+				]
+			},
+			{
+				"LABEL": "0xd69",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xd6c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18308",
+						"And I wonder, am I truly capable of",
+						"NEW_LINE",
+						"inheriting the throne from Father...?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xdbf",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xdc0",
+				"TYPE": "0x58",
+				"UNK": "E90301"
+			},
+			{
+				"LABEL": "0xdc4",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0xdcc",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0xdd0",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03F628BC4085EB913F8FC2B5C00000"
+			},
+			{
+				"LABEL": "0xde1",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03295C8FBF0000DAC100000000000001"
+			},
+			{
+				"LABEL": "0xdf3",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "03000040400000"
+			},
+			{
+				"LABEL": "0xdfc",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "036666A6410000"
+			},
+			{
+				"LABEL": "0xe05",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0xe09",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0xe0c",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0xe20",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[1]#M0"
+				]
+			},
+			{
+				"LABEL": "0xe2d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xe30",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24316",
+						"...Haha.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xe42",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xe43",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"0",
+					"0",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0xe50",
+				"TYPE": "0x3C",
+				"NAME_ID": 1000,
+				"CONTROLS": [
+					65533,
+					1000
+				]
+			},
+			{
+				"LABEL": "0xe57",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xe5a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0xe65",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xe68",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24317",
+						"#1PYou know, Her Highness Princess",
+						"NEW_LINE",
+						"Klaudia of Liberl once said exactly",
+						"NEW_LINE",
+						"the same thing.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xec8",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xec9",
+				"TYPE": "0x3B",
+				"UNK": "E903000000000000000000000000BC020000"
+			},
+			{
+				"LABEL": "0xedc",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0xedf",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0xef3",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E[C]#M[3]"
+				]
+			},
+			{
+				"LABEL": "0xf02",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xf05",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18309",
+						"She did?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xf17",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xf18",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0xf2c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[1]#M0"
+				]
+			},
+			{
+				"LABEL": "0xf39",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xf3c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24318",
+						"#1PAs the successor to the throne of Liberl,",
+						"NEW_LINE",
+						"I've heard that she agonized over whether",
+						"NEW_LINE",
+						"she was fit to become queen.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xfb9",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xfba",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E2#M0"
+				]
+			},
+			{
+				"LABEL": "0xfc5",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0xfc8",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24319",
+						"But eventually, she came to terms with",
+						"NEW_LINE",
+						"her own inexperience and vowed that",
+						"NEW_LINE",
+						"she would strive each day to overcome it.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1046",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1047",
+				"TYPE": "0x3C",
+				"NAME_ID": 1000,
+				"CONTROLS": [
+					1001,
+					1
+				]
+			},
+			{
+				"LABEL": "0x104e",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x1051",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[5]#M4"
+				]
+			},
+			{
+				"LABEL": "0x105e",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1061",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24320",
+						"...And I have no reason to believe that my",
+						"NEW_LINE",
+						"talented brother cannot do the same.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x10ba",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x10bb",
+				"TYPE": "0x58",
+				"UNK": "E80301"
+			},
+			{
+				"LABEL": "0x10bf",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x10d3",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E8#M0"
+				]
+			},
+			{
+				"LABEL": "0x10de",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x10e1",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18310",
+						"Olivert...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x10f5",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x10f6",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E[9]#M0"
+				]
+			},
+			{
+				"LABEL": "0x1103",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1106",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18311",
+						"...Thank you. Your support",
+						"NEW_LINE",
+						"means a lot to me.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x113d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x113e",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x1152",
+				"TYPE": "0x2F",
+				"UNK": "E80300",
+				"STRINGS": [
+					"AniEv1001"
+				]
+			},
+			{
+				"LABEL": "0x1160",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[9]#M0"
+				]
+			},
+			{
+				"LABEL": "0x116d",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1170",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24321",
+						"...That said, I do think you should",
+						"NEW_LINE",
+						"spend more of your time living life",
+						"NEW_LINE",
+						"the way you want to.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x11d6",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x11d7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E8#M0"
+				]
+			},
+			{
+				"LABEL": "0x11e2",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x11e5",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24322",
+						"I don't think anyone would blame you",
+						"NEW_LINE",
+						"for wanting to indulge your interests",
+						"NEW_LINE",
+						"once in a while.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x124a",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x124b",
+				"TYPE": "0x2D",
+				"CONTROL": 7,
+				"UNK0": "FF00"
+			},
+			{
+				"LABEL": "0x124f",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x1263",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E[9]#M4"
+				]
+			},
+			{
+				"LABEL": "0x1270",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1273",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18312",
+						"Ahaha... I am how I am, I'm afraid.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x12a0",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x12a1",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E8#M4"
+				]
+			},
+			{
+				"LABEL": "0x12ac",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x12af",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18313",
+						"To be honest, I'm a little jealous",
+						"NEW_LINE",
+						"of how being so open and carefree",
+						"NEW_LINE",
+						"comes so naturally to you.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1318",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1319",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x132d",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[3]#M0"
+				]
+			},
+			{
+				"LABEL": "0x133a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x133d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24323",
+						"Haha. Well, I think it'd be less",
+						"NEW_LINE",
+						"concerning for all involved if you",
+						"NEW_LINE",
+						"avoided taking after me TOO much...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x13ae",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x13af",
+				"TYPE": "0x58",
+				"UNK": "E80301"
+			},
+			{
+				"LABEL": "0x13b3",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"0",
+					"0",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x13c0",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "F4010000803F"
+			},
+			{
+				"LABEL": "0x13c8",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x13cc",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03AE47B1409A99993F9A99B1C00000"
+			},
+			{
+				"LABEL": "0x13dd",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "0352F8B143E17A974200000000000001"
+			},
+			{
+				"LABEL": "0x13ef",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "03000000400000"
+			},
+			{
+				"LABEL": "0x13f8",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03CDCC98410000"
+			},
+			{
+				"LABEL": "0x1401",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1405",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x1408",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x141c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E[1]#M0"
+				]
+			},
+			{
+				"LABEL": "0x1429",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x142c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18314",
+						"Another thing...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1446",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1447",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E8#M0"
+				]
+			},
+			{
+				"LABEL": "0x1452",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1455",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18315",
+						"I sometimes find myself admiring",
+						"NEW_LINE",
+						"Chancellor Osborne's strong-willed",
+						"NEW_LINE",
+						"nature as well.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x14b2",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x14b3",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x14c7",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "6400260202"
+			},
+			{
+				"LABEL": "0x14ce",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E0#MA"
+				]
+			},
+			{
+				"LABEL": "0x14d9",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x14dc",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24324",
+						"#4P...Oh?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x14ef",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x14f0",
+				"TYPE": "0x58",
+				"UNK": "E80301"
+			},
+			{
+				"LABEL": "0x14f4",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "FFFFFFFF00"
+			},
+			{
+				"LABEL": "0x14fb",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x1503",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1507",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "035C8FBA409A99993F3333B3C00000"
+			},
+			{
+				"LABEL": "0x1518",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "031F85B343F628784100000000000001"
+			},
+			{
+				"LABEL": "0x152a",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "03000020400000"
+			},
+			{
+				"LABEL": "0x1533",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "0333338F410000"
+			},
+			{
+				"LABEL": "0x153c",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "035C8FBA409A99993F3333B3C0A861"
+			},
+			{
+				"LABEL": "0x154d",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "031F85B343ECD1AA4300000000A86101"
+			},
+			{
+				"LABEL": "0x155f",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "0300002040A861"
+			},
+			{
+				"LABEL": "0x1568",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "0333338F41A861"
+			},
+			{
+				"LABEL": "0x1571",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1575",
+				"TYPE": "0xE",
+				"UNK": "00010000"
+			},
+			{
+				"LABEL": "0x157a",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x158e",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E[3]#M4"
+				]
+			},
+			{
+				"LABEL": "0x159b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x159e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18316",
+						"He was quite forceful in introducing",
+						"NEW_LINE",
+						"the Imperial Transportation Act last",
+						"NEW_LINE",
+						"year despite the opposition's objections...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x161d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x161e",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E2#M4"
+				]
+			},
+			{
+				"LABEL": "0x1629",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x162c",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18317",
+						"...but ever since then, I've heard the",
+						"NEW_LINE",
+						"number of orbal car accidents has",
+						"NEW_LINE",
+						"fallen dramatically.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1693",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1694",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E[5]#M4"
+				]
+			},
+			{
+				"LABEL": "0x16a1",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x16a4",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18318",
+						"I can see why Father trusts him so much.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x16d6",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x16d7",
+				"TYPE": "0x58",
+				"UNK": "E90301"
+			},
+			{
+				"LABEL": "0x16db",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x16ef",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[1]#M0"
+				]
+			},
+			{
+				"LABEL": "0x16fc",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x16ff",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24325",
+						"Well, I wouldn't disagree that was",
+						"NEW_LINE",
+						"a fine piece of policymaking.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1749",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x174a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E2#M0"
+				]
+			},
+			{
+				"LABEL": "0x1755",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1758",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24326",
+						"The campaign he launched with the",
+						"NEW_LINE",
+						"help of City Hall was exceptionally",
+						"NEW_LINE",
+						"well executed.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x17b6",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x17b7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[3]#MA"
+				]
+			},
+			{
+				"LABEL": "0x17c4",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x17c7",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24327",
+						"But on the other hand...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x17e9",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x17ea",
+				"TYPE": "0x58",
+				"UNK": "E80301"
+			},
+			{
+				"LABEL": "0x17ee",
+				"TYPE": "0xF",
+				"UNK": [
+					256
+				]
+			},
+			{
+				"LABEL": "0x17f3",
+				"TYPE": "0x30",
+				"CONTROL": 1,
+				"UNK": "B80B00"
+			},
+			{
+				"LABEL": "0x17f8",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "FFFF640005"
+			},
+			{
+				"LABEL": "0x17ff",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Lovely Voice"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x180f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E2#MA"
+				]
+			},
+			{
+				"LABEL": "0x181a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x181d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19310",
+						"#0THonestly! Don't you think it's a little",
+						"NEW_LINE",
+						"early in the day to be having a stuffy",
+						"NEW_LINE",
+						"political discussion?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x188e",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x188f",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					""
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x1893",
+				"TYPE": "0x58",
+				"UNK": "EA0301"
+			},
+			{
+				"LABEL": "0x1897",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "FFFFFFFF00"
+			},
+			{
+				"LABEL": "0x189e",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"C",
+					"8",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x18ab",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"C",
+					"3",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x18b8",
+				"TYPE": "0x3A",
+				"UNK": "E8030D9A99193E0000"
+			},
+			{
+				"LABEL": "0x18c2",
+				"TYPE": "0x3A",
+				"UNK": "E9030D9A99193E0000"
+			},
+			{
+				"LABEL": "0x18cc",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x18cf",
+				"TYPE": "0x30",
+				"CONTROL": 0,
+				"UNK": "9C000000803F00000000000000"
+			},
+			{
+				"LABEL": "0x18de",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x18e6",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x18ea",
+				"TYPE": "0x2C",
+				"UNK": "EA0380000000"
+			},
+			{
+				"LABEL": "0x18f1",
+				"TYPE": "0x14",
+				"UNK": "EA03020B",
+				"STRINGS": [
+					"Sub_C04E02S01_Alfin_Move1"
+				]
+			},
+			{
+				"LABEL": "0x1910",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "0352B8F6403D0A973FEC5188C00000"
+			},
+			{
+				"LABEL": "0x1921",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03D7A3C840C375784300000000000001"
+			},
+			{
+				"LABEL": "0x1933",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "033333B3400000"
+			},
+			{
+				"LABEL": "0x193c",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03CDCCD8410000"
+			},
+			{
+				"LABEL": "0x1945",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "030000C8408813"
+			},
+			{
+				"LABEL": "0x194e",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1952",
+				"TYPE": "0x3C",
+				"NAME_ID": 1000,
+				"CONTROLS": [
+					1002,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1959",
+				"TYPE": "0x3C",
+				"NAME_ID": 1001,
+				"CONTROLS": [
+					1002,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1960",
+				"TYPE": "0x10",
+				"UNK": [
+					5000
+				]
+			},
+			{
+				"LABEL": "0x1963",
+				"TYPE": "0xA3",
+				"UNK": "EA030000803F"
+			},
+			{
+				"LABEL": "0x196a",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x1972",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1976",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03295CF7403333933FC3F588C00000"
+			},
+			{
+				"LABEL": "0x1987",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "031F852BBFB81EE1C200000000000001"
+			},
+			{
+				"LABEL": "0x1999",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "03666626400000"
+			},
+			{
+				"LABEL": "0x19a2",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03CDCCD8410000"
+			},
+			{
+				"LABEL": "0x19ab",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03295CF740EC51983FC3F588C0A00F"
+			},
+			{
+				"LABEL": "0x19bc",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "033DAAB34314CE814300000000A00F01"
+			},
+			{
+				"LABEL": "0x19ce",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "0300000040A00F"
+			},
+			{
+				"LABEL": "0x19d7",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03CDCCD841A00F"
+			},
+			{
+				"LABEL": "0x19e0",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x19e4",
+				"TYPE": "0x2D",
+				"CONTROL": 7,
+				"UNK0": "FF00"
+			},
+			{
+				"LABEL": "0x19e8",
+				"TYPE": "0x30",
+				"CONTROL": 3,
+				"UNK": "9A99193FF40100"
+			},
+			{
+				"LABEL": "0x19f1",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "6400260201"
+			},
+			{
+				"LABEL": "0x19f8",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x1a0c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x1a17",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1a1a",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18319",
+						"#0TAlfin...?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1a30",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1a31",
+				"TYPE": "0x58",
+				"UNK": "E90301"
+			},
+			{
+				"LABEL": "0x1a35",
+				"TYPE": "0x19",
+				"CONTROL": 1,
+				"UNK": "FFFFFFFF00"
+			},
+			{
+				"LABEL": "0x1a3c",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x1a44",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1a48",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03C3F5B0401F858B3F52B89EC00000"
+			},
+			{
+				"LABEL": "0x1a59",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03295C0F3E7B148A4300000000000001"
+			},
+			{
+				"LABEL": "0x1a6b",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "03CDCC0C400000"
+			},
+			{
+				"LABEL": "0x1a74",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "033333AF410000"
+			},
+			{
+				"LABEL": "0x1a7d",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1a81",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x1a95",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E4#M0"
+				]
+			},
+			{
+				"LABEL": "0x1aa0",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1aa3",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24328",
+						"Oh, have your lessons already",
+						"NEW_LINE",
+						"finished for the day?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1ae0",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1ae1",
+				"TYPE": "0x3C",
+				"NAME_ID": 1002,
+				"CONTROLS": [
+					1000,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1ae8",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Lovely Girl"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x1af7",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E[5]#M4"
+				]
+			},
+			{
+				"LABEL": "0x1b04",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1b07",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19311",
+						"Indeed. They gave us the afternoon off",
+						"NEW_LINE",
+						"to prepare for the Summer Festival.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1b5b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1b5c",
+				"TYPE": "0x58",
+				"UNK": "EA0301"
+			},
+			{
+				"LABEL": "0x1b60",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x1b68",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1b6c",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "0348E1FA4085EB913FAE4799C00000"
+			},
+			{
+				"LABEL": "0x1b7d",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03F6284C407B94814300000000000001"
+			},
+			{
+				"LABEL": "0x1b8f",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "039A99A9400000"
+			},
+			{
+				"LABEL": "0x1b98",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03CDCC54410000"
+			},
+			{
+				"LABEL": "0x1ba1",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"2",
+					"A",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x1bae",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1bb2",
+				"TYPE": "0x3C",
+				"NAME_ID": 1002,
+				"CONTROLS": [
+					1001,
+					1
+				]
+			},
+			{
+				"LABEL": "0x1bb9",
+				"TYPE": "0x2F",
+				"UNK": "EA0300",
+				"STRINGS": [
+					"AniEv0001"
+				]
+			},
+			{
+				"LABEL": "0x1bc7",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x1bca",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E[3]#MA"
+				]
+			},
+			{
+				"LABEL": "0x1bd7",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1bda",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19312",
+						"But come on, Cedric. You need to stop",
+						"NEW_LINE",
+						"taking everything so seriously.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1c29",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1c2a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E2#MA"
+				]
+			},
+			{
+				"LABEL": "0x1c35",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1c38",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19313",
+						"We're fifteen. It's far too early for us",
+						"NEW_LINE",
+						"to be worrying about politics.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1c89",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1c8a",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x1c9e",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E8#M0"
+				]
+			},
+			{
+				"LABEL": "0x1ca9",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1cac",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18320",
+						"A-Actually, I'm not sure fifteen",
+						"NEW_LINE",
+						"is too early, to be honest...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1cf4",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1cf5",
+				"TYPE": "0x58",
+				"UNK": "E90301"
+			},
+			{
+				"LABEL": "0x1cf9",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03EC51F84052B89E3F9A9991C0B004"
+			},
+			{
+				"LABEL": "0x1d0a",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "0352B83E4052787A4300000000B00401"
+			},
+			{
+				"LABEL": "0x1d1c",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "0333339340B004"
+			},
+			{
+				"LABEL": "0x1d25",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03CDCC5441B004"
+			},
+			{
+				"LABEL": "0x1d2e",
+				"TYPE": "0x2F",
+				"UNK": "EA0300",
+				"STRINGS": [
+					"AniEv0002"
+				]
+			},
+			{
+				"LABEL": "0x1d3c",
+				"TYPE": "0x10",
+				"UNK": [
+					1000
+				]
+			},
+			{
+				"LABEL": "0x1d3f",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Lovely Girl"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x1d4e",
+				"TYPE": "0xE",
+				"UNK": "00010000"
+			},
+			{
+				"LABEL": "0x1d53",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E[9]#MA"
+				]
+			},
+			{
+				"LABEL": "0x1d60",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1d63",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19314",
+						"What you SHOULD be concerned about is",
+						"NEW_LINE",
+						"being more of a MAN at official parties.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1dbb",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1dbc",
+				"TYPE": "0xF",
+				"UNK": [
+					256
+				]
+			},
+			{
+				"LABEL": "0x1dc1",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E[A]#MA"
+				]
+			},
+			{
+				"LABEL": "0x1dce",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1dd1",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19315",
+						"Blushing head to toe just from a lady",
+						"NEW_LINE",
+						"asking you to dance? Shameful.",
+						"NEW_LINE",
+						"Totally shameful.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1e31",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1e32",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x1e46",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E8#M0"
+				]
+			},
+			{
+				"LABEL": "0x1e51",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1e54",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18321",
+						"Oh, come on... Why do you have",
+						"NEW_LINE",
+						"to bring that up again?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1e94",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1e95",
+				"TYPE": "0x58",
+				"UNK": "E90301"
+			},
+			{
+				"LABEL": "0x1e99",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x1ea1",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1ea5",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03AE47B1409A99593F713DB2C00000"
+			},
+			{
+				"LABEL": "0x1eb6",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03E17AFC4048618B4200000000000001"
+			},
+			{
+				"LABEL": "0x1ec8",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "039A9989400000"
+			},
+			{
+				"LABEL": "0x1ed1",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "036666CA410000"
+			},
+			{
+				"LABEL": "0x1eda",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1ede",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x1ef2",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E4#M4"
+				]
+			},
+			{
+				"LABEL": "0x1efd",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1f00",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24329",
+						"Haha. You know, that did wonders for",
+						"NEW_LINE",
+						"his popularity.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1f3e",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1f3f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[5]#M4"
+				]
+			},
+			{
+				"LABEL": "0x1f4c",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x1f4f",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24330",
+						"The ladies at that party were swooning",
+						"NEW_LINE",
+						"left and right. He was playing their",
+						"NEW_LINE",
+						"maternal instincts like a harp.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x1fc4",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x1fc5",
+				"TYPE": "0x58",
+				"UNK": "E80301"
+			},
+			{
+				"LABEL": "0x1fc9",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x1fd1",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x1fd5",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "0348E1C24085EB913F14AE9FC00000"
+			},
+			{
+				"LABEL": "0x1fe6",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03CDCCF440CD2C8D4300000000000001"
+			},
+			{
+				"LABEL": "0x1ff8",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "039A9979400000"
+			},
+			{
+				"LABEL": "0x2001",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "030000B8410000"
+			},
+			{
+				"LABEL": "0x200a",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "033333CB4085EB913F8FC29DC00000"
+			},
+			{
+				"LABEL": "0x201b",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "0333D3B743CD4C9BC200000000000001"
+			},
+			{
+				"LABEL": "0x202d",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "039A9979400000"
+			},
+			{
+				"LABEL": "0x2036",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "030000B8410000"
+			},
+			{
+				"LABEL": "0x203f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"8",
+					"0",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x204c",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2050",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Lovely Girl"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x205f",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E8#M0"
+				]
+			},
+			{
+				"LABEL": "0x206a",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x206d",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19316",
+						"Well, I can't deny that.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x208f",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2090",
+				"TYPE": "0x2F",
+				"UNK": "EA0302",
+				"STRINGS": [
+					"AniEv0022"
+				]
+			},
+			{
+				"LABEL": "0x209e",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x20a1",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E[9]#M4#H[2]"
+				]
+			},
+			{
+				"LABEL": "0x20b3",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x20b6",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19317",
+						"Even some of the men there were",
+						"NEW_LINE",
+						"fawning over him, saying Cedric was",
+						"NEW_LINE",
+						"more of a youthful flower than me.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2126",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2127",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x212a",
+				"TYPE": "0x2D",
+				"CONTROL": 9,
+				"UNK0": "CDCC4C3DCDCC4C3DCDCC4C3E"
+			},
+			{
+				"LABEL": "0x2138",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x214c",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E8#MA"
+				]
+			},
+			{
+				"LABEL": "0x2157",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x215a",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18322",
+						"#5SS-Surely you're kidding, right?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2186",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2187",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x219b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[5]#M4"
+				]
+			},
+			{
+				"LABEL": "0x21a8",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x21ab",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24331",
+						"Haha...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x21bc",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x21bd",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E4"
+				]
+			},
+			{
+				"LABEL": "0x21c5",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x21c8",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24332",
+						"That reminds me, Alfin...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x21eb",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x21ec",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x21f1",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x21f4",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24333",
+						"Have you decided on your dance partner",
+						"NEW_LINE",
+						"for the upcoming garden party?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2243",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2244",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x2258",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E8#M0"
+				]
+			},
+			{
+				"LABEL": "0x2263",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2266",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18323",
+						"Yeah!",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2275",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2276",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x227b",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x227e",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18324",
+						"You've always avoided dancing",
+						"NEW_LINE",
+						"at official functions...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x22be",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x22bf",
+				"TYPE": "0x58",
+				"UNK": "E90301"
+			},
+			{
+				"LABEL": "0x22c3",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x22cb",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x22cf",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03A470F54048E19A3FD7A388C00000"
+			},
+			{
+				"LABEL": "0x22e0",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03AE47A940146E704300000000000001"
+			},
+			{
+				"LABEL": "0x22f2",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "039A9919400000"
+			},
+			{
+				"LABEL": "0x22fb",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "030000B8410000"
+			},
+			{
+				"LABEL": "0x2304",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "03CDCC2C409411"
+			},
+			{
+				"LABEL": "0x230d",
+				"TYPE": "0x22",
+				"UNK0": [
+					1002
+				],
+				"STRINGS": [
+					"WAIT1"
+				],
+				"UNK1": "0101000000CDCCCC3E000080BF000080BF000080BF"
+			},
+			{
+				"LABEL": "0x232b",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"C",
+					"A",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x2338",
+				"TYPE": "0x3C",
+				"NAME_ID": 1002,
+				"CONTROLS": [
+					1000,
+					1
+				]
+			},
+			{
+				"LABEL": "0x233f",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2343",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x2346",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Lovely Girl"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x2355",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E4#M4"
+				]
+			},
+			{
+				"LABEL": "0x2360",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2363",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19318",
+						"#2PHeehee. Curious, are we?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2388",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2389",
+				"TYPE": "0x55",
+				"UNK": "EA0302",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x238e",
+				"TYPE": "0x2F",
+				"UNK": "EA0300",
+				"STRINGS": [
+					"AniEv0016"
+				]
+			},
+			{
+				"LABEL": "0x239c",
+				"TYPE": "0x3B",
+				"UNK": "EA0300000000000000C100000000BC020000"
+			},
+			{
+				"LABEL": "0x23af",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E[9]#M4"
+				]
+			},
+			{
+				"LABEL": "0x23bc",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x23bf",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19319",
+						"#2PWell, I do have someone in mind",
+						"NEW_LINE",
+						"this time...although whether I can",
+						"NEW_LINE",
+						"get him to say yes...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2424",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2425",
+				"TYPE": "0x58",
+				"UNK": "EA0301"
+			},
+			{
+				"LABEL": "0x2429",
+				"TYPE": "0x2D",
+				"CONTROL": 7,
+				"UNK0": "FF00"
+			},
+			{
+				"LABEL": "0x242d",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x2435",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2439",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03AE47D940295C4F3FD7A3A8C00000"
+			},
+			{
+				"LABEL": "0x244a",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03000020417B1405C200000000000001"
+			},
+			{
+				"LABEL": "0x245c",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "030000C0400000"
+			},
+			{
+				"LABEL": "0x2465",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03CDCCBC410000"
+			},
+			{
+				"LABEL": "0x246e",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2472",
+				"TYPE": "0x3A",
+				"UNK": "E903019A99193E0000"
+			},
+			{
+				"LABEL": "0x247c",
+				"TYPE": "0x10",
+				"UNK": [
+					50
+				]
+			},
+			{
+				"LABEL": "0x247f",
+				"TYPE": "0x3A",
+				"UNK": "E803019A99193E0000"
+			},
+			{
+				"LABEL": "0x2489",
+				"TYPE": "0x10",
+				"UNK": [
+					1300
+				]
+			},
+			{
+				"LABEL": "0x248c",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x24a0",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E[C]#MA"
+				]
+			},
+			{
+				"LABEL": "0x24ad",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x24b0",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18325",
+						"R-Really?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x24c3",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x24c4",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Man"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x24d8",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E[C]#M0"
+				]
+			},
+			{
+				"LABEL": "0x24e5",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x24e8",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24334",
+						"My, my! It sounds like you",
+						"NEW_LINE",
+						"aren't just blowing smoke.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2527",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2528",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1000,
+				"STRINGS": [
+					"#E4"
+				]
+			},
+			{
+				"LABEL": "0x2530",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2533",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1000,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 24335",
+						"The Imperial Chronicle is going to",
+						"NEW_LINE",
+						"have a field day when they find out.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2584",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2585",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Blond-Haired Boy"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x2599",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					"#E8#M0"
+				]
+			},
+			{
+				"LABEL": "0x25a4",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x25a7",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18326",
+						"#5PY-You're really going to",
+						"NEW_LINE",
+						"dance with someone...?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x25e3",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x25e4",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1001,
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x25e9",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x25ec",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1001,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 18327",
+						"#5PCould it be a son from one",
+						"NEW_LINE",
+						"of the Four Great Houses?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x262d",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x262e",
+				"TYPE": "0x58",
+				"UNK": "E90301"
+			},
+			{
+				"LABEL": "0x2632",
+				"TYPE": "0x39",
+				"CONTROL": 101,
+				"UNK": "2C010000803F"
+			},
+			{
+				"LABEL": "0x263a",
+				"TYPE": "0x39",
+				"CONTROL": 254,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x263e",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03B81EF5400AD7A33FE17A8CC00000"
+			},
+			{
+				"LABEL": "0x264f",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03EC11B343CD0C7C4300000000000001"
+			},
+			{
+				"LABEL": "0x2661",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "036666E63F0000"
+			},
+			{
+				"LABEL": "0x266a",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03CDCCBC410000"
+			},
+			{
+				"LABEL": "0x2673",
+				"TYPE": "0x2D",
+				"CONTROL": 2,
+				"UNK0": "03AE47F94014AEA73F000088C0983A"
+			},
+			{
+				"LABEL": "0x2684",
+				"TYPE": "0x2D",
+				"CONTROL": 4,
+				"UNK0": "03EC11B343CD8C754300000000983A01"
+			},
+			{
+				"LABEL": "0x2696",
+				"TYPE": "0x2D",
+				"CONTROL": 5,
+				"UNK0": "039A99D93F983A"
+			},
+			{
+				"LABEL": "0x269f",
+				"TYPE": "0x2D",
+				"CONTROL": 11,
+				"UNK0": "03CDCCBC41983A"
+			},
+			{
+				"LABEL": "0x26a8",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x26ac",
+				"TYPE": "0x3B",
+				"UNK": "EA03000000000000000000000000BC020000"
+			},
+			{
+				"LABEL": "0x26bf",
+				"TYPE": "0x10",
+				"UNK": [
+					300
+				]
+			},
+			{
+				"LABEL": "0x26c2",
+				"TYPE": "OVERRIDE_DIALOG_SPEAKER",
+				"NAME": [
+					"Lovely Girl"
+				],
+				"UNK": [
+					-3
+				]
+			},
+			{
+				"LABEL": "0x26d1",
+				"TYPE": "0xE",
+				"UNK": "00010000"
+			},
+			{
+				"LABEL": "0x26d6",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E[1]#M0"
+				]
+			},
+			{
+				"LABEL": "0x26e3",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x26e6",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19320",
+						"Heehee. That's for me to know,",
+						"NEW_LINE",
+						"and you to discover.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2723",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2724",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E8#M0"
+				]
+			},
+			{
+				"LABEL": "0x272f",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x2732",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19321",
+						"He IS a noble, though. I'll give you",
+						"NEW_LINE",
+						"that much.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x276b",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x276c",
+				"TYPE": "0x58",
+				"UNK": "EA0301"
+			},
+			{
+				"LABEL": "0x2770",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 3,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"C",
+					"8",
+					"#b",
+					"0"
+				]
+			},
+			{
+				"LABEL": "0x277d",
+				"TYPE": "0x3A",
+				"UNK": "EA030D9A99193E0000"
+			},
+			{
+				"LABEL": "0x2787",
+				"TYPE": "0x10",
+				"UNK": [
+					1200
+				]
+			},
+			{
+				"LABEL": "0x278a",
+				"TYPE": "0x22",
+				"UNK0": [
+					1002
+				],
+				"STRINGS": [
+					"WAIT1"
+				],
+				"UNK1": "0100000000CDCCCC3E000080BF000080BF000080BF"
+			},
+			{
+				"LABEL": "0x27a8",
+				"TYPE": "0x3C",
+				"NAME_ID": 1002,
+				"CONTROLS": [
+					1000,
+					1
+				]
+			},
+			{
+				"LABEL": "0x27af",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E0#M0"
+				]
+			},
+			{
+				"LABEL": "0x27ba",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x27bd",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19322",
+						"...Ah, that reminds me. Prince Olivert?",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x27ee",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x27ef",
+				"TYPE": "0x55",
+				"UNK": "EA0302",
+				"STRINGS": [
+					""
+				]
+			},
+			{
+				"LABEL": "0x27f4",
+				"TYPE": "0x2F",
+				"UNK": "EA0302",
+				"STRINGS": [
+					"AniEv0015"
+				]
+			},
+			{
+				"LABEL": "0x2802",
+				"TYPE": "0x10",
+				"UNK": [
+					500
+				]
+			},
+			{
+				"LABEL": "0x2805",
+				"TYPE": "0xF",
+				"UNK": [
+					256
+				]
+			},
+			{
+				"LABEL": "0x280a",
+				"TYPE": "SET_NAME_ID",
+				"CONTROL": 4,
+				"NAME_ID": 1002,
+				"STRINGS": [
+					"#E[5]#M4"
+				]
+			},
+			{
+				"LABEL": "0x2817",
+				"TYPE": "0x10",
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x281a",
+				"TYPE": "MESSAGE",
+				"NAME_ID": 1002,
+				"DIALOG": {
+					"STRINGS": [
+						"VOICE_FILE_ID: 19323",
+						"I have a proposal I'd like to discuss",
+						"NEW_LINE",
+						"with you...",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x2855",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x2856",
+				"TYPE": "0x58",
+				"UNK": "EA0301"
+			},
+			{
+				"LABEL": "0x285a",
+				"TYPE": "0xF",
+				"UNK": [
+					256
+				]
+			},
+			{
+				"LABEL": "0x285f",
+				"TYPE": "0x30",
+				"CONTROL": 1,
+				"UNK": "B80B00"
+			},
+			{
+				"LABEL": "0x2864",
+				"TYPE": "0x39",
+				"CONTROL": 0,
+				"UNK": "D0070000803F"
+			},
+			{
+				"LABEL": "0x286c",
+				"TYPE": "0x39",
+				"CONTROL": 255,
+				"UNK": "0000"
+			},
+			{
+				"LABEL": "0x2870",
+				"TYPE": "0x30",
+				"CONTROL": 2,
+				"UNK": "00"
+			},
+			{
+				"LABEL": "0x2873",
+				"TYPE": "0x2F",
+				"UNK": "E80300",
+				"STRINGS": [
+					"Ani_EV0_Release"
+				]
+			},
+			{
+				"LABEL": "0x2887",
+				"TYPE": "0x2F",
+				"UNK": "E90300",
+				"STRINGS": [
+					"Ani_EV0_Release"
+				]
+			},
+			{
+				"LABEL": "0x289b",
+				"TYPE": "0x2F",
+				"UNK": "EA0300",
+				"STRINGS": [
+					"Ani_EV0_Release"
+				]
+			},
+			{
+				"LABEL": "0x28af",
+				"TYPE": "0xC",
+				"UNK": [
+					288
+				]
+			},
+			{
+				"LABEL": "0x28b2",
+				"TYPE": "JUMP_TO_ID",
+				"STRINGS": [
+					"c0600",
+					""
+				]
+			},
+			{
+				"LABEL": "0x28ba",
+				"TYPE": "RETURN"
+			}
+		],
+		"Sub_C04E02S01_Alfin_Move1": [
+			{
+				"LABEL": "0x28bc",
+				"TYPE": "0x5F",
+				"UNK0": [
+					-2
+				],
+				"CONTROL": 1
+			},
+			{
+				"LABEL": "0x28c0",
+				"TYPE": "0x5F",
+				"UNK0": [
+					-2
+				],
+				"CONTROL": 2,
+				"UNK1": "3D0A6B4100000000B81E1540"
+			},
+			{
+				"LABEL": "0x28d0",
+				"TYPE": "0x5F",
+				"UNK0": [
+					-2
+				],
+				"CONTROL": 2,
+				"UNK1": "295C4F4100000000E17AB43F"
+			},
+			{
+				"LABEL": "0x28e0",
+				"TYPE": "0x5F",
+				"UNK0": [
+					-2
+				],
+				"CONTROL": 2,
+				"UNK1": "CDCC1C41000000009A9929C0"
+			},
+			{
+				"LABEL": "0x28f0",
+				"TYPE": "0x5F",
+				"UNK0": [
+					-2
+				],
+				"CONTROL": 2,
+				"UNK1": "AE47F94000000000666686C0"
+			},
+			{
+				"LABEL": "0x2900",
+				"TYPE": "0x5F",
+				"UNK0": [
+					-2
+				],
+				"CONTROL": 0,
+				"UNK1": "CDCCEC3F010000"
+			},
+			{
+				"LABEL": "0x290b",
+				"TYPE": "0x37",
+				"NAME_ID": -2,
+				"UNK": [
+					0
+				]
+			},
+			{
+				"LABEL": "0x290f",
+				"TYPE": "0x33",
+				"UNK": "FEFFCDCC68430000204101"
+			},
+			{
+				"LABEL": "0x291b",
+				"TYPE": "0x35",
+				"UNK": [
+					-2
+				]
+			},
+			{
+				"LABEL": "0x291e",
+				"TYPE": "0x10",
+				"UNK": [
+					400
+				]
+			},
+			{
+				"LABEL": "0x2921",
+				"TYPE": "0x2F",
+				"UNK": "FEFF00",
+				"STRINGS": [
+					"AniEv0005"
+				]
+			},
+			{
+				"LABEL": "0x292f",
+				"TYPE": "RETURN"
+			}
+		]
+	}
+}
