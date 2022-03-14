@@ -1,6 +1,7 @@
 # The Legend of Heroes: Trails of Cold Steel Kai ~ THORS MILITARY ACADEMY 1204 ~
 # English Translation Mod for Nintendo Switch version
 
+![logo](https://i.imgur.com/v8q3LSI.png)
 Translation mod is based on files from official Steam PC and PS4 releases. 
 It works fully only with modded Nintendo Switch. Only Atmosphere is supported.
 Only game version 1.0.3 is supported.
