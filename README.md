@@ -25,9 +25,10 @@ Known issues:
 
 Special thanks to:
 - Graber for providing files and main technical support based on experience from older games
-- TwnKey for providing source code containing informations how scripts are build </br>
- https://github.com/TwnKey/SenScriptsDecompiler/blob/main/headers/CS1InstructionsSet.h
-- Ouroboros for info about dialogue opcodes
-- thesupersonic16 for PKG unpacker</br>
- https://github.com/thesupersonic16/PKGTool
 - Inochi-PM for providing new logos
+- TwnKey for providing source code containing informations how scripts are build (not directly involved with this project) </br>
+ https://github.com/TwnKey/SenScriptsDecompiler/blob/main/headers/CS1InstructionsSet.h
+- Ouroboros for info about dialogue opcodes (not directly involved with this project)
+- thesupersonic16 for PKG unpacker (not directly involved with this project)</br>
+ https://github.com/thesupersonic16/PKGTool
+- XSEED North American Translation Team for bringing the best translation possible to West. Full credits are available in Ending video. 
