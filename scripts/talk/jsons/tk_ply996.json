@@ -1,0 +1,134 @@
+{
+	"HEADER": {
+		"TYPE": "ABCDEF00",
+		"ID": "tk_ply996"
+	},
+	"FUNCTIONS": {
+		"TK_talk": [
+			{
+				"LABEL": "0x48",
+				"TYPE": "0x16",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x4a",
+				"TYPE": "GOTO5",
+				"TABLE": [
+					{
+						"CONTROL": 30,
+						"UNK": [
+							6656
+						]
+					},
+					{
+						"CONTROL": 8
+					}
+				],
+				"TO_LABEL": "0x8b"
+			},
+			{
+				"LABEL": "0x54",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"#E0#M0I am speaking from the talk files.",
+						"NEW_LINE",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x82",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x83",
+				"TYPE": "0xC",
+				"UNK": [
+					6656
+				]
+			},
+			{
+				"LABEL": "0x86",
+				"TYPE": "GOTO3",
+				"TO_LABEL": "0x121"
+			},
+			{
+				"LABEL": "0x8b",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"I repeat, I am speaking from the",
+						"NEW_LINE",
+						"talk files.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0xbc",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0xbd",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					0
+				],
+				"STRINGS": [
+					"EV_MainTest"
+				]
+			},
+			{
+				"LABEL": "0xcb",
+				"TYPE": "MESSAGE",
+				"NAME_ID": -2,
+				"DIALOG": {
+					"STRINGS": [
+						"Hello, my pets. It is I, Bleublanc,",
+						"NEW_LINE",
+						"invading your ever-so-beautiful",
+						"NEW_LINE",
+						"debug files.",
+						"KEY_WAIT"
+					]
+				}
+			},
+			{
+				"LABEL": "0x120",
+				"TYPE": "REMOVE_TEXT_BOX"
+			},
+			{
+				"LABEL": "0x121",
+				"TYPE": "JUMP_TO_FUNCTION",
+				"UNK": [
+					10
+				],
+				"STRINGS": [
+					"Party_Face_Reset"
+				]
+			},
+			{
+				"LABEL": "0x134",
+				"TYPE": "0x17",
+				"UNK": [
+					10
+				]
+			},
+			{
+				"LABEL": "0x136",
+				"TYPE": "RETURN"
+			}
+		],
+		"TestTalk": [
+			{
+				"LABEL": "0x138",
+				"TYPE": "RETURN"
+			}
+		]
+	}
+}
