@@ -12,7 +12,10 @@ Main changes:
 - Removed completely fixed kernings for better text rendering
 - Many custom text tweaks for better readability and blocking text from overflowing
 - Added base support to plugin that will allow switching between Japanese and English audio (currently English dubbing is not added)
-- Added custom menu that allows enabling 60 FPS, changing rendering resolution and switching audio language (press R in title menu to get access). Settings are saved to sd:/config/ToCS1/subsdk9.save
+- Added custom menu (press R in title menu to get access). Settings are saved to sd:/config/ToCS1/subsdk9.save. Options:
+ - FPS 30 or 60, 
+ - changing rendering resolution from 360p up to 1080p
+ - switching audio language. 
 - Removed from save description character names and their levels (game was stuck in infinite loop if name was too long like "Instructor Sara")
 - Force enabled Anisotropic Filtering and set it to 16
 
