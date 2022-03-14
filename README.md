@@ -31,6 +31,9 @@ Signs of properly installed mod:
 Known issues:
 - When 60 FPS is activated, cutscene slow motion timing is broken, so slow motion takes several times as long to get back to original speed. This happens only few times across whole game, only one cutscene in 5th chapter is glitched because of that, but there were no softlocks. It is recommended to activate Turbo Mode when you have slow motion for more than 3 seconds.
 
+Unconfirmed issues:
+- Longer names of fishes are overflowing in NOTE
+
 Special thanks to:
 - Graber for providing files and main technical support based on experience from older games
 - Inochi-PM for providing reedits of English logos
