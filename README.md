@@ -20,7 +20,7 @@ Main changes:
 - Force enabled Anisotropic Filtering and set it to 16
 
 You can find mod in Releases. Put "atmosphere" folder to root of sdcard. Play game.</br>
-It is recommended to OC GPU to at least 460 MHz for best experience.
+It is recommended to OC GPU to at least 460 MHz for best experience. This recommendation is not related to mod itself, game has optimization issues even without this mod installed. 460 MHz in handheld solves almost all issues with framedrops.
 
 Signs of properly installed mod:
 - Title menu descriptions are translated
