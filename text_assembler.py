@@ -196,6 +196,11 @@ def GenerateData(entry):
             temp.append(numpy.uint8(entry["UNK0"]))
             temp.append(entry["STRING"].encode("UTF-8") + b"\x00")
             temp.append(numpy.uint8(entry["UNK1"]))
+        
+        case "voice":
+            temp.append(numpy.uint16(entry["ID"]))
+            temp.append(entry["NAME"].encode("UTF-8") + b"\x00")
+            temp.append(bytes.fromhex(entry["UNK"]))
 
         case _:
             temp.append(bytes.fromhex(entry["UNK"]))
