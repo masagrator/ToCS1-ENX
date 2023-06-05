@@ -201,6 +201,13 @@ def GenerateData(entry):
             temp.append(numpy.uint16(entry["ID"]))
             temp.append(entry["NAME"].encode("UTF-8") + b"\x00")
             temp.append(bytes.fromhex(entry["UNK"]))
+        
+        case "VoiceTimingInfo":
+            temp.append(numpy.uint32(entry["LENGTH_FACTOR"]))
+        
+        case "VoiceTiming":
+            temp.append(numpy.uint16(entry["ID"]))
+            temp.append(bytes.fromhex(entry["UNK"]))
 
         case _:
             temp.append(bytes.fromhex(entry["UNK"]))
