@@ -9,6 +9,7 @@
 #include <map>
 #include "nn/fs.h"
 #include "nn/hid.hpp"
+#include "nn/oe.h"
 #define LINKABLE __attribute__ ((weak))
 
 extern "C" {
@@ -43,3 +44,6 @@ nn::hid::NpadFullKeyState out3;
 int (*set_UIText_original)(void* x0, int X_Pos, int Y_Pos, const char* string, int ARGB_Color, int ARGB_Shadow, int ARGB_Border, int w7, float s0, float s1, float fontsize, float X_Scale);
 
 const char magic[5] = "MS00";
+
+int PerformanceConfig_GPU307mhz = 0x00020003;
+int PerformanceConfig_GPU460mhz = 0x92220008;
