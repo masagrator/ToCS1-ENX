@@ -6,6 +6,7 @@
 Translation mod is based on files from official Steam PC and PS4 releases. 
 It works fully only with modded Nintendo Switch. Only Atmosphere is supported.
 Only game version 1.0.3 is supported.
+For plugin compilation use GCC10 (devkitA64 r16) otherwise expect crash when trying to show menu. 
 
 Main changes:
 - Complete translation of game, textures and movies

@@ -6,19 +6,6 @@ int (*fs_openfile_original)(nn::fs::FileHandle* handle, const char* filepath, in
 int fs_openfile_hook(nn::fs::FileHandle* handle, const char* filepath, int mode) {
 	static bool initialized = false;
 	if (!initialized) {
-		s64 scripts_count = 0;
-		s64 voice_count = 0;
-		nn::fs::DirectoryHandle dirhandle;
-		if(!nn::fs::OpenDirectory(&dirhandle, "rom:/data/scripts_EN", nn::fs::OpenDirectoryMode_All)) {
-			nn::fs::GetDirectoryEntryCount(&scripts_count, dirhandle);
-			nn::fs::CloseDirectory(dirhandle);
-		}
-		if(!nn::fs::OpenDirectory(&dirhandle, "rom:/sound/stream/EN", nn::fs::OpenDirectoryMode_All)) {
-			nn::fs::GetDirectoryEntryCount(&voice_count, dirhandle);
-			nn::fs::CloseDirectory(dirhandle);
-		}
-		if (!scripts_count) EngCheck = 1;
-		if (!voice_count) EngCheck += 2;
 		nn::fs::MountSdCardForDebug("sd");
 		nn::fs::FileHandle handle;
 		s64 filesize = 0;
@@ -35,31 +22,9 @@ int fs_openfile_hook(nn::fs::FileHandle* handle, const char* filepath, int mode)
 			nn::fs::CreateDirectory("sd:/config/ToCS1");
 			nn::fs::CreateFile("sd:/config/ToCS1/subsdk9.save", 4+sizeof(Settings));
 		}
+		if (Settings.GPUBoost == 0) nn::oe::SetPerformanceConfiguration(nn::oe::Normal, PerformanceConfig_GPU307mhz);
+		else nn::oe::SetPerformanceConfiguration(nn::oe::Normal, PerformanceConfig_GPU460mhz);
 		initialized = true;
-	}
-	if (enSelected) {
-		if (!strncmp("rom:/data/scripts", filepath, sizeof("rom:/data/scripts"))) {
-			nn::fs::FileHandle filehandle;
-			std::string new_string = "rom:/data/scripts_EN";
-			std::string temp = filepath;
-			temp = temp.substr(sizeof("rom:/data/scripts"));
-			new_string += temp;
-			if(!fs_openfile_original(&filehandle, new_string.c_str(), nn::fs::OpenMode_Read)) {
-				nn::fs::CloseFile(filehandle);
-				filepath = new_string.c_str();
-			}
-		}
-		else if (!strncmp("rom:/sound/stream", filepath, sizeof("rom:/sound/stream"))) {
-			nn::fs::FileHandle filehandle;
-			std::string new_string = "rom:/sound/stream/EN";
-			std::string temp = filepath;
-			temp = temp.substr(sizeof("rom:/sound/stream"));
-			new_string += temp;
-			if(!fs_openfile_original(&filehandle, new_string.c_str(), nn::fs::OpenMode_Read)) {
-				nn::fs::CloseFile(filehandle);
-				filepath = new_string.c_str();
-			}
-		}
 	}
 	return fs_openfile_original(handle, filepath, mode);
 }
