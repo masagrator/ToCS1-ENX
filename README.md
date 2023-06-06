@@ -44,3 +44,6 @@ Special thanks to:
 - thesupersonic16 for PKG unpacker (not directly involved with this project)</br>
  https://github.com/thesupersonic16/PKGTool
 - XSEED North American Translation Team for bringing the best translation possible to West (not directly involved with this project). Full credits are available in Ending video. 
+- babaros for providing working audio files for English dubbing
+- Gota7 for developing Citric Composer (not directly involved with this project)</br>
+https://github.com/Gota7/Citric-Composer
