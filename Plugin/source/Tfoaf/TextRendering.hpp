@@ -264,7 +264,6 @@ int set_UIText_hook(void* x0, int X_Pos, int Y_Pos, const char* string, int ARGB
 			}
 			else if (BlockButtons == true) {
 				nn::fs::FileHandle handle;
-				nn::fs::DeleteFile("sd:/config/ToCS1/subsdk9.save");
 				if (!nn::fs::OpenFile(&handle, "sd:/config/ToCS1/subsdk9.save", nn::fs::OpenMode_Write)) {
 					nn::fs::WriteFile(handle, 0, &magic, 4, nn::fs::WriteOption::CreateOption(nn::fs::WriteOptionFlag_Flush));
 					nn::fs::WriteFile(handle, 4, &Settings, sizeof(Settings), nn::fs::WriteOption::CreateOption(nn::fs::WriteOptionFlag_Flush));
