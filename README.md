@@ -16,7 +16,6 @@ Main changes:
 - Added custom menu (press R in title menu to get access). Settings are saved to sd:/config/ToCS1/subsdk9.save. Options:
   - FPS 30 or 60, 
   - changing rendering resolution from 360p up to 1080p
-  - switching audio language. 
 - Removed from save description character names and their levels (game was stuck in infinite loop if name was too long like "Instructor Sara")
 - Force enabled Anisotropic Filtering and set it to 16
 
