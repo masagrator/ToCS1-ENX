@@ -12,7 +12,7 @@ Main changes:
 - Complete translation of game, textures and movies
 - Removed completely fixed kernings for better text rendering
 - Many custom text tweaks for better readability and blocking text from overflowing
-- Added base support to plugin that will allow switching between Japanese and English audio (currently English dubbing is not added)
+- English dubbing available as separate download in Releases
 - Added custom menu (press R in title menu to get access). Settings are saved to sd:/config/ToCS1/subsdk9.save. Options:
   - FPS 30 or 60, 
   - changing rendering resolution from 360p up to 1080p
