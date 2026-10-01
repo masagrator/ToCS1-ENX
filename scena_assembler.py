@@ -4,6 +4,8 @@ import json
 import sys
 import numpy
 
+DUB = "-dub" in sys.argv[1:]
+
 def WriteDialog(dialog):
 	entry = []
 	for i in range(0, len(dialog["STRINGS"])):
@@ -779,6 +781,10 @@ def GenerateCommand(entry, Offset_dict = None):
 
 files = glob.glob("scripts/scena/jsons/*.json")
 
+if (DUB):
+	us_files = {os.path.basename(f): f for f in glob.glob("scripts/scena_us/jsons/*.json")}
+	files = [us_files.get(os.path.basename(f), f) for f in files]
+
 os.makedirs("scripts/scena/nx", exist_ok=True)
 for i in range(0, len(files)):
 	print(files[i])
@@ -787,7 +793,7 @@ for i in range(0, len(files)):
 	file.close()
 
 	# Write Header
-	file_new = open("scripts/scena/nx/%s.dat" % files[i][20:-5], "wb")
+	file_new = open("scripts/scena/nx/%s.dat" % os.path.basename(files[i])[:-5], "wb")
 	file_new.write(numpy.uint32(0x20)) #0x0 always starting with 0x20
 	file_new.write(numpy.uint32(0x20)) #0x4 we want to always start with 0x20 for easier management
 	functions_pointer = 0x20 + len(DUMP["HEADER"]["ID"]) + 1
